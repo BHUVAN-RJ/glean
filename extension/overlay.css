@@ -1,0 +1,131 @@
+/* overlay.css — AI TA styles (v2)
+   #aitaBar     — small floating pill during listening/thinking
+   #aitaOverlay — full bottom panel during response
+   #aitaInput   — fallback text input
+*/
+
+/* ── Listening bar — small pill, video fully visible ──────────────────────── */
+#aitaBar {
+  position: absolute;
+  bottom: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(10, 10, 30, 0.9);
+  border: 1px solid rgba(124, 131, 245, 0.45);
+  border-radius: 24px;
+  padding: 9px 22px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: clamp(12px, 1.2vw, 15px);
+  color: #d0d0ff;
+  white-space: nowrap;
+  max-width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 9999;
+  pointer-events: none;
+  backdrop-filter: blur(6px);
+  animation: barIn 0.2s ease;
+}
+
+@keyframes barIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(6px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* ── Text fallback input ─────────────────────────────────────────────────── */
+#aitaInput {
+  position: absolute;
+  bottom: 56px;
+  left: 10%; right: 10%;
+  background: rgba(10, 10, 30, 0.95);
+  border: 1px solid #7c83f5;
+  border-radius: 10px;
+  color: #e0e0ff;
+  font-size: clamp(13px, 1.3vw, 16px);
+  padding: 11px 16px;
+  outline: none;
+  z-index: 10000;
+  font-family: inherit;
+  pointer-events: auto;
+  backdrop-filter: blur(8px);
+}
+
+/* ── Response overlay — bottom gradient panel ────────────────────────────── */
+#aitaOverlay {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 38%;
+  background: linear-gradient(
+    to top,
+    rgba(8, 8, 22, 0.97) 55%,
+    rgba(8, 8, 22, 0.75) 82%,
+    transparent 100%
+  );
+  z-index: 9998;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 28px 18px;
+  pointer-events: auto;
+  box-sizing: border-box;
+  animation: overlayUp 0.3s ease;
+}
+
+@keyframes overlayUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Dismiss button ──────────────────────────────────────────────────────── */
+#aitaX {
+  position: absolute;
+  top: 10px; right: 14px;
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.22);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  line-height: 1;
+  z-index: 10001;
+}
+#aitaX:hover { background: rgba(255,255,255,0.28); }
+
+/* ── Annotation lines ────────────────────────────────────────────────────── */
+#aitaAnn {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.aita-line {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: clamp(13px, 1.35vw, 17px);
+  color: #f0f0ff;
+  line-height: 1.5;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.95);
+  opacity: 0;
+  transform: translateY(5px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.aita-line.shown {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.aita-bullet {
+  color: #7c83f5;
+  font-size: 1em;
+  flex-shrink: 0;
+}
+
+.aita-text { flex: 1; }

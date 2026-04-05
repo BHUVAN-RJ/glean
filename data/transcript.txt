@@ -1,0 +1,2601 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+All right, students, let's. Let's start with the class.
+
+Can you guys see me? Yes.
+
+No. You need to live. Of course. Extremely sorry.
+
+And thank you for adjusting to my, um, my schedule today.
+
+Uh, it was just not possible for me to come to campus by 6 p.m.
+
+Uh, I'm pretty sure this won't happen again. So for today, I.
+
+You know, I'm very grateful to you.
+
+Um, but before we go ahead so that we can make this session, uh, interactive as usual, we need to follow some protocols.
+
+Uh, so hands up if you can see me in class, you can hear me.
+
+Well. All right. Uh, once you have a question, which is, I'll give you a regular.
+
+At regular times. We'll take a pause for you to ask questions. But if you do have a burning question, put your hand up so I can see it.
+
+Or just say something and we can like, you know, pause and, uh, and answer that question.
+
+Um, for answering questions and for interacting. I've done a few things.
+
+I've asked them to provide you with the mic that you can pass along, uh, and ask a question.
+
+If you're loud enough and I can hear. Yes. That's also that also works.
+
+Um, there is a live Q&A session that I've started on Piazza.
+
+So if you have your laptops or your phone and log into Piazza, you can definitely post questions there that can be uploaded.
+
+And we can, you know, take care of those questions as well. Uh, we get some time during the progress of the lecture.
+
+Yeah. So with that in mind, uh, let's start the class.
+
+Any any suggestions? Questions? Okay. Okay, so let me share my screen.
+
+Shares the. Right.
+
+I'm. I think you guys can see this, right?
+
+Uh, I've also, for today's session, uh, have a second, second camera that have hooked up.
+
+So you should be able to, uh, see notes that I might scribble about the content of today's lecture.
+
+Mhm. I think in the second half. Okay.
+
+All right. So today's lecture is going to be the first lecture after the introductory session we had two weeks ago.
+
+Um, this is going to be on digital data acquisition and media basics.
+
+Uh, this will cover chapters two and three of the textbook.
+
+Uh, at the end of this lecture, I will also announced the first assignment.
+
+Share it with you, go over it briefly and post it as well.
+
+Um, so let's. See what this lecture, uh, covers.
+
+Now, in the last lecture, we described this end to end multimedia pipeline.
+
+We also said that. Essentially to talk about multimedia, we need to be in the digital representations.
+
+It is a digital representation of the digital ness of um, uh, of uh uh uh, the fact that all video,
+
+audio in different media types can be in ones and zeros, that it allows, uh, for us to be, um.
+
+I know what you. Montevideo. Data. Um, but this.
+
+But the signals that we, uh, have around us in this world are analog.
+
+And these analog signals are then converted by, um, by recording devices like camcorders and digital cameras to go into the digital representation.
+
+So today's lecture will essentially have, um, this area of coverage,
+
+which is how do we go from the analog medium into the digital representation
+
+for all the different media types and what's in the digital representation?
+
+How do we, uh, go about representing our data data structures and what, what what are exactly the formats that,
+
+uh, that encompass all those different media types in the digital domain?
+
+And then, um. Or do you want to study in this lecture is actually how do you digitize a signal?
+
+What is it that you need to be aware of when digitizing a signal?
+
+How do we make sure that we have no loss in the digitization?
+
+Um, but lastly, if there is a loss that needs to happen, uh, whether it's during the digitization process or even after the digitization process,
+
+because frequently when you go into the digital domain, you might end up.
+
+Resampling. What is the signal? For example, to take a high resolution image from anyone who posted on Facebook or somebody?
+
+It might get downsampled to a lot with one resolution. You know, inherently causing some kind of loss.
+
+So in such cases, how do you minimize that loss? Um, so this lecture.
+
+Could stand to be like, you know, the compressing of a, uh, of a signal processing course, uh, to go into the basic to go into the very deep details.
+
+But that's not what the intent of this lecture is. In fact, what you want to understand out here is basically in the digitization process,
+
+how do we manage the quality of the data and also the quantity of the data,
+
+because both quality and quantity ultimately, uh,
+
+represent a big factor in how we interact with this volume in this data and how
+
+we perceive the overall quality of the content that's going to be created.
+
+Okay, so in today's lectures we want to have issues in digitizing your signal.
+
+Uh, signal sampling, quantization, bitrate. What do you lose in resizing process?
+
+What do you and why do you lose it? How can you minimize this loss?
+
+We're talking about filtering and subsampling. We don't talk about acquisition, the media and the formats.
+
+A large part of the second half would be devoted to the video signal and the beginnings of television.
+
+Uh, television is a video signal, uh, as we understand it.
+
+But the way it has evolved in terms of its standards and its establishment for sharing
+
+TV content has long standing in the standards that digital data now has to be.
+
+Digital video now has to be to to make sure that those standards and legacy,
+
+uh, formats are somehow respected as you go into the digital presentation.
+
+So that will be, uh, a good understanding of the progress of the history of television.
+
+Um, and then finally we'll talk about, you know, some aspects like aspect ratios and component video formats as well.
+
+Um. All right. So. Did you guys see my video?
+
+My face. Yes, though.
+
+In glass because it helps to have a visual. Or do you just see the screen?
+
+Okay, good. So. I'm stealing from Christopher's response.
+
+Could see my face as well, so I can do some gesturing and, uh, hopefully get some feedback.
+
+Okay, so let's start with the digitization process. Okay.
+
+Is this? Hopefully this large enough for you guys? Um.
+
+So the goal of the digitization process is to take a signal which is in its analog form.
+
+Let's say, for instance, the light in the room which we measure with the camera, uh, the light signal, the amount of light in the room, you know,
+
+it keeps on changing depending upon, uh, light speed is switched on and off, doors opening and more light entering and so on and so forth.
+
+And so this signal, which is changing continuously in the digital world and in the analog world, needs to be.
+
+Digitized through a capturing device, which in our case is a camera.
+
+So if you take the example of a camera, we have a a lens.
+
+This lens, the job of the lens is to make sure all the rays of light are then converged on, or focused onto the image plane.
+
+Right. There is an image playing out here. And the image plane is covered with a lot of sensors.
+
+Which I call, which may be similar sensors, let's say.
+
+Um. These sensors have provided a substrate onto which the light is falling.
+
+The amount of light energy that falls on it releases a charge.
+
+And the charge mimics. Photo is analogous to the original signal that's falling in that area.
+
+Consider an analogous problem the iron ore. Um, but then this signal needs to go through a.
+
+Digitization process goes from analog to digital HD.
+
+And the output of this is going to be a discrete set of samples.
+
+Now, in theory, this is pretty well known.
+
+You can understand the fact that this is a continuous signal, uh, in one dimension.
+
+Or it could be a continuous signal in two dimensions.
+
+Uh, and this is a discrete signal that samples in one dimension or samples in two dimensions to represent the surface.
+
+Right. In the end, when we take the digital samples for digital representation and use it to create our content, make our videos,
+
+make our images Getty Images and then finally deliver it through a network to the end
+
+terminal the consumer that needs to then consume it by watching it or hearing it.
+
+The signal on the other end at the endpoint. This is frequently going to be converted back from its digital form to an analog from the D to A right.
+
+And ultimately we get.
+
+A signal coming out and the whole goal of this process that you want to others and that you want to do is in the initial capture process.
+
+You capture enough of the salient information in the signal such that when you go from digital to analog, this.
+
+Is the same as this. These two need to be equal.
+
+Otherwise, there's a loss. And that's the whole, uh. The whole goal of these classes.
+
+And this lecture is to the first half of this lecture is to understand what is it that we need to ensure in this digitization process,
+
+how does this occur and where do we go? How do you go about this conversion process?
+
+To give you an example of an analog and a digital signal, um.
+
+Here's another log. Which is a continuous signal on the left, and you have a discretize of digital signal on the same representation on the right.
+
+Thank. Don't we want to ruin the digital book for many reasons?
+
+One digital signals are where we find our multimedia representations, and also digital signals are better than the box signals.
+
+As long as you capture them appropriately in the conversion process.
+
+Because number one, digital signals don't degrade over time or over speed.
+
+So distance if you make a copy of digital signals, it's an exact copy.
+
+Because now you have many, many different.
+
+Many, many different ways of distributing digital signals across a variety of networks of consumption,
+
+and all practical applications become possible with digital signals and.
+
+Yeah, I mean, it seem to just more high fidelity. I mean, think, uh, um, you know, degree or time, um, can be recorded properly.
+
+You can do a checksum on them to make sure that if the, if any copy is not up to the mark, then you can create the copy again.
+
+Yeah. So the process of going from analog to digital.
+
+Happens to be, uh, to, um. Who?
+
+Which is going to be, uh, sampling. Let's call it sampling.
+
+And quantization. Now in the sampling process, what happens is.
+
+You have the original signal. This original signal is then.
+
+Captured or reasoned with at distinct points in time.
+
+Or space. If it's a two dimensional signal, like an image where.
+
+These. Unique points in time are separated by a parameter of d units daytime units, which is called the sampling period.
+
+And at each location you want to find out what is the value or what assign.
+
+How can you assign a value to that signal? So in a sense, if you have a analog, an original work signal, which is x of T, the sampled signal x of N.
+
+Will be defined over x0 and d.
+
+Where excess of one is equal to.
+
+Effects of t x sample of two.
+
+Physical effects of duty. And so on.
+
+But just as you'd, which is a sampling period. You also have f, which is equal to one over t for the sampling frequency.
+
+Right. And.
+
+You can choose any tea, right? Normally these are very regular quantity.
+
+Um. It's the same or. Um, for the signal capture.
+
+Normally. The big question is what?
+
+Should. TV.
+
+Because if the increases, which implies frequency decreases.
+
+Right. Is this good or bad? Well, the good reason that if D increases, that means the distance between these two units is going to increase,
+
+which means there's going to be less number of samples, which means there's going to be less data.
+
+Which is good because you want to. Start off with less data if you can.
+
+But you don't want to compromise the quality of the signal, right?
+
+Correspondingly, the decreases which implies a frequency increases the sampling frequency, which corresponds to a shorter distance.
+
+Then you get a lot more data. Which is good because that will increase your quality.
+
+The quality of the signal. But then you also run the risk of oversampling and giving too much data.
+
+And so the main. Question you want to ask is for your signal.
+
+What is the ideal value of the. Um.
+
+Let's keep that question aside, um, and come back to it.
+
+Okay. But once you know what your TV is and know the exact points in time at which you're going to sample your signal.
+
+Thank you. Then need to assign a number of bits for each sample, which is the quantization process.
+
+So in the quantization process you take the range of the signal which is in this case let's say going from zero to R and you have the signal.
+
+And you divide the range into. Different levels.
+
+So in this case, let's say for the three bit approximation you have the zero level which is 000.
+
+Then you have the first level which is 001. 010011100.
+
+101110 and 111.
+
+So are. Eight. There are eight intervals.
+
+Um, and there are a number of those folks, um, or actually in sort 123456, seven intervals, eight levels.
+
+And they all equal equidistance and increase based and the sample they are represented as follows.
+
+So given your sampling rate or whatever your chosen D is at each location,
+
+we need to figure out what the value, what the level is that this can be quantized to.
+
+So there is going to be some kind of a um, so like for instance this one, it's in the middle somewhere.
+
+We need to decide, uh, what is the best.
+
+So you round it off to the nearest level. Then in that case, in this case it's going to be the top one, right?
+
+In this case, depending upon where it is. You want to round it off to the nearest level that you can see.
+
+Like. And so on.
+
+And so the output that comes through a quantization process will be.
+
+This will result in a. 011.
+
+This will result in a. 110.
+
+This will result in A111. This will result in A110.
+
+And out comes the redistricting. Knowing that this is syntactically organized as three bit samples.
+
+So this is sample one, sample two, sample three, sample four and so on.
+
+Mathematically speaking, you're x quantized of n.
+
+Is going to be equal to some quantization of x.
+
+Friend. And this quantization function is normally a rounding.
+
+Which rounds the value to the. At the nearest, uh, interval level.
+
+Doing. So in this case we are quantizing.
+
+In this example we are quantizing it using b bits. For anarchists is equal to three above.
+
+But understand that quantization on undergoes rounding.
+
+And whenever there's a rounding, there's a loss. There's an error.
+
+Right. So given that your ranges are.
+
+And your quantizing would be bits. What is your maximum error that you will get?
+
+So give this some thought. You want an answer in terms of R and B?
+
+So what is the maximum error that can happen given and given that there are, but what is the size of the interval?
+
+If I were in class, I would have asked you. Uh, but let me just give you the answer.
+
+The range are is divided into. In this case one, two, three, four, five, five, six, seven intervals and seven intervals.
+
+Because it's two raise to three, which is three bits minus one.
+
+So if there are bits, the number of intervals would be to raise to be minus one.
+
+And so all divided by two is to be minus one would be the interval size.
+
+And the maximal error. Has to be equal to half this interval size, because if it's more than half, then let's go down to the upper one.
+
+If it's less than half, it gets down to the lower one. If it's at half, then it's your choice over here.
+
+You want to grab it too. Um, but if it's at Harvard and that is the maximum at or half the interval size is what your maximum variable would be.
+
+So let's take a look at some examples. Um, thanks for sampling it and what quantization is.
+
+Here's an example of quantization and wondering where on the left side the same signal is quantized with four bits,
+
+and the right side is quantized with three bits. And you can see that.
+
+More number of, uh, less number of bits.
+
+Gets to one larger error in the approximation of the signal more number of.
+
+It's being gets to a nicer approximation of the error.
+
+And so a natural question for this is. What should.
+
+What should. The value of B.
+
+B. So.
+
+So just as you watch your TV, you have also what should be okay because the higher the be.
+
+The more clearer is the signal. But also the more the data.
+
+And the lower the B, the less of the data, which is good, but also the more coarser the signal,
+
+the more loss that you have in the digitization process.
+
+So you want to be the right optimal sweet spot for both B and D.
+
+And that's what we need to discuss next. So before we get into that let me.
+
+Show you some examples in 1D.
+
+So this is how quantization in 1D looks when the same signal just started on the right or the left is four bits for signal for example,
+
+and on the right is two bits for some. If you look at it in, uh, competition in Google,
+
+then you can see that every pixel which was originally eight bits, has been quantized down to six bits.
+
+Has been quantized amplified bits. And as you go lower.
+
+You start seeing, you know, all kinds of loss effects like banding and coloring and.
+
+You can go on all the way to two bits and one bit, and this is what you can see, right?
+
+You also have similar effects in color images where on the left you have every pixel represented by big bits.
+
+This is 24 bits per pixel. And on the right you can see every pixel represented by four bits or just 16 colors.
+
+So there's a color palette that you see on the bottom left here, which has been chosen through quite often.
+
+Um, now every color, every pixel is a four bit index that maps to a color.
+
+Each of these colors in this lookup table are all 24 bit columns, but do not, sorry, 24 bits for each pixel.
+
+You're just storing a lookup table of 16, 24, 24 bit colors, and all the pixels in the in the in the image are mapped to one of those 16 values.
+
+So each value in the image is now four bits. So a lot of compression.
+
+I could see that there are artifacts. Um, but.
+
+Depending upon what your output is or compression and the needs are, these things can be made to work and work really well.
+
+What you're looking like across there. See if anyone has any questions.
+
+Any questions where we want students or from in the class. All good.
+
+Okay. Simple stuff so far. Okay. Now we come to the more, uh.
+
+Involvement is, um. How do we decide?
+
+Um, you know. Uh, you know, um, you know, t and how to decide your beef.
+
+But before that, let's get into a the next metric, uh, which is.
+
+Um, which is the bitrate. Sampling and quantization together will bring you to an important metric in multimedia, which is called the bitrate,
+
+which is simply equal to the sampling rate times the quantization number of bits, which is equal to samples.
+
+For second times bits.
+
+Um. You know, it's samples for a second.
+
+Bits for sample. So if you cross those two things out, you'll get bits of second.
+
+Now if you go to some examples, you will see that in your bitrate.
+
+Um. For example, if you hear something speech like human speech,
+
+this has a sampling rate of eight kilohertz and a bit rate of eight bits per sample, producing a bit rate of 64 beeps.
+
+So quantization of eight bits per sample producing a bit rate of 64 gigs.
+
+Your audio CD has got 44.1kHz for sampling rate, and each sample is represented by 16 bits.
+
+When you multiply them out, you get 706 kilo bits per second for mono sound.
+
+Or if it's a studio, then it's doubled to 1.4mbps.
+
+Teleconferencing similarly has a bitrate with 16 bits per sample, producing a um, so sampling rate between bits per sample for a single pick.
+
+So you can see in this table, depending on whether it's an image or a video or audio or low speed signal,
+
+you have various standards that that you and these standards and these numbers using are not arbitrary.
+
+They have been arrived at with some constraints because this is besides your D, and this decides to be the number of bits.
+
+Right. So now let's go to, um.
+
+Then this is. How did I decide, you know. Okay.
+
+Okay. So let's answer the next question, which is. How did you decide you did?
+
+So what should be the value of each?
+
+I'm. So let's take an example of a signal.
+
+Let's say. If you have a constant signal.
+
+How many samples do you need? So that you can reproduce the same signal properly in back when you transfer it to the analog domain.
+
+Yes. Uh, if.
+
+If you think about it, it's just going to be one sample. It doesn't matter what it is like.
+
+You just need one sample. And this sample should be enough knowing that it's a constant signal, uh, to be able to reproduce the signal by.
+
+What if it's, uh. What if it's a around?
+
+You need to have some all over the place. So again, you should think about the fact that it's a linear signal up here.
+
+Then, um, you will see that, uh, you just need, um, maybe two samples somewhere.
+
+It doesn't matter where.
+
+And then when it's around the corner, you have two points, and then you can fit a linear line to it, and that should be sufficient.
+
+But it starts getting more complex when things signal gets more arbitrary.
+
+The first arbitrary signal I can think of, not an arbitrary, but at least a more regular signal, is a senior sign.
+
+That said. So what should.
+
+What version or sample this. If I let's see if I sample this.
+
+Here, here, here and here.
+
+Which is every, um. 80s apart.
+
+Is this sufficient to reproduce this signal in the analog domain?
+
+Yes, you can yell in the glass. Yes.
+
+On the looks of it, it seems sufficient because, um, yeah, you've captured the highlight points out here,
+
+and then you sort of interpolated this with a similar, you know, some kind of a curve.
+
+You should be able to fit it properly. But this value of D.
+
+Is really accidentally aligned in this case because you just managed to come to the right position.
+
+What if this was not one of you didn't sample or did? What if you sampled somewhere at a different location?
+
+So let's say you sampled this is the original signal.
+
+What have you sampled at, uh, let's say this location, which would give you this value and then exactly 10s apart.
+
+You sampled it at this location, and then exactly three seconds apart, you sample data, this location,
+
+and in this case, the constructed signal would probably look like something like this.
+
+Which is far away from the actual signal. So in this case, it works because you took a very specific location.
+
+But in general, depending upon where you sample 50s apart, you are not going to get the same original signal back.
+
+And then this brings us down to what should be.
+
+What's your TV wear? What? What is this? Maximum? Uh, what is this optimal, uh, thing to one?
+
+To do this, we need to, uh, understand, um, very applicable, uh, theorem theory, uh,
+
+not just in signal processing, but it comes up in all over the place, which is your.
+
+Here. Transform. Oh, and I asked you guys, how many of you have heard about the Fourier transform?
+
+I'm sure all of your hands are going to go. What if I take a vote on how many really understand the Fourier transform?
+
+And this is big because not only does signaling and signal processing do the Fourier transform,
+
+but since all the distribution channels are based on mPEG and Jpeg,
+
+which also deals with frequency spaces and by folio and discrete cosine transforms, come again?
+
+Um, that's an important place to really, you know, understand the value of it and how it works.
+
+And now when it comes to digital rights management, because the distribution is in mPEG,
+
+which uses frequency spaces for its representation for compression,
+
+the digital rights management or the encryption and the watermarking algorithms that are used.
+
+They also take into account. Um missed a few years contribution.
+
+And so understanding Fourier transform and understanding actually um frequency base frequency space representations.
+
+It's pretty cool to the understanding of, of of all these, uh, media related signals.
+
+Um. So I think we should take some time to understand intuitively what is happening here.
+
+Okay. Uh, so simply put, um, in the Fourier transform, what you proposed was, uh, given any signal f of t.
+
+Um. This signal F of B can be composed of a summation of, uh, what I, uh, I sign I omega t.
+
+Plus. Um summation over I again of VI cos I omega t.
+
+And Omega is nothing but a function.
+
+Of your, um, sampling period. Now let's simplify this, and let's think a little bit more of an intuitive understanding into this.
+
+Now you know that sine and cosine functions are really the same.
+
+They're just phase shifting. So whatever is applicable for the two of this together should be applicable for sine alone and for cosine alone also.
+
+Uh so yeah let's do that. So you know in general you can say.
+
+PhD. If you just think of the cosine does the cosine problems.
+
+Then this should be represented as a summation of this which is equal to b zero
+
+cos zero omega t plus b one cos one omega t plus b two cos two omega t plus so on.
+
+Or in other words it's just b zero plus b one cross omega t plus the two.
+
+Of course two omega t plus. So off.
+
+You with me so far. I can't see you guys.
+
+So let's. If not, raise your hands or write something in the um.
+
+You are supposed. So what does this mean geometrically when you think about this representation?
+
+So if you had a function which was something like this and this is your PhD.
+
+Right. What this equation is saying is this is equal to.
+
+We zero times a constant value cos zero is one.
+
+Yeah, plus B1 times.
+
+Cost of omega T. So this is going to be. Plus be two times.
+
+Cost of two omega T, which is going to be. Plus be three times cost of three.
+
+So essentially what it's saying is given at. You did the same thing.
+
+On all these sides. Right.
+
+You think the value of. Uh b zero times.
+
+This is one. And that is because there is one. So f of t.
+
+Is equal to b zero plus b one times cos of omega t.
+
+If you call this let's call this specific d. Let's call this uh d zero.
+
+D zero. Cross. Cross Omega T zero v2 cross.
+
+Of. 2.30 plus four.
+
+So we'll get to what the b0, b1, b2 are. But looking at this representation.
+
+This should be pretty familiar to you. And in other domains like for example, if you had a three dimensional point.
+
+How would you represent a 3D viewpoint? You have the point represented as x, y, z which are three coordinates, and you represent this point.
+
+And if you remember, your coordinate geometry is x dot I plus y times g plus z times scale.
+
+IJK are the linearly independent vectors that describe 3D space.
+
+And x, y, z are the coordinates given an origin that can describe where the point B is along the, along with the ijk independent vectors.
+
+So this ijk uh the basis vectors.
+
+So you can see I j. And qui are the basis.
+
+Vectors. And x, y, z.
+
+Uh. The coordinates. What you're seeing on the left hand side is very similar.
+
+They'll as you described. In 3D space any point P.
+
+With coordinates x, y, z can be described by the following equation or ijk of the basis vectors and the basis vectors are known, right?
+
+It's either a direction the x is a unit vector in the x direction of J's unit vector in the y direction.
+
+K is an effect in the z direction in a similar way in the space of of frequencies.
+
+Any single NFT can be described by.
+
+A weighted combination. Given the coordinates, B will be zero, b1, and b2.
+
+Just as you explained the same rule, a weighted combination of coordinates times the basis frequency vectors.
+
+Okay, now the frequency vectors are also running. This is a course omega T, given that T is fixed.
+
+You know, your, um your this period omega is fixed.
+
+This is fixed. This is fixed and costs two cross three omega T is also fixed and so on.
+
+So this is again the same in the same vein, trying to tell you that any function can be expressed as a linear combination of basis functions.
+
+Which spanned the frequency space.
+
+And these coordinates b0, b1, and p2 give the contributions of those functions or the contributions of excuse the contribution along the y axis,
+
+y of the contribution of the axes by g unit vector z gives the contribution of the Kenan affected the some other way.
+
+B0 gives the contribution along the um.
+
+The amount of energy that is given by a basis function is given by its coordinate, and this coordinate b is.
+
+Simply calculated as integral minus infinity to infinity, um of um.
+
+Of. PhD. Cross of I, Omega Dee dee dee, whatever.
+
+Is that ever in the signal for this frequency I omega.
+
+Appears. Sum that amount of contribution up to give a weight to it, which is you by.
+
+Okay. So let me take a pause here and ask if there are any questions.
+
+Questions. Have you understood?
+
+The concept of any function can be represented in the land of frequency spaces.
+
+As a linear combination of weighted sums of basis frequencies.
+
+Yes. Raise your hands if you have understood this.
+
+Who? Okay. Uh, but it does beg some discussion.
+
+Um. So when fully actually.
+
+Discovered the strange relationship that any function is a sum of cosines or weighted sum of cosine.
+
+So we did some of science. What was he trying to solve?
+
+You didn't this. Magically just remember this. I was trying to solve something.
+
+It was heat transfer. In the early, uh.
+
+In the early 1800s. Uh, this was a problem that was, uh, you know, trying to.
+
+Um, was eluding a lot of the mathematicians and physicists of those at that time.
+
+Well, how do you come up with the way,
+
+a formal way of describing how he travels through a rod or a blade where one side is heated and you want to find out the temperature?
+
+Uh, at some point along the road, at some point along the plate. And to be able to predict that correctly.
+
+Uh full-year. How to design. Um. This theorem, where he shows that, um, any function functional of heat.
+
+In this case could be represented as a sum of cosines and sines, and so over time or over distance,
+
+when you plug in the right values of d or the right values of x and y for the two dimensional function, then you get the actual value computed.
+
+But the strange thing about this is when you propose.
+
+He proposes for his thesis. Um, and his, um.
+
+She says. Advisers who were actually grappling with what is this and how do we understand this were none other than, um, Lagrange.
+
+The plus. Monge. And these mathematicians are greedy bigwigs of his time.
+
+Not just his time. Of all the times. Imagine, as a student, you grew good in front of a committee that comprises of Laplace and Lagrange.
+
+So obviously at first sight, you know, they did not accept his, uh, his contribution and his, uh, because there are many questions.
+
+Does this work in all cases? Does it work when, uh, when the function is discontinuous?
+
+Does it work when a function is is broken up?
+
+Uh, what happens?
+
+Uh, I mean, lots of exceptions, uh, and, uh, and I think when it was proposed, it wasn't like, you know, beginning in the like it should be.
+
+But then after about another five years of work for you, approve.
+
+That doesn't matter. Whatever the function is, it could be continuous, discontinuous, broken.
+
+Um, c1 continuous, C2 continuous.
+
+Uh, it still works. You could still figure out, uh, what the frequencies on, uh, what are the frequencies needed to approximate that signal?
+
+It turns out that if it was a continuous signal, then you have less frequencies that approximate it.
+
+If it's a discontinuous signal, then you probably have infinite frequencies that include the approximate.
+
+Um, but overall, yeah, he was able to convince his, uh, his, uh, uh, his committee and,
+
+um, although it was not for signal processing at that point of time,
+
+this whole theorem has become pretty crucial to the crucial contribution to mathematics and thereby to other subjects which he was and understand,
+
+uh, analyze, cause and analyze from uh, and his students.
+
+Students test of time.
+
+So I think it's I mean, the story is well worth it to understand, you know, how this theorem got into into practice and its usefulness.
+
+Um. Yeah.
+
+So, um. So in the in one of the upcoming lectures.
+
+I'll go into more details with this because we need it for understanding compression.
+
+Um, I'll bring up some applications, uh, apps that detail in one dimension and two dimensions.
+
+Exactly how this works is computed. And you get a far better visual understanding.
+
+But for now, in today's just to understand that every frequency or every signal that you want to digitize is composed of many frequencies.
+
+And so, um. If you can find out the maximum frequency in the signal, then that will allow us to, uh, figure out how to digitize the signal.
+
+Um. So let's take an example of what Fourier transforms do.
+
+Oh. You see the lines here? Raise your hands if you can.
+
+Yeah. So on the top you have X1, which is a signal of a particular frequency.
+
+Yes, the amplitude is changing over time, but it's a signal on a specific frequency.
+
+So if you did a Fourier transform of that. That's the output you see on the right.
+
+What is this output? What is the signal on the left? Signal?
+
+It's on the x axis. This time on the y axis is the amplitude.
+
+Right? Uh, so over time, you see how the signal takers. On the Fourier transform site, which is of the right use on the x axis.
+
+You see that you see all the frequencies frequencies starting from 0 to 1 to 1 to 50, 100, 1000, and so on and so forth.
+
+Right and on the y axis for each frequency is the contribution of the frequency the b0, b1, b2, beis, and so on.
+
+So what this is saying is that for this signal which is changing in this, in this manner,
+
+I mean, it's crossing the, uh, the x axis at a distinct amount of time as you see out here.
+
+The beaches are B zero is zero, B one is zero, B two is zero, P30 all the way until maybe B 50 is where the value is 300 and something.
+
+220. And the 51 is zero and all the other by zero.
+
+If you look at this other signal, x2 or the bottom,
+
+and if you look at how it's changing and how densely that is, you know, going across the x axis, um.
+
+With a higher frequency, presumably, and a bit of Fourier transform on it.
+
+You see that it peaks at the actual frequency, which is probably around this, I'm going to guess, or 800 or 750 out here.
+
+All right. But all the other frequency coefficients are zeros, because this is a frequency.
+
+This is a signal made of just one frequency. If you take a combination, if you take x1 and x2 and add them together, which is what you want.
+
+I'm just going to jump ahead a bit. Um. Yeah.
+
+If you add x1 and x2 together. You will see that it looks like the following.
+
+And if you pass this through a Fourier analysis and got the frequency coefficients and you plotted them,
+
+you will see that the Fourier output gives you two peaks at the two different frequencies that comprise a single.
+
+And in general, when we take any arbitrary signal that you record.
+
+It's going to be of arbitrary shape. You're going to have many frequencies.
+
+Some are going to be zero, some are going to be non zero. For sampling reasons.
+
+To decide your tea, you want to find out the maximal signal whose frequency is non-zero.
+
+Also whose value is non-zero on the on the on the Fourier transform sign.
+
+So take a Fourier transform and you'll see peaks at various point.
+
+Go to the last the highest frequency at which the signal is non-zero.
+
+Um, given that frequency, you will need to sample at more than twice that frequency.
+
+This is the Nyquist sampling theory to decide what your p value should be.
+
+You. Um. Sorry for scrolling up your eyes.
+
+Yeah. So the Fourier transform is very useful because given any signal that you want to capture.
+
+You want to see that another important thing, something that you can take away from this class is.
+
+The world. In which you and I live is not filled with random signals.
+
+If it was random, and with the Fourier analysis of a random signal, you get all the frequencies present.
+
+What's noise? But we have evolved to understand a structured world around us and the structured world with all its biases and its kind of,
+
+you know, uh, lack of randomness. Is very structured and not all frequencies are going to be present in any signal.
+
+Because of that structure, and because of the fact that only a few frequencies might comprise that signal,
+
+doing a Fourier transform on that signal gives you the maximum frequency in that signal, and it tells you how do you.
+
+Sample that signal. So, for example, the human voice.
+
+It's produced by the likes. The larynx.
+
+Whether it's a male or female human. It doesn't matter how loud you shout or how strange you sound.
+
+The maximum frequency that a larynx can produce, because it is a mechanical biological device, is just four kilohertz.
+
+You take anybody's sound and you do a Fourier analysis on it.
+
+You'll see that the maximum frequency that there can be is only up to four kilohertz.
+
+Okay. And so if that's the case, then you can sample the signal at twice that eight kilohertz.
+
+And you can capture all the different details of frequencies in that signal. And so when you go to.
+
+The stable back again. And you see these numbers?
+
+Eight kilohertz, 44.1 K. These numbers are there for a specific reason.
+
+For the human voice. For speech. I just told you that the lyrics can't produce more than four kilohertz of sampling frequency.
+
+And therefore, by the Nyquist theorem,
+
+you want to sample at more than twice the frequencies to be able to reproduce the signal back in the analog domain at the same without any loss of,
+
+uh, loss of error. The audio CD is 44.1kHz.
+
+Why is it 44.1? One second.
+
+The dense stuff to the shirt content is blocked by a secondary shared application.
+
+Can you share? Can you see my shared content? On the screen.
+
+Okay. All right.
+
+Thank you guys for the feedback. Um. Yeah, for the Audio City.
+
+Why is this, like 44 different? It's because the ultimate consumer of any sound signal is your human ear.
+
+And the human ear, just as your larynx is, also has also has, um, capabilities and shortcomings.
+
+It cannot hear anything that is above 20kHz.
+
+In fact, your ear is is operational.
+
+You can hear things. Uh, between 20Hz to 20kHz.
+
+If you cannot hear anything about 20kHz, then why bother?
+
+Do we want to capture that signal? So you should actually sample at twice that rate if you want to sample music or you know somebody
+
+who's playing a guitar sound or somebody singing with the guitar or with the music in the background.
+
+You want to sample that at twice the human threshold of a frequency listing of 12, which is twice two times 20, which is 40kg.
+
+So this number would have been sufficient if it was 40. But it's just 44.1 for standard services.
+
+And for some, you know, variability and error at the, at the, at the, at the high levels of particulates.
+
+So this column. There is a reason why each number is what it is.
+
+This column is also a reason for why this number is that it is.
+
+Okay. Um. How do you fix quantization beam?
+
+Again, it's to do with perception. You can. At some point of time, when you start adding more and more bits to your samples in your representation,
+
+you're going to come to a point where adding more bits is not going to change your perceived value.
+
+They'll always be a loss in the signal. To get the signal, to be exact.
+
+You get an infinite precision of bits. But what?
+
+B is tolerable enough so that your perception does not make all the difference between the original and the sample.
+
+That is what you want to work with. So for speech is in bits adding it, adding more bits, nine bits per sample,
+
+converts for sample and then converting the signal back in the analog domain. You will find no difference.
+
+And so you just think that minimal amount required so that your perception does not make all the difference.
+
+For audio since is high much more high dynamic range.
+
+And so you required, uh, more precision.
+
+And that's why you would have 16 bits percent. And see with all the numbers that you see.
+
+Okay. And we'll come across we'll see why these are as this 12 to 16 seven in the second half of the lecture.
+
+Okay. The one thing I. I need to, um.
+
+It was over for you guys. Uh, in the interest of, uh, full, um.
+
+Capabilities of what signals do, because to tell you that we can do this sampling and quantization to come up with a digital signal.
+
+Um. The whole process of digitization, sampling and quantization because, I mean,
+
+that'll only work when our worlds and our and our recording instruments are LTI systems.
+
+You know, if you are, uh, signal processing student or have taken any course in that, you will know what LTI is and stands for linear.
+
+Time invariant systems. I'll just give you a brief closure on this.
+
+This is. Um.
+
+For any system if you have an analog signal. Next.
+
+That needs to be digitized and produces an output quality.
+
+On a sample, not with a bias. As long as this system is linear time invariant, you can do some sampling and quantization.
+
+And what that means is if your, um.
+
+If your input is, uh, x1, add some.
+
+Let's say if your input is f0. So I'm just going to call x1 is equal to x of t one.
+
+And x2 is equal to. X of T two.
+
+Um, if your input is going to be x one. Then f of x one will give rise to y one, as the output f of x two will give rise to y two as the output.
+
+The linear part of it is saying that if your input becomes f of c one times x1 plus c two times x2.
+
+Then your output should be c1 times y1 plus c2 times y2.
+
+Then it's linear. And if it's linear, then you can sample and quantize.
+
+Time invariant, as the name suggests, is that if you go about sampling the signal at that time instant, then the value that you're giving to it,
+
+or the value of that signal that you're that you're just seeing is dependent on only that time instant.
+
+It's not dependent because of the contribution of that signal from the future, or from the contribution from the signal from the past.
+
+It's only at that time, instant and instantaneous, that you can, uh, that you can, you can, you can, um.
+
+You would have value, right? Um. So as long as it's linear and time invariant,
+
+you can take a delta function and convolve it with the actual signal to get a value, which can then be your sample value.
+
+To get into this a little bit further. If you have a function y equal to k x.
+
+Is this a linear function? Jesus Christ.
+
+Look at. Well, yeah, it's a line passing through the origin.
+
+So yes, it is linear because you can find out that in this case that uh, uh y1 is equal to k x1, y2 is equal to k x2.
+
+Uh, then if you see, um.
+
+Uh uh uh. The combination of these two, which is going to be gigs one plus gigs two.
+
+S equal to k into x1 plus x2. And this is equal to.
+
+21 plus one. Two. Right. So if you have an input which is x1 plus x2.
+
+It's a combined sum of y one plus y. What about, uh, the system?
+
+Uh, do I equal to x squared? Is this a linear system?
+
+Well, it should not be because it's got the exponent in it, right.
+
+And you can you can think of it. You can prove it by saying, okay, if the input is x one,
+
+you got x one squared as the output from the input is x2 x2 square of the input as the output.
+
+And so the input is x1 plus x2 the whole the sum of the two.
+
+Then the output is x1 squared plus x2 square plus two x1 x2.
+
+And this is why was. This is why do and you have this.
+
+So this is not equal to one and plus way to.
+
+So it's not. And thereby, if a signal is like this, then you should not be able to.
+
+Uh, what if it's, um. Y equal to x plus eight.
+
+Is this a linear system? At the simplest, at the look of simplicity, it seems it's a linear system.
+
+But when you work things out, see if your input is x1. And that implies the output y1 is equal to x one plus eight.
+
+If the input is x two, this implies that your output y2 is equal to x two plus a or the include is x1 plus x2.
+
+It implies your output y is equal to.
+
+X1 plus X2 is replaced here. So it's going to be equal to x one plus x2 plus eight.
+
+And this is not equal to y one plus y two. So this is not a linear system.
+
+Anyway, this was just a, um, refresher to let you know that you need to have LTI systems that.
+
+Uh, that that need to follow, uh, the, um.
+
+Uh, because it's an AI system that you can. Sample and quantize and get your outputs.
+
+Uh. That will. Okay, so now we come to the fact that, you know, now we know how to choose the.
+
+So how do you how do choose? Be.
+
+This we know now, right? Because it's by using the micro sampling micro student.
+
+Which to summarizes our world is not random.
+
+It's structured. And so when you do a Fourier analysis on your structured signal you will come across.
+
+Not all frequencies, but some frequencies.
+
+You want to choose the maximum frequency that is non-zero and sample at two times.
+
+The maximum at more than two times the maximum frequency, and then you're guaranteed to produce the signal in the, um, to be correct.
+
+Right. Which implies sample, uh, two times.
+
+Max frequency. And you also don't know how to choose the.
+
+The number of bits to represent a sample. And this is more empirical than experimental, because you want to have the human in the loop,
+
+because ultimately all signals are going to be received by either the AI or the.
+
+You're right. When you when you, when you go into your virtual worlds or your, you know, your your digital worlds.
+
+And so we need to understand what the contribution of how the contribution of being is going to change your perception.
+
+And you want to use a B. Which is enough so that adding more bits in B will not cause changes to your perception.
+
+So we know how to do this. So as long as you follow these things.
+
+You will. You're you're guaranteed to start with a signal in your multimedia pipeline that is at the best quality,
+
+as it needs to be at the optimal quantity as it needs to be.
+
+Because if you don't follow that, then you're going to have problems.
+
+And sometimes also after the quantity has been, after the signal has been digitized with a certain value of t and a certain value of b.
+
+When you go into the, uh, content creation process, you might end up.
+
+Manipulating the signal or adjusting the signal in some manner that might end up.
+
+Violating these principles. And as a result, you might end up, you know, in a loss.
+
+So now we need to see what is this loss. Before that.
+
+Let's take some examples. Um.
+
+Whenever there's a loss. It's called anything.
+
+And anything can happen in the time domain, in the spatial domain, and one dimensions and two dimensions in three dimensional matter.
+
+It's a signal. It has a minimum requirement for sampling and quantization.
+
+And if you don't follow actually sampling, if you don't follow that requirement, then you're bound to get.
+
+A loss. So, um.
+
+Let's see this in. One dimension.
+
+So here is an example of.
+
+A signal that is giving. So what is this showing you? Uh, this is showing you the original frequency, which is the sampling frequency.
+
+Let me just get this to. Okay. So you can take an original signal.
+
+This is the blue one, and the blue one is saying the blue line is telling you what the maximal frequency.
+
+What is the frequency of the of the signal. So for example sinusoid of frequency five of frequency ten.
+
+And so on. So you could produce any signal off a high frequency, low frequency light.
+
+Forget the Microsoft. The red markers are giving you.
+
+What? How should you sample this?
+
+Should a sample that or. Uh. And what did you want to use for sampling?
+
+You could sample it or a smaller or a larger.
+
+And the signal in green that is now laid out here.
+
+And it matches because there's no aliasing, there's no loss. It's not just the blue is what you, uh, what's the output?
+
+So you can see as, as long as you're following the fact that your sampling frequency,
+
+which is this readout here, which is 22 right now, is more than twice the input.
+
+The input is also two more than four. All right.
+
+Let's make it original quick. As long as it's sampling frequency is more than twice which is ten.
+
+You want okay. I. So now with this, if you get your sampling rate to be smaller and get it to be less than ten.
+
+You can see that the reconstructed signal which is in green, which is the interpolation of all the sample signals in red.
+
+It does not match the original blue signal. And so, you know, this was a Samsung.
+
+It was a human voice. Or if this was a music signal song, you would hear it very differently.
+
+You're visibly you're seeing it differently, right? But you'll also hear it very differently.
+
+And as long as you're less than the Nyquist limit, you're going to get at this thing.
+
+And this is not going to match up to match this up. You have to increase the number of samples.
+
+You can go and increase it to a large extent and oversample the signal.
+
+And that's useless because now you have more samples of necessity, knowing that your original signal had a maximum of five.
+
+You want to make sure that you go and sample that somewhere at slightly higher than ten.
+
+And you okay, below ten will have anything above ten would be okay.
+
+This is a visual depiction of what happens when you, uh, undergo and you see when you're not following in that closely.
+
+But here's an example of what would happen when use.
+
+Uh. Let's see. Um.
+
+How that. Pretty sure. Yes.
+
+Um. Hands up if you could. See if you could. If you could hear them.
+
+All right. So let me try it again. So this is a un.
+
+But if you were to sample it and add a lower, it's got some maximum frequency.
+
+As long as you sample at twice the maximal frequency, you would okay.
+
+But if you sampled at less than twice the maximum frequency and then try to convert it back to the analog to interpolate on the speaker,
+
+you would see how it sounds. Uh.
+
+You see, it's missing all the high frequencies in there. It doesn't sound the same as the original signal.
+
+Here's an example of just one song, which is the middle C on a guitar line.
+
+Let's play it again. You can see how it sounds.
+
+And this is a two 56Hz. So it needs to be seamless.
+
+Typically six or so needs to be sampled twice that, more than twice that.
+
+But if you don't sample do it more than twice that. Oh, you see what happens?
+
+You don't hear the exact door. And that's the same as a greeting you're watching in the other case.
+
+That's one dimensional, right? Uh, you can have aliasing in two dimensions and also in two dimension.
+
+Uh, good example on the right here is a nice curve that you see of your image.
+
+Right. But if you didn't have enough pixels in the image to capture that curve.
+
+If you didn't have enough of a resolution, then what's going to happen is you're going to have a very discontinuous approximation,
+
+because those are the only samples you have. Right.
+
+Uh, the same thing happens in this classical example of a checkerboard.
+
+Now, the original signal is shown in all the cases of here. But what you see are the places where sampling occurs.
+
+How the dots. Right. So if you look at the dots, have the prism into this and you can see it more.
+
+Okay. So you can see that the dots are the places where sampling is occurring, is here,
+
+and each sample is given the value of the, uh, value of the of the of the other pixel in that location.
+
+So if you're sampling here and then here and then here and then here,
+
+you are actually above the sampling frequency in the image, which is the changes of black and white pixels.
+
+And you can get the entire, uh, thing as you see out here.
+
+On the bottom right, you are sampling at a different sampling distance.
+
+You increase the sampling distance and thereby know audio frequency.
+
+And you can see that in this case your sampling the locations that we are sampling.
+
+Results in this. You don't get to go back in.
+
+See you on the right, you can see that you actually sampled at a much larger distance than even this one.
+
+And as a result, you just got black.
+
+So the sampling frequency. Or in this case, your sampling distance is very important.
+
+You want to make sure that whatever you're using as your frequency is more than twice the frequency of the signal, plus the maximum frequency.
+
+Yeah. And you can see this.
+
+And this in effect happening when it comes to spatial aliasing.
+
+Thank you. You can see the image of the shirt out here which is got a very high frequency texture pattern.
+
+It looks good, but frequently when you have an image of it or if you don't,
+
+you you observe this on television because the television resolution is not as
+
+high as your resolution required to understand the spacing between these lines.
+
+And as a result, you get some sampling effects out here. Um, editing effects.
+
+Uh, here is another example of patterns which are called moiré patterns.
+
+Uh, and. You can see that.
+
+Depending upon. Uh, I think it's it's going to be seen.
+
+Can you see these concentric circles?
+
+The difference between them is the distance between the circles on the left is larger than the distance between the circles on the right.
+
+Now you can see at this resolution you can see that the left one behaves well.
+
+You can see concentric circles. I don't know how you're seeing it.
+
+It might be different on your resolution would depend on the resolution to seeing on the screen of that.
+
+But this has shown that it's concentric circles, whereas the center one on the right one.
+
+You see that although I've told you the concentric circle, you see certain moiré patterns which don't match.
+
+But that's because the resolution of sampling is violating the Nyquist criterion.
+
+Now, if you zoom into this. You, you'll see that some resolution.
+
+This guy looks perfect. This guy looks better is actually concentric circles,
+
+but this guy might have some patterns on your screen that you, uh, that don't conform to concentric circles.
+
+Which is again, the more in effect the aliasing effect. Yeah.
+
+And you can also see this in three dimensions. I'm sure you've heard of the Wagon Wheel phenomenon.
+
+Let it load and I'll put it on screen. Okay, so here is, uh, rotating view.
+
+Right. I'm going to. 20 frames per second, but, um, increase it.
+
+It rotates. And to make sure that, you know, the actual speed of rotation,
+
+the actual speed of rotation that's been computed is also shown to you by this rendering of a school.
+
+On top. So this is all of the ground truth. Thank.
+
+You know what's going to happen as I start increasing it. And at some point of time you will see the wheel turning the other way.
+
+It would also come to a point where it becomes. Static.
+
+Although. You know that.
+
+The roof actually rotated. Okay.
+
+So what is happening? You. What is causing aliasing.
+
+But think about that. You need to understand a few things. What is your signal?
+
+What is your sampling? Is this sampling large enough?
+
+More than twice the frequency of the of the signal such that it is and should not occur.
+
+And if it's not, then it is. So what is the signal?
+
+Not here. The signal not here is your RPM rotation rotations per minute.
+
+All right, politicians, for a second. How many rotations does it get per second?
+
+Yeah, it's given an RPM, but you can convert that into rotations for a second.
+
+Right. Um, and then the sampling corresponds to the display of the frame rate of display.
+
+And as it's rotating, how frequently are you sampling and showing the image?
+
+As long as that rate of display is faster than twice the rotation of the screen, you will be fine.
+
+The moment your speed of rotation increases such that it goes above.
+
+The display of the twice the frequency goes above the display.
+
+You're going to get aliasing and the and the image is going to start looking as it's going backwards.
+
+Um, or has got some, you know, spatial catching up to do although the actual rotation is is in the forward direction to.
+
+Okay. And then, um.
+
+One more last example. This is a good example of a.
+
+Are going, in fact. You can see that the properties are not turning at all.
+
+This happens because the speed of rotation of the of the of the of the propeller was exactly equal to or direct multiple of,
+
+uh, the actual, uh, shutter speed of the camera. So these are some of the aliasing effects that you observe in the real world when you
+
+cannot when you don't follow the Nyquist criterion of digitizing in the first place.
+
+Okay. So next. I want to share with you.
+
+Another common thing that happens, which is. When you go about, uh.
+
+If you've captured the signal properly, it looks correct, it renders correctly, but in your multimedia pipeline, in your content creation point.
+
+And at some point you discover that, oops, this is.
+
+Not working correctly because, um.
+
+Something changed. For example, you might have taken an image which was originally cut to the 1920 by 1080 high definition quality.
+
+But when you went to um. Do some operation that they can stick it in a, in a word document or, you know,
+
+upload it to Facebook it, downsize it to half its size and growth and height for preserving memory.
+
+And thereby now we threw away samples and throwing away samples.
+
+Now for us to violate the maker's criteria. And you get anything?
+
+Uh, a very good example of that. I mean, let's just walk through it. Um.
+
+And let's look at, um. This original image from the original image.
+
+When you subsample it by two. Subsample by two means throw away every other pixel.
+
+Subsample by three minutes through every third pixel. So you're throwing away every other pixel.
+
+So this is a video of a final image to begin with. And then you start throwing away every other pixel.
+
+Right. So, um, just look at the example on your left.
+
+Forget that. Like, we'll talk about what the right is. We look at that, you see that although the original signal sort of clear.
+
+Quality of all pixels in the image, including the low frequency areas, which is like the surface of the fruit and the and the plate,
+
+and the high frequency areas, which is the towel or the napkin that you see.
+
+Okay, I call it high frequency because the pixels in the neighborhood are changing very rapidly compared to the pixels in the neighborhood on the,
+
+on the fruit or the fruit. Right. So when you subsample it by two and you come down to a 2 to 6 by 26 map, you start seeing that.
+
+Yeah. I mean I'm getting the images of the fruit and plate are looking kind of okay, but you're seeing some noisy patterns coming up.
+
+In the napkin area. The high frequency is getting aliased, and that becomes even more obvious when you go down on a subsample by, you know,
+
+again, uh, by two for the previous one, where you see that now the napkin is really horribly, uh, in the stump.
+
+Um, and you can see some menacing effects in the, in the other parts of the.
+
+Now, this is natural because you're throwing away samples. You're throwing away samples.
+
+There's going to be a loss and there's going to be a loss. You're going to have aliasing no matter what.
+
+The question here is how do you minimize the effect of aliasing when you're going through such operations in your, uh, in your content creation by.
+
+And one common way to do it is by filtering. How many of you know what a filter is?
+
+A filter is a way in which you process the input image so that you change the frequency content of.
+
+Okay. So in this case, what we have done.
+
+Now I going to explain to you mathematically, you'll be able to implement it in your in your in your assignment is doing a averaging filter.
+
+So from the original image. When you subsample by two, you took every other pixel, right?
+
+And you threw away the corresponding other pixels than your rows and columns.
+
+When you did it without referring to just simply straightforward, you had a straightforward copy of that value.
+
+In that location. But rather than copying just that value.
+
+If you look at the neighborhood of the value. And take the average of the neighborhood.
+
+A three by three neighborhood, let's say, and copy the average of the neighborhood into its location on the right hand side.
+
+Then you see the content becoming a lot more. Visually smoother.
+
+There is a loss. Of course there's a loss. You're throwing away information for throwing away pixels, right?
+
+But the but the fact that you're resampling by throwing away, that's what you're doing.
+
+You're throwing away samples, right? When you're in a resampling process, you're doing an averaging.
+
+Fruit of the averaging filter gets the original frequencies, the original signals frequency frequency content lower.
+
+That's what an average does, right? If there is. Frequency variation.
+
+Doing an average of all the frequency variations and lower on the average, the average becomes lower than that.
+
+Then whatever's going on in the neighborhood. And by lowering down the average.
+
+What you do now, do a sampling or a resampling, your anything effects are also minimized.
+
+So same thing here. When you do a subsampling, why do you get the value to be this.
+
+But if you replace instead of directly copying it, if you copied it as the average of a three by three neighborhood.
+
+Then you can see that the output is much more pleasing to the eye, and there is less aliasing compared to what would have happened without, uh.
+
+Without subsampling. You know.
+
+So that's a whole goal of a goal of approaching filters is when you have, um.
+
+When you have a signal and you pass it through its low pass and its high pass filter.
+
+Low pass is simply the averaging in a three by three neighborhood, and high pass is a different signal in a three by three quarter.
+
+But forget the differencing for the. You can see that the sum of these two will bring back this.
+
+What you're interested in is really when you're when you're subsampling, when you're resampling it down to a lower size,
+
+whether it's audio signal or image signal, you want to make sure that there is, uh, low pass filter outputs that are then copied into the output.
+
+Here's an example for some of the audio filtering example. You have a cutoff frequency the microphone which is 100kHz.
+
+Which was sampled at 200kW. If the cut off is a 100 because the maximum frequency of signal is 100,
+
+and if quantized to 16 bits per sample, that's going to be 16 into 200, which is 3.2mbps.
+
+What are hearing system. Can only detect frequencies up to 20kW.
+
+So if you pre-filter this by putting it through a low pass filter with limited to 20kHz and then sample at 40kHz, then the overall signal will be 40.
+
+Times 16, which is 640 bits for sale. So you can see that the quality of your reception is going to maintain.
+
+It's going to be the same. You will not have any interesting effect, although your sampling at lesser than the cutoff.
+
+So understanding perception or the frequencies of perception, and thereby filtering their content to be at twice the maximal frequency.
+
+Sorry to be at that frequency of reception. Then you can sample at twice the maximal frequency so as to get a really good signal.
+
+So we talked about subsampling by two.
+
+Subsampling by four. Um. Yeah.
+
+Any questions so far? How has the pace been?
+
+I know it's very hard for me to gauge because I can. You have a great understanding of your of of of uh of your of your of how you perceive this.
+
+Since I'm on camera and you guys are in class. Uh, but, um.
+
+Raise your hands if you feel that. A piece of cake. Right.
+
+Do you want it to be faster or slower? We'll take that next one and come to class again.
+
+Um. I've also uploaded some recent research in signal processing, which tells you an advancement.
+
+This is a very nice people. I'd rather explain it to you in class next time.
+
+But it's it shows you how all these signaling theories, which have been held very strongly for the past few.
+
+Um. Plus many hundreds of years.
+
+With a slight twist. Uh. You can see how, um.
+
+Let me take an example. You can see how, uh.
+
+Anything. Effects can be really grossly minimized by a boost in the, in the understanding, uh, where uh, some improvements in.
+
+Here's a good example. So this is a high definition image of a well of a piece of for short with, uh, with with high frequency pattern.
+
+Right. Um, what you see out here is if you.
+
+It's. All.
+
+You can see it here. You can see a few. Resample it or subsample it to something using any number of kind of filters.
+
+You still get aliasing effects and missing effects, but if you do it with a slight variation, what does results suggest?
+
+You see that the outputs are pretty. Uh.
+
+Pretty good. Oh. When we tried digging for the full sized image.
+
+Here is a full sized image that you can see. Um.
+
+Um. There is a.
+
+The resample industry for the new changes that you can see.
+
+You can. Much.
+
+So here's the original. Um, on the doll.
+
+Um. See? That's what I've been. But when you.
+
+Sampler, Don. You can see. Because of the averaging filter.
+
+How it gets very blurry. The is anything but.
+
+The aliasing is apparently minimized by being a pre-filter.
+
+Uh, but with this adjustment to the peashooter, you can see that the output remains much better.
+
+Similar to other filters that the various other filters that are being used, and this is an adjustment to the filter using the new TV.
+
+Is another example of aliased outputs because of another filter.
+
+Uh, but here is the output produced because.
+
+So it's pretty remarkable how this has been patented and sold to be used in most of the production pipelines.
+
+Okay. So once you're in.
+
+The digital domain. You have audio signals which are one dimensional.
+
+They may be stereo or surround sound, in which case every channel has got binary signals which are computed over time.
+
+Your images which are 2D signals, which is a color x y location.
+
+You have a video signal, which is a 3D signal, uh, with color at X, Y, and D, and you have graphics between the digital and the 2D graphical objects.
+
+3D graphic will fix it. Now, in all these things, we know how audio signals are presented.
+
+We know image signal presented. And you can guess a video signals a sequence of images and also represent what the video signals have actually a.
+
+A big history from the beginning of television for analog video, for example.
+
+This can be, although it's a two dimensional signal. The scanning mechanism perceives it as a one dimensional see.
+
+So what happens is for every image you do, a scan line from top the top row to the next row, to the next row, to the next row, to the next row.
+
+And for each row you have a, uh, horizontal, uh, a horizontal sync that comes in uh, and then.
+
+Processing it until the last line.
+
+Uh, and then there is a vertical thing that comes in. To make the electron gun go to the top left and it goes on scanning again, all ready.
+
+So by going Scanlon, where Scanlon was, Scanlon on one image and then going to the next image of.
+
+Of the next sequence in the frame. And we scan linear scan. Then it essentially converts a three dimensional signal.
+
+Into a long one dimensional draw. And this was a long one dimensional row of of of of signal has is interspersed between
+
+horizontal sync signals and vertical sync signals which make the electron gun.
+
+Reset to the next row for the horizontal three and to the next frame on the top upper left corner for the horizontal for a vertical sink.
+
+But this mechanism has allowed. A camera to capture a signal, a video signal in a scanline by scanline.
+
+Line by line. Manner.
+
+Kind of frame by frame manner, line by line, into essentially a one dimensional signal that can be sent over the ionosphere using,
+
+uh, you know, uh, amplitude modulation or frequency modulation to come to a receiver,
+
+uh, television when you're in your home, which then also can scan and by scan and render it, uh, in a synchronized manner, and thereby you see video.
+
+Right. This is a this is a things that I think that the only black and white when the even when television started off,
+
+uh, this was what was, uh, what was uh.
+
+The. So if you look at the television evolution and this is connected, the entire thing you.
+
+You have the, uh, um, video signal.
+
+That was wanting to be digitized. And this video signal, as I said, was a, uh, was viewed as A1D signal with horizontal.
+
+For example, things would go from scrambling to sunlight and vertical things.
+
+We go from, um. Uh, you go from one thing to the next.
+
+Know this. Was this allowed a camcorder?
+
+In your studio for, you know, recording onto a table that say, uh, capture this signal.
+
+And this was a black and white signal. So we call it a white signal. Okay.
+
+This Y signal was then sent to a, um, radio tower.
+
+Which broadcast the signal, and the signal came down to your antenna.
+
+Right. And this then went into your television.
+
+Or maybe you have gravity Earth and it's rendered it's scanline by scanline as
+
+it scans scanline by scanline and then went to the next frame and next frame.
+
+And you saw. A video.
+
+You. But for this to work, the first thing that needed to happen was a synchronization between the capture device and the rendering device.
+
+How do you synchronize? These.
+
+And when you're talking about the 1930s, okay, 1920s and 30s.
+
+How do you synchronize the signal being captured with the signal being displayed
+
+so that both the scan and scan at the same time and render at the same time,
+
+and go back to the next line, and next line, the next line and back to the top frame.
+
+This is not an easy problem to solve, obviously, because this the camera capturing device is in a different location compared to the rendering device,
+
+and there is no one connecting the two of them. If there was a wire going into, we could have just locked them or something or like, you know,
+
+make sure that the synchronizing, the scanning on the in your camera is, is, is at the same rate as the um.
+
+Through some real connection between the two devices, but the devices are just not connected.
+
+So how do you ensure that there is a synchronization that is established between this?
+
+To resolve that what the engineers of the time did was use the, uh, electrical outlet.
+
+Glad frequency. So in the US and North America, the, um.
+
+Electrical outlets are 60Hz. One ten volts.
+
+This doesn't matter, right? Whereas in um, in Asia and other countries, it's 50Hz.
+
+And at a higher voltage. And this was used.
+
+This frequency of the output which was available.
+
+When you plugged in the camcorder into the outlet. It is available when you plugged in the, um, the television to the outlet.
+
+That frequency was available to help the synchronization process.
+
+And as a result, this led to different standards. We had NTSC for 60 frames per second, and this is the file and sequence standards.
+
+In Asia and in parts of Europe. Um, then I've got a 50Hz.
+
+So that's number one. So the first problem was synchronization problem.
+
+Okay. The second problem was, um.
+
+So let me just write the problem down. Was synchronization.
+
+Kind of synchronization is between the captured instrument and the displacement, which are not connected in any way.
+
+The outlet, so does a way to resolve the connection and the frequencies of the outlets.
+
+Uh, was used for that. And as a result, the video,
+
+the television video that was captured in the United States and Northern America
+
+with 60Hz follows a different standard compared to the television signal.
+
+And this captured in other parts of Asia and Europe, which which takes 50 hours.
+
+So that's.
+
+Outcome number one, which now when you go to the digital pipeline, you need to respect this because there are empty signals everywhere recorded.
+
+There are found signals everywhere the corner. The second one was your dream.
+
+Stream. Fast forward. The technology of the TV's first full screen,
+
+which was now being illuminated by an electron gun as scanned from left to right and left to right and left to right, and so on.
+
+Well, such that with a scan from left to right, at that rate it glowed.
+
+And you saw online I. It's just a very high frame rate.
+
+I scanned it, right. But when it came to the lower portion.
+
+The upper falls for which was which was which was lit started to fade away over time.
+
+And so by the time you get to the bottom, to the top was fading away.
+
+And when it reset back to the top. And so it's counting on the top, the bottom started fading away.
+
+And this fade started to cause visual.
+
+Um, you know, visual trouble in accepting the signal. And so flicker, which is not.
+
+Which is not good. Okay. And so that problem needs to be resolved.
+
+And the way the engineering community at that point solve the problem was by splitting.
+
+One frame. Into.
+
+Who feels. Which is the odd field.
+
+And even for you. So understand this concept of the same thing which has got, let's say, 400 lines.
+
+Is now been split into.
+
+Two fields, each of 200 lines, where the odd field contains all the odd numbered lines, and the even field contains only the equal number plates.
+
+So how does that help? Uh, well.
+
+It helps. Why? Um. By seeing the two fields differently.
+
+The upper field or the odd field and the lower field and the even field and the television would then render.
+
+The evil filled out. And then also in the opposite, the odd field out.
+
+And then as the outfield started to decay, it came in the middle and interspersed it with the evil few.
+
+Right. So the decay was not noticeable because in between the two lines there was a new refresh.
+
+Uh, refresh render being done by the scan lines.
+
+So there is no. It's only a smarter way to scan.
+
+You're not doing any more, um, information or getting any more information.
+
+I'm getting less. And for me, the same amount of information. It is all the scan lines for free and all the frames per second,
+
+but just the order in which you're scanning the scan lines and transporting them has states just scanning them,
+
+not in a progressive manner, which is line by line by line.
+
+Which led to the decay of the phosphor and render time when the coverage.
+
+But rather than that, your scanning every odd line first, followed by even line, and this order even separation now gives rise to um, uh uh,
+
+a render process between the online first and then your lines interspersed such that when one field starts to decay,
+
+the other one is coming in the middle and drawing over it. And so the, the flicker problem is now.
+
+Less noticeable on the positive to be not. So.
+
+That was the second problem to be solved. With me so far.
+
+And the reason I'm, you know, we need to understand all this is because not only go to the digital domain.
+
+You need to support. NTSC and Pal as formats in the digital formats.
+
+You need to be able to support progressive and um, and uh, um, uh, this is called interlaced.
+
+Into this fields in your in your format. And the third big thing that happened.
+
+Through the signals was rendered with the introduction of color.
+
+In the 1930s and 40s, when color. Color theory became, uh, well understood.
+
+Phenomena or understood. Uh uh uh um, area.
+
+And you could capture color signals. You also wanted to transmit color signals right now, color signals.
+
+And the color cameras, they work by capturing time. The war by the concordant is going to capture.
+
+O, r, g and b three.
+
+Channels. So there will be three scan lines.
+
+Paul Scanlon 0323. Scans for line one is going to be the scan.
+
+One is going to be the G scale, one is going to be the scan. So now your amount of information has triple.
+
+So we have two subproblems that the bandwidth is high.
+
+It will not transmit at the frequency carrier that was decided before.
+
+That's number one and number two. There's already an ecosystem of black and white television distributed all over the, you know, the marketplace.
+
+And now you're imposing a color distribution at the same time. How do you make the two different types of.
+
+Uh, gives play well when the transmission can be of only one type, either a black and white transmission or a color transmission.
+
+Now think of a scenario in which. People in the, in the, in the, uh, in the city or in the world have got black and white and colored televisions.
+
+Right. And now if you transmit just black and white transmission.
+
+Yeah. So the color televisions can be made to display just black and white, but not the reverse.
+
+If it's a color transmission going, the need to make sure you have some solution in place that if it's a color TV, is displays the color signal.
+
+And if it's a black and white TV, it displays the black and white signal.
+
+And for this to happen we the there was a colorspace transmission a transition which converted RGB.
+
+Who? Why you? Thanks.
+
+So y u v is a color space which consists of y.
+
+Which is the luminance signal, and u and V which is the prominence of colors.
+
+So the Y and the C signal was then sent across to the um, to the transmission tower to be sent to the different televisions.
+
+And when this came back to the, uh.
+
+Oh, uh, by the antennas. Um, this Y and C signal was split up into y and u and V, and then there was a conversion from y u v to RGB.
+
+Because if it was a television and for the the, uh uh uh, not a color television, you just ignore that.
+
+Would you and V just do the Y and just do the life of your black and white television?
+
+So that way you ensure that both the black and white and the colored transitions work.
+
+Okay, but this is not all we have to support in a digital formats the way you reformat now.
+
+And the original problem is for bandwidth.
+
+And multiplied by three. And the other one was the, uh.
+
+Color plus black and white. These.
+
+In the ecosystem. Right. So we solve this problem by inventing the new region of space.
+
+The bandit problem still remains because even though you converted to binary,
+
+you have still have y, u and v, which is three times one channel, but the three channels.
+
+And to be able to deal with that, you need to throw away information so that the bandwidth reduced.
+
+And for that, we had to leave the, uh.
+
+A process for the engineers new to invent. Uh, different.
+
+Why? You've, um. Subsampling techniques.
+
+Where you throw away parts of. Either Y, you or V, depending upon, uh, what you want to accomplish.
+
+Now, the choice of why you V was was pretty deliberate.
+
+Uh, why? U v is a space which separates out criminals information which is you and V from the luminance information.
+
+No statistically or psycho visual experiments.
+
+It was shown that the why information is a lot more important to perception than the color information you and.
+
+So if we can find a mechanism in which you keep all the y's and maybe for bandwidth considerations,
+
+throw away some of the dual v's, then maybe you can reduce your bandwidth and still give a better color image quality.
+
+And that's why these are some things to introduce. So the first thing I want to talk about is just for completeness.
+
+So you know how it works. You have why you've move forward for.
+
+Okay. So what you're doing out here is in your, uh, samples that you have.
+
+Right. So I'm just drawing the first few samples. If you're scanline by scanline.
+
+What these increase in this score like. So you have got a layer of samples like this for your Y.
+
+You have a little samples like this for you. And then there are samples like this for your V.
+
+Now this is we don't really have a why we for for for something standard,
+
+but I'm just illustrating this so that you can understand the upcoming other standards that that are
+
+more important and that I use very heavily in the why you before for for we take for for pixels.
+
+In the local area and four pixels in a local area, and so on and so forth.
+
+And for all this, for we keep. All y samples, all phone y.
+
+We give all for you and we keep all for me.
+
+Now, originally the RGB were eight bits per channel.
+
+Conversion to why you read keeps it to be eight bits for Y for you and for B also.
+
+So it's total of 24 bits per pixel, right. We're going to keep all four of why you get four into eight which is equal to 32.
+
+You get four into eight which is equal to 32 bits. You go to four into eight which is equal to 32.
+
+Some those of you get it equal to two plus two plus two and three plus three plus three.
+
+That's 96. So you get 96 bits overall.
+
+So the average bits per pixel.
+
+It's going to be equal to 96 divided by four pixels, because you're considered four pixels together, and that's equal to.
+
+24 bits per pixel. No surprises there because he didn't throw anything.
+
+He started at 24 and you got back 24.
+
+This process was just for you to understand how the calculation, of course, of the year for why you went.
+
+Because now when you go to the next one. Which is why you, the poor who do.
+
+Here also you have. Your slices of your wise.
+
+You use. And your visa, right?
+
+So for every four pixels that you're considering now. Okay.
+
+You keep all four. Why? Because why is that important for your perception?
+
+That's equal to four times eight, which is equal to 32. But you keep two of you out of your use and two of you leave.
+
+Right. So you might keep wild here, wild here, wild, wild you.
+
+But you just keep. You're you out here and you're you out here, and you vote here and you vote here.
+
+You throw away the U and V in this location. Okay x is equal to two times eight equal to 16.
+
+Again two times x is equal to 16. So you get uh eight and 614 get it 13456.
+
+And so your average. And it's for pixel because they're taking four pixels at a time.
+
+So is equal to 64 or by four is equal to 16.
+
+So you managed to save. 33% of your bandwidth.
+
+By throwing away and using two things.
+
+When the receiver gets this, it knows exactly. Knowing it's a 4 to 2, it knows exactly which use.
+
+And these are mixed with a missing.
+
+And so it interpolates them, or just copies the value of u and v from here into the original, into the missing locations.
+
+So it's, uh. Uh, interpolated value or, uh, filled in value.
+
+But it so happens that the field in values for our human perception. Not that noticeable.
+
+Because color is not as important in your perception.
+
+And you can go further. Subsample it further by taking a y, u v for two or or.
+
+It's also called for one one. The average bits per pixel is the same, but the difference is in which pixels?
+
+Are you throwing away the user visa? So if you take the same.
+
+Locations. This is your image.
+
+Slices of wine you envy. So on.
+
+So for. 442.
+
+Oh. Okay. We're going to keep all for why.
+
+What is equal to eight times four which is equal to 32. And you're taking these two guys.
+
+Because you're going to take one. One u and one v, which is equal to one times or eight times one.
+
+Eight times 1 to 8. And you will take your all your wise.
+
+I'm going to take one of you using one of your rules and throw the others away.
+
+So out of four pixels you have all the font wise, but you have only one pixel with the U and one pixel with three.
+
+The total comes out to be 48. And so the average.
+
+That's. For pixel is going to be going to 48 by four, which is equal to 12.
+
+So 12 is a 50% savings in your bids.
+
+And so when the receiver gets this. The it gets all the for wise but for the missing.
+
+Using these it just interpolates them in the neighborhood.
+
+I'll make a copy of the same. Depends on what the strategy you use, and then converts what you read to RGB and displays the argument.
+
+And that in itself, uh, perceptually is uh, yeah.
+
+You do, you do see, uh, the, uh, the loss of vibrance of color.
+
+But still, given that it's a 50% lossy saving researcher, it seems to be okay.
+
+And that was the reason why you go to a while. You reach out where you're separating the luminance from the criminals and
+
+giving less importance to the criminals based on psychophysical experiments.
+
+What they've shown. This is the fourth duel and the fourth one one.
+
+You do the same thing, exact thing. But instead of taking four pixels in a corner like this, or in a in a square area,
+
+you take four pixels in a, in a longer in, you know, four pixels in a row,
+
+or you keep all the four wise you can do, um, visit the first two and the remaining three,
+
+you have no you in vs you just copy them all in at the at the receiving end.
+
+If you looked at how the 041142422 subsampling goes, because here is your, um, your Y samples, which you're keeping all over the place.
+
+You're keeping the U and V are the Cbn.com.
+
+That's a similar series in this this location.
+
+Right. Um. And if it's in the list scanning, then you can see what happens.
+
+But this is what you're what? You're actually transmitting.
+
+So you can see as a result of this, you have really gone down to 50%.
+
+And the receiver, when your receiving the receiver has ordered twice, uh, the missing places of where it goes using these.
+
+It will just leave a copy of locally of of the neighborhoods or interpolate them however you want to, uh, justify filling in the missing values.
+
+And then once you have the missing values, you can then convert your wikler y, u,
+
+v into RGB and then give it to your, uh, television to render scan line by scanning the thing that comes.
+
+You know, it's a 42 something thing.
+
+So for every four pixels, you're keeping all the four Y's in the 4x4 neighborhood and keeping two Jews and two V's.
+
+And at the receiving end, and all the missing use using these are.
+
+Then there's an interpolated value or a copied over value, which is incoming into RGB and shown for display.
+
+Yeah. So this makes it.
+
+Well, what have we done so far? Um. What I explained to you and to summarize is, um.
+
+When television became a reality, there was black and white television,
+
+which needed to be, which led some really good engineering solutions for synchronization,
+
+which was solved by taking 60Hz signal and 50Hz signal, depending upon the region that you go to.
+
+Right. And this has led to the NTSC format and the fourth and the second format, which are very different formats.
+
+But now once you go into the digital representation, we still have to represent this somehow because of legacy.
+
+The other one was a TV screen phosphor deck.
+
+The decay mechanism causes the flickering effect, and to resolve that what was done was, uh, introduction of progressive and,
+
+and, uh, and um, interlaced scanning the into this scanning produce splitting one frame into two fields,
+
+the art field and even then sending the odd field separately from the even field so that the render relative,
+
+the function of the other hand, would then render the two interspersed, thereby minimizing the effect for the outcome of.
+
+This is. Now the interlaced format needs a representation in the digital format for formats of the legacy.
+
+The third thing is with the introduction of color, which caused an increase in the bandwidth,
+
+like an increase in the bandwidth led to subsampling schemes like the why we for 20111123422.
+
+And these subsampling schemes now are signals that are that have been present for a long time.
+
+And so when you go to a digital form you also need an equivalent representation in digital form that resources.
+
+We learned to calculate the equivalent bits per pixel. So in this example we've taken eight bits per pixel.
+
+But they could be cameras that could be, um, captioning at 16 bits per pixel and then doing a full two.
+
+Right. So in this case instead of four times eight plus eight plus eight would be four times 1616 per 16.
+
+It just depends on what your original bit depth is and what what happens after your subsampling.
+
+Moving on. Uh. There's another important thing that happened with radio signals, which is the image aspect ratio.
+
+And this is simply the ratio for growth and height.
+
+Now, typically, as the video cameras evolved when the original exam and uh tests were done on the examples we created.
+
+This used to be a four by three image format, uh, where the length was was well, then to birth ratio was 4 to 3.
+
+And this became a standard way because of the, um, the experimentation and little just adoption, I guess, became a standard way of, uh, of,
+
+you know, how give you signals were formed and hence the video signals were formed, uh, with cameras and it stayed that free for a long time.
+
+At some point in the. Early 90s, we decided to have a high definition television signal with a 16 by nine video format.
+
+And then also introduce all the Cinemascope. Uh, 47 is a 20, um, format.
+
+And I've seen I've tried to give you examples below of what those formats and images look like.
+
+And the content of each is probably one of the first films that was shot with a camera of that standard.
+
+So on the upper left, not here, is gone with the wind.
+
+Uh, we just shot with the four by three standard format. Um, if you are a movie buff and you know what movie this is.
+
+Um, this is The English Patient, shot with a 16 by nine, uh, video format.
+
+This was in the mid-nineties. And, um, in the late 90s.
+
+This is a Cinemascope movie. Um. And then a morphic kind of lens.
+
+And this was. Um, the, uh.
+
+Saving Private Ryan, I think. Mm. And why this format were invented?
+
+I don't know. I think I have a theory about it.
+
+And this is because of the, um, evolution of the movie industry vis a vis the home entertainment industry.
+
+When the movie industry evolved. It started with the four by three format.
+
+It introduced color and people who should go to movie theaters to watch colored movies.
+
+Um, there was, uh, stereo sound and so on and so forth.
+
+Uh, but pretty soon home televisions also gave the same effect.
+
+A four by three. Done. Um formats with with with uh, uh, stereoscopic sound.
+
+And so to. Increase the quality of your view of your of your of your cinema experience.
+
+The movie industry in 2016 is demanding high resolution formats, so you get a clearer picture and a better experience.
+
+Um, well, that started happening also to televisions, right?
+
+Uh, at that point of time, I think the movie industry just introduced, um, surround sound decks.
+
+Uh, well, you have surround sound also at home. And then the movie industry introduced.
+
+Cinemascope. And then they introduced, uh, stereoscopic watching movies in 3D.
+
+So all this time, you know, it's always been a way to provide a better experience to consumers,
+
+going to want a different experience going because he was going to watch television.
+
+So you can justify the $2,024 cost of a movie experience.
+
+Uh, so yeah, but the outcome of this is that because of.
+
+Movies that are now being that have now been made and mastered.
+
+And muscle a master copy that is being kept. For storage or for legacy reasons.
+
+Have the four by three format. Have the Cinemascope format.
+
+Have the 16 by nine high definition HDTV format?
+
+Um, when it comes to, um, repurposing these movies for transmission reasons or consumption reasons,
+
+not all the televisions in the world are still high definition, but there's still televisions, which are maybe four by three.
+
+And so content needs to be frequently inter converted between one.
+
+Aspect ratio to another. And this conversion leads to all kinds of problems.
+
+So for example,
+
+if you had a four by three format and converted that simply by scaling the image of the frame set of frames up to a 63 Cinemascope format.
+
+You see how the pixels get stretched? Or similarly, if you had, uh, cinematographic movie, which you wanted to now,
+
+uh, display on a standard definition television with the four by three aspect.
+
+You can see how the pixels gets get stretched vertically. And this.
+
+Are not desirable. One way to normally solve this is by little proxy.
+
+So if you if you get a DVD of of of a high definition, uh, format playing on a standard television,
+
+you will see that, you know, the upper, uh, the upper part of the image and the lower part is all locked up.
+
+Uh, right. And the image is only in the middle. That's because they don't want to stress the pixels.
+
+Um, but in doing so, yeah, you preserve the aspects, but you end up not making, uh, justifying the optimal use of your realistic screen.
+
+And and how do you resolve the problem? And this is not an easy problem to solve because you can have stretching happening.
+
+You can have none. You can minimize it by making assumptions like some Sony came up with the with the format would say,
+
+which made the assumption that when you're looking at the screen, you're looking at in the center.
+
+So maybe the center is always going to be fed properly. And the non-linearity stretching can be, you know,
+
+put in the in the corners where you're not looking at all the time, but that the results are disturbing.
+
+Um, until recently when there was this new research called seed carving, which came about and try to, um, very intelligently, um.
+
+Um, resize images depending upon what the content is.
+
+Grid. Um, and this is even before the times of Siem carving for content aware image.
+
+This is before the times of uh, um. Of neural networks, I think.
+
+Um. But it was a nice.
+
+To resizing. Digital media today has the ability to know here.
+
+Hands up if you can. You. Okay. Dynamic page layouts.
+
+By changing the window or display size, we can change the layout of a document.
+
+However, images embedded in a document typically remain rigid in size and shape.
+
+Resizing is also important to fit images into different displays.
+
+Current techniques, including cropping or scaling, are limited in their abilities to capture the image content.
+
+We present a method for content aware resizing of images.
+
+Our technique enables resizing while adapting the image, content and layout.
+
+This is sometimes called retargeting. We also define a flexible multi size representation for images that supports continuous resizing.
+
+An image can be shrunk in a non-uniform manner while preserving its features, but it can also be extended beyond its original size.
+
+Instead of scrolling through images that do not fit in a given display, we gracefully resize them to fit inside the window.
+
+For example, assume that we need to change the width of an image. The simplest way to do this is to remove columns of pixels from the image.
+
+The best column to remove would be the least noticeable or least important column.
+
+We can search for this column by defining an importance or energy function on the image.
+
+In this example, we use the gradient magnitude of the image. Next, we look for the column which contains the least energy and remove it.
+
+However, using such an approach quickly leads to serious artifacts.
+
+Therefore, instead of using rigid columns,
+
+we search for connected paths of pixels or seams from one side of the image to the other that contain the least energy.
+
+This can be done using a simple dynamic programing algorithm, as described in the paper, in both vertical and horizontal directions.
+
+Here's another example of an image. Its energy function and the least noticeable horizontal and vertical seams.
+
+By successively removing horizontal and vertical seams, the image can be resized in a non-uniform manner.
+
+The order of seam removal in an image defines an order on the pixels of the image.
+
+By storing the simple indexing information, we create content to where multi size images.
+
+In this image, we color all pixels according to the order of their seam removal from blue to red.
+
+To enlarge an image we first calculate seems as if we were to shrink the image.
+
+Instead of removing these seams, we insert new seams in these locations.
+
+The pixels of the new seams are the average of the pixels alongside the new seam positions.
+
+This enables a smooth transition between reducing and enlarging the image size and multi size images.
+
+We have tested different possible energy functions for retargeting such as entropy,
+
+saliency, histogram of gradient direction, and eye movement measurements.
+
+The results depend on the given image, but simple gradient magnitude often gives satisfactory results.
+
+For certain content, such as faces. Where the relations between features are important.
+
+We define a simple user interface, enabling the designer to protect these image areas.
+
+The application is also used as an authoring tool for creating multi sized images.
+
+Note that in this specific example, automatic face detection can be used to identify the areas that need protection.
+
+To illustrate another application for this tool, we show a simple object removal procedure by adding negative weights to the energy of an image.
+
+The user can attract the seems to pass through specific areas first by reducing the size of the image,
+
+these areas are removed first, in effect erasing them to retain its original size.
+
+The image is enlarged by using seam insertion. Note that this technique changes the whole image and does not simply erase the objects marked.
+
+More examples can be found in the paper and the supplemental materials.
+
+Thank you for your attention. All right.
+
+So that was seemed far removed to the more intelligent way to resize images.
+
+Being aware of the content in the. We also still image formats, which I don't think are very relevant today because we have very high graphics cards.
+
+Uh, but the video format that you see out here in the final, you can see that there's.
+
+A name hit of this name means something self-consistent corresponds to common interchange format.
+
+Usage is quite a common interchange, one of. All of these are have been invented for, or at least established for some application or the other.
+
+And for each of them, it gives you what the is all digital format which gives you what the, uh, um.
+
+Um, the lines for Fremont and the pixels for line art.
+
+Um, so this gives you the width and this gives you. So this gives us the height and this gives you the width.
+
+And um. You have frames per second.
+
+Uh, whether they're interlaced or not. Uh, subsampling scheme used and the aspect ratio used.
+
+And, and depending upon what these numbers are, you can figure out what the bitrate of the signal is going to be.
+
+Like for example, the HDTV format, which is uh, the activity, this is progressive or interlaced because um.
+
+Positively progressive. So it's 21 1923 949742.
+
+All right. So then 1892 9497 um for to work corresponds to 50% savings, which is 24 bits per pixel during the underground Pittsburgh pixel.
+
+Uh, and if you compute all that, you get a bit rate of 745 megabits for high definition per second for the high definition stream, which is a lot.
+
+Especially if you to have multiple streams.
+
+So the next question is how do we take all this information and make sense of it for storage and transmission by compressing it.
+
+Um. Yeah.
+
+Um, let's talk about graphs for a vector, raster scans or graphics later on.
+
+This should bring me to the end of the lecture. Anyone?
+
+Any questions? Um.
+
+I don't see any questions on Piazza. Um.
+
+No questions in the chat. So are we good?
+
+So the question for us, are we going to get the first one? Yeah. So I'm going to announce it today.
+
+I'll show it share it and we'll post it up by tomorrow with uh, with uh, the distributor posting the, um, the starter code also.
+
+Um, so let me just summarize what we did so far before we get into the, uh, segment.
+
+Um, we started with the digital media pipeline from front to back.
+
+I mean, just, I mean. We discussed about the first step in the pipeline, which is trying to, um.
+
+Understand the digitization process and this is where we received it.
+
+We understood that this process is happening through quantization and sampling.
+
+Sampling and quantization. Both are very important points.
+
+Um, sampling tries to capture the places at which the signal needs to be sample, while quantization tries to assign a number of bits for each sample.
+
+Now, understanding, uh, the requirements of both.
+
+It's very important to know what your sampling rate is and what the bits represented from Pittsburgh for sampling are going to be.
+
+The sampling rate is decided by understanding that the signal has got a maximum frequency in it.
+
+Um, and the big takeaway that I want to that I wanted to give you Digweed is.
+
+The world in which we live in is very structured. It's not random signals, and that's what we are going to learn.
+
+Uh, given that it's structured, uh, the signals that we want to measure to go around the world and also to create a digital representation,
+
+also, we can have a multimedia pipeline of immersive content and what not all these signals have got.
+
+Not all frequencies present, but a few frequencies present.
+
+These few frequencies have a maximal frequency that you can find at least in some for you.
+
+Uh, this is. Given the maximum frequency we know very well can.
+
+Sample at more than twice the sampling rate, and that will ensure that the characteristics of the signal content are preserved.
+
+Moreover, for the number of bits, you want to just fix it to that number such that your perception.
+
+Is is okay. Adding more bits will not increase your perception.
+
+So using these two methods or these two ideas, we can fix the sampling rate and the bitrate and the and the and the number of bits per sample,
+
+giving you just the right amount of information, bits per second that you can start the signals.
+
+So you are guaranteed to produce the right signal when you go back to the analog for rendering purposes, for marketing purposes.
+
+Okay. Um, and then we talked about, like, what happens in the multimedia pipeline when you have to resample the signal that's already captured,
+
+like an image has to reformatted or recycle.
+
+How do you minimize the anything effect using filters and so on.
+
+We understood what aliasing is. Examples in 1D in 2D and 3D.
+
+And finally we talked about the evolution of the television pipeline, um, with the television signal.
+
+Uh, by the introduction of the, um, um, uh, the frame rate or the field rate, uh,
+
+at 60Hz or 50Hz, depending upon the region that supplied, um, the electric signals.
+
+This is for synchronization. And then the introduction of the interlaced formats for the phosphor screen, like flickering.
+
+And thirdly, with the introduction of color, the value subsampling schemes that have.
+
+Yeah. So with that. Let's talk about the assignment.
+
+So the assignment that you're getting. You.
+
+Um. It's a sign today.
+
+Right. Um, and it's due on, uh, after three weeks.
+
+So you have ample amount of time to do the assignment by 5 p.m. in the afternoon.
+
+This is a Monday. Uh, late policies?
+
+None. Unless you have some medical reasons or emergencies.
+
+And, you know, you talk to the doctors before. Um, there is a theory plan which consists of a few questions.
+
+And, um, this is for your attempt, uh, here, there for you to attempt it.
+
+Um. Uh, please try it. We will not.
+
+You're not required to submit the theory part. Um, but we will be posting solutions to this after the submission deadline.
+
+Um, so that we can check whether your answers are correct or good to know how to solve the puzzle.
+
+These are questions in, uh, subsampling schemes and quantization techniques and temporal reducing.
+
+And so. The programing park. Oh, it's got 200 points.
+
+And it's going to test your understanding of resampling, quantization and filtering.
+
+Uh, it's being motivated by the fact that, uh, in.
+
+When you take an image, uh, you normally end up taking a, uh, uh, uh,
+
+image with maybe a consumer camera, which has got different bits for sample bits per pixel.
+
+Or it could be a master digital camera with the Galaxy.
+
+Uh, Alexi, uh uh uh, are you camera or, uh, or, you know, the red cameras or, you know,
+
+the really nice commercial cameras which which which, uh, which may be a 12 bits per channel, which is total of 36 bits per pixel.
+
+Um, but for distribution reasons, you and consumption reasons, they need to be resample, uh, to represent a different budget.
+
+And so this is going to teach you about how to get to hands dirty, understanding images, resampling quantization techniques and so on.
+
+Okay. The most important thing is for this assignment.
+
+We are not allowed to use any libraries or any nodes or any, uh, scripting environments like Python or Matlab.
+
+You will expect that you C, C plus, plus or Java and we will give you.
+
+Your starter code, which you can start with a project in VS code or Java.
+
+Um, there are four parameters. Uh, um, which is given, uh, values.
+
+Um, that is the image input. Uh, the image, uh, side the image, uh, uh, file, which is a five 12.2 size.
+
+So stick to this format. This the sample code should start which should be able to view the file to the photo file, for example, and display it.
+
+So you can assume that, uh, the other parts are there for you to implement and make sense of this assignment.
+
+Um, the second parameter is a scale value, which will allow you to take your your 16 by nine format and get it down to four by three.
+
+You like, you know, whenever you want to resample, um, this is going to be effectively the same in X and Y.
+
+So you can have one scale value if there are different than you can do different.
+
+There is a quantization number of bits, which is a number, uh, this number is between 1 and 24.
+
+Um, it's going to be mostly, uh, multiples of three because all the three channels have the same number of bits.
+
+The fourth parameter is the mode of quantization, which would be uniform quantization or most modern logarithmic quantization,
+
+or even the most smart optimized quantization, which you need to come up with.
+
+And there's a fifth parameter, which is optional.
+
+Well, just for extra credit, if you've attempted extra credit, we will call it with the last parameter as one.
+
+And we expect to see outputs which are better.
+
+Um, so how will you be evaluated? Uh, there's going to be a resampling test.
+
+There's going to be quantization test. There's going to be analysis questions, and it's going to be extracted if that's attempted.
+
+There are so simple ways of invoking invoking your program and what they mean in terms of their outputs.
+
+So you can get ideas of what to expect. Um, and the details of the recommendations are shown up here.
+
+And how do you go about creating the final image? Uh, by resampling.
+
+Uh, if you're using minimum uniform quantization, how would you quantize the inputs?
+
+If you're using logarithmic quantization, how do you decide the logarithmic levels?
+
+Or if you're using an optimal interval quantization. With, with your input to 26.
+
+Then how would you decide, uh, to come up with better techniques which are not.
+
+Um, from a priority company to the thresholds are not considered a priority depending upon the number of goods.
+
+But you could dynamically, depending on the content of the image. Uh, figured out what the other the things are.
+
+Um, and then there's an analysis question which tries to make you understand how good is your output.
+
+For this, you've been, uh, you know, asked to implement an error metric, which is a mean squared error or a mean absolute error.
+
+You can try one, but not necessary for both. Or you can try both if you want.
+
+But it's ask you to plot graphs where you see for a given image, uh, over different Q values.
+
+Quantization bits. How is your error changing? And if you can see any trend uh, in that and to explain the trend.
+
+Uh, and this you want to use for your, uh, logarithmic, your uniform quantization and logarithmic quantization,
+
+as well as your smart your, your optimal, uh, thresholds in quantization.
+
+And then for your extra credit, this is something which if you choose to attempt,
+
+we will collect it and you keep your marks separately at the end of the semester after the grades are decided.
+
+We look at the expected contribution and if that is enough to push you to the next grade.
+
+We would certainly, you know, take that liberty and do that and that that respect.
+
+And so in the in the executive portion, you're you'll make the next one condition which really changes the problem.
+
+What if the number of bits per channel were not the same.
+
+You can adapt them to, uh, how you want to use it for the content.
+
+So you can have the original having one bit, the green tail having four bits and the red channel having um, three bits.
+
+So if that's the case, how do you then come up with an optimization algorithm that can spread your bets in a smart way between your channels,
+
+on top of what you've done on clear,
+
+which is your smart quantization, and see that you get better results and prove that you can get better results by,
+
+you know, computing your, you know, your metrics properly. Uh, what you do submit, uh, don't submit any binaries or images.
+
+Just submit your code and your project plan. We will compile.
+
+We'll create our binaries and we will run tests on them for the analysis part as well as the extracted question.
+
+If you attempt to do so, please submit a word document and PDF, uh, you know, PDF audio.
+
+Um, we should do an analysis. All right.
+
+I will post this soon enough. Uh, when?
+
+Tonight or tomorrow. So you can get to take a look at it. Um.
+
+But otherwise. Next Monday. Classes as usual. See you in class.
+
+All right. Thank you Christopher. Thank you students, and thank you again for cooperating for today.
+
+Um. I know it's not the best scenario when it is online.
+
+Um, but this was the only way I could make it work today. Hopefully I can make it up to you guys in the coming.
+
+Um, coming. This. Good night.
+

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSCI 576 AI TA</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f1117;
+      color: #e0e0e0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 16px 24px;
+      border-bottom: 1px solid #2a2a3a;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #16171f;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: #fff; }
+    header span { font-size: 13px; color: #888; }
+
+    .student-bar {
+      padding: 10px 24px;
+      background: #16171f;
+      border-bottom: 1px solid #2a2a3a;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+    }
+    .student-bar label { color: #888; }
+    .student-bar input {
+      background: #0f1117;
+      border: 1px solid #2a2a3a;
+      color: #e0e0e0;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      width: 160px;
+    }
+    .student-bar input:focus { outline: none; border-color: #5865f2; }
+
+    #chat {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .msg {
+      max-width: 780px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .msg.user { align-self: flex-end; align-items: flex-end; }
+    .msg.assistant { align-self: flex-start; align-items: flex-start; }
+
+    .bubble {
+      padding: 12px 16px;
+      border-radius: 12px;
+      line-height: 1.6;
+      font-size: 15px;
+      white-space: pre-wrap;
+    }
+    .msg.user .bubble {
+      background: #5865f2;
+      color: #fff;
+      border-bottom-right-radius: 3px;
+    }
+    .msg.assistant .bubble {
+      background: #1e1f2e;
+      border: 1px solid #2a2a3a;
+      border-bottom-left-radius: 3px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .ref-card {
+      background: #1e1f2e;
+      border: 1px solid #2a2a3a;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 12px;
+      color: #aaa;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .ref-card .icon { font-size: 14px; }
+    .ref-card strong { color: #e0e0e0; font-size: 13px; }
+
+    .frames-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .frame-thumb {
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #2a2a3a;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+    .frame-thumb:hover { border-color: #5865f2; }
+    .frame-thumb img { width: 180px; height: 101px; object-fit: cover; display: block; }
+    .frame-thumb .ts {
+      background: #16171f;
+      padding: 3px 8px;
+      font-size: 11px;
+      color: #888;
+    }
+
+    .typing {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      padding: 14px 16px;
+      background: #1e1f2e;
+      border: 1px solid #2a2a3a;
+      border-radius: 12px;
+      border-bottom-left-radius: 3px;
+      width: fit-content;
+    }
+    .typing span {
+      width: 7px; height: 7px;
+      background: #5865f2;
+      border-radius: 50%;
+      animation: bounce 1.2s infinite;
+    }
+    .typing span:nth-child(2) { animation-delay: 0.2s; }
+    .typing span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes bounce {
+      0%, 60%, 100% { transform: translateY(0); }
+      30% { transform: translateY(-6px); }
+    }
+
+    .input-area {
+      padding: 16px 24px;
+      border-top: 1px solid #2a2a3a;
+      background: #16171f;
+      display: flex;
+      gap: 10px;
+    }
+    #question {
+      flex: 1;
+      background: #0f1117;
+      border: 1px solid #2a2a3a;
+      color: #e0e0e0;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 15px;
+      resize: none;
+      line-height: 1.5;
+      min-height: 48px;
+      max-height: 160px;
+    }
+    #question:focus { outline: none; border-color: #5865f2; }
+    #question::placeholder { color: #555; }
+
+    #send {
+      background: #5865f2;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 0 20px;
+      font-size: 15px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.15s;
+    }
+    #send:hover { background: #4752c4; }
+    #send:disabled { background: #333; color: #666; cursor: not-allowed; }
+
+    .empty-state {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      color: #555;
+    }
+    .empty-state .logo { font-size: 48px; }
+    .empty-state h2 { font-size: 20px; color: #888; }
+    .empty-state p { font-size: 14px; text-align: center; max-width: 400px; }
+
+    .suggestions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 8px;
+    }
+    .suggestion {
+      background: #1e1f2e;
+      border: 1px solid #2a2a3a;
+      border-radius: 20px;
+      padding: 7px 14px;
+      font-size: 13px;
+      color: #aaa;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .suggestion:hover { border-color: #5865f2; color: #e0e0e0; }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #2a2a3a; border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>CSCI 576 AI Teaching Assistant</h1>
+    <span>Multimedia Systems · USC · Prof. Papadopoulos</span>
+  </div>
+</header>
+
+<div class="student-bar">
+  <label>Student ID:</label>
+  <input type="text" id="studentId" value="student_001" placeholder="e.g. student_001" />
+</div>
+
+<div id="chat">
+  <div class="empty-state" id="emptyState">
+    <div class="logo">🎓</div>
+    <h2>Ask me anything from the lecture</h2>
+    <p>I'll guide you Socratically using the actual lecture content, keyframes, and your interaction history.</p>
+    <div class="suggestions">
+      <div class="suggestion" onclick="ask('What is sampling and why do we need it?')">What is sampling?</div>
+      <div class="suggestion" onclick="ask('What is the maximum quantization error?')">Max quantization error?</div>
+      <div class="suggestion" onclick="ask('What is the assignment about?')">What is the assignment?</div>
+      <div class="suggestion" onclick="ask('Where does the sin go in the Fourier series step?')">Sin in Fourier series?</div>
+    </div>
+  </div>
+</div>
+
+<div class="input-area">
+  <textarea id="question" placeholder="Ask a question about the lecture…" rows="1"></textarea>
+  <button id="send" onclick="submitQuestion()">Send</button>
+</div>
+
+<script>
+  const API = 'http://localhost:8000';
+  const chatEl = document.getElementById('chat');
+  const emptyState = document.getElementById('emptyState');
+  const questionEl = document.getElementById('question');
+  const sendBtn = document.getElementById('send');
+
+  // Auto-resize textarea
+  questionEl.addEventListener('input', () => {
+    questionEl.style.height = 'auto';
+    questionEl.style.height = Math.min(questionEl.scrollHeight, 160) + 'px';
+  });
+
+  // Submit on Enter (Shift+Enter for newline)
+  questionEl.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      submitQuestion();
+    }
+  });
+
+  function ask(text) {
+    questionEl.value = text;
+    submitQuestion();
+  }
+
+  function formatTime(seconds) {
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = Math.floor(seconds % 60);
+    return h > 0
+      ? `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`
+      : `${m}:${String(s).padStart(2,'0')}`;
+  }
+
+  function addMessage(role, content) {
+    emptyState.style.display = 'none';
+    const msg = document.createElement('div');
+    msg.className = `msg ${role}`;
+
+    if (role === 'user') {
+      msg.innerHTML = `<div class="bubble">${escHtml(content)}</div>`;
+    } else if (content === 'typing') {
+      msg.innerHTML = `<div class="typing"><span></span><span></span><span></span></div>`;
+      msg.id = 'typing-indicator';
+    } else {
+      // Build assistant message
+      const { answer, referenced_images, lecture_references } = content;
+
+      let html = `<div class="bubble">${escHtml(answer)}</div>`;
+
+      // Keyframe images
+      if (referenced_images && referenced_images.length > 0) {
+        html += `<div class="frames-row">`;
+        referenced_images.forEach(img => {
+          const src = API + img.path;
+          const ts = formatTime(img.timestamp);
+          const desc = img.description || '';
+          html += `
+            <div class="frame-thumb" title="${escHtml(desc)}">
+              <img src="${src}" alt="Lecture frame at ${ts}" onerror="this.parentElement.style.display='none'" />
+              <div class="ts">📹 ${ts}</div>
+            </div>`;
+        });
+        html += `</div>`;
+      }
+
+      // Lecture references
+      if (lecture_references && lecture_references.length > 0) {
+        html += `<div class="meta">`;
+        lecture_references.forEach(ref => {
+          html += `
+            <div class="ref-card">
+              <span class="icon">📖</span>
+              <div>
+                <strong>${escHtml(ref.topic)}</strong><br>
+                ${formatTime(ref.start_time)} – ${formatTime(ref.end_time)}
+              </div>
+            </div>`;
+        });
+        html += `</div>`;
+      }
+
+      msg.innerHTML = html;
+    }
+
+    chatEl.appendChild(msg);
+    chatEl.scrollTop = chatEl.scrollHeight;
+    return msg;
+  }
+
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  async function submitQuestion() {
+    const question = questionEl.value.trim();
+    const studentId = document.getElementById('studentId').value.trim() || 'student_001';
+    if (!question) return;
+
+    // Clear input
+    questionEl.value = '';
+    questionEl.style.height = 'auto';
+    sendBtn.disabled = true;
+
+    // Show user message + typing indicator
+    addMessage('user', question);
+    const typingEl = addMessage('assistant', 'typing');
+
+    try {
+      const res = await fetch(`${API}/query`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, student_id: studentId }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.detail || 'Server error');
+      }
+
+      const data = await res.json();
+      typingEl.remove();
+      addMessage('assistant', data);
+    } catch (err) {
+      typingEl.remove();
+      const errMsg = document.createElement('div');
+      errMsg.className = 'msg assistant';
+      errMsg.innerHTML = `<div class="bubble" style="color:#f87171">Error: ${escHtml(err.message)}</div>`;
+      chatEl.appendChild(errMsg);
+    }
+
+    sendBtn.disabled = false;
+    questionEl.focus();
+    chatEl.scrollTop = chatEl.scrollHeight;
+  }
+</script>
+
+</body>
+</html>

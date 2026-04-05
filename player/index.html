@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSCI 576 – Lecture Player</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1a1a2e;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* ── Header ─────────────────────────────────────── */
+    header {
+      width: 100%;
+      max-width: 1280px;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #2a2a4a;
+      flex-shrink: 0;
+    }
+    .course-info h1 { font-size: 14px; font-weight: 700; color: #fff; letter-spacing: 0.02em; }
+    .course-info p  { font-size: 11px; color: #777; margin-top: 2px; }
+
+    .student-selector {
+      display: flex; align-items: center; gap: 8px; font-size: 12px; color: #777;
+    }
+    .student-selector input {
+      background: #0f0f1f; border: 1px solid #2a2a4a; color: #e0e0e0;
+      padding: 5px 10px; border-radius: 6px; font-size: 12px; width: 160px;
+    }
+    .student-selector input:focus { outline: none; border-color: #7c83f5; }
+
+    /* ── Main layout ─────────────────────────────────── */
+    .main {
+      width: 100%;
+      max-width: 1280px;
+      padding: 16px 20px 0;
+      display: flex;
+      gap: 16px;
+      flex: 1;
+    }
+
+    /* ── Video side ──────────────────────────────────── */
+    .video-side {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 32px rgba(0,0,0,0.6);
+    }
+    video { width: 100%; height: 100%; display: block; }
+
+    /* ── Status bar ──────────────────────────────────── */
+    .status-bar {
+      display: flex; align-items: center; gap: 8px; font-size: 12px; padding: 0 2px;
+    }
+    .status-dot {
+      width: 7px; height: 7px; border-radius: 50%; background: #444; flex-shrink: 0;
+    }
+    .status-dot.active    { background: #4ade80; animation: pulse 1.5s infinite; }
+    .status-dot.listening { background: #f59e0b; animation: pulse 0.8s infinite; }
+    .status-dot.thinking  { background: #7c83f5; animation: pulse 0.5s infinite; }
+    .status-dot.error     { background: #f87171; }
+    @keyframes pulse { 0%,100%{opacity:1}50%{opacity:0.3} }
+    #statusText { color: #666; }
+
+    /* ── Jump-to-time row ────────────────────────────── */
+    .seek-row {
+      display: flex; align-items: center; gap: 8px; padding: 0 2px;
+    }
+    .seek-row label { font-size: 12px; color: #666; }
+    .seek-row input[type="text"] {
+      background: #0f0f1f; border: 1px solid #2a2a4a; color: #e0e0e0;
+      padding: 5px 10px; border-radius: 6px; font-size: 12px; width: 90px;
+    }
+    .seek-row input:focus { outline: none; border-color: #7c83f5; }
+    .btn {
+      background: #2a2a4a; border: none; color: #c0c0e0;
+      padding: 5px 12px; border-radius: 6px; font-size: 12px;
+      cursor: pointer; transition: background 0.15s;
+    }
+    .btn:hover { background: #3a3a6a; }
+    .btn.primary { background: #5865f2; color: #fff; }
+    .btn.primary:hover { background: #4752c4; }
+
+    /* ── Chapters panel ──────────────────────────────── */
+    .chapters-panel {
+      width: 260px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .chapters-panel h2 {
+      font-size: 12px; font-weight: 600; color: #888;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #2a2a4a;
+    }
+    .chapters-list {
+      overflow-y: auto;
+      flex: 1;
+      max-height: calc(100vh - 200px);
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .chapter-item {
+      display: flex; align-items: flex-start; gap: 8px;
+      padding: 7px 10px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: background 0.12s;
+      border: 1px solid transparent;
+    }
+    .chapter-item:hover { background: #1e1e3a; border-color: #2a2a4a; }
+    .chapter-item.active { background: #1e1e40; border-color: #5865f2; }
+
+    .chapter-time {
+      font-size: 11px; color: #5865f2; font-variant-numeric: tabular-nums;
+      flex-shrink: 0; padding-top: 1px; min-width: 38px;
+    }
+    .chapter-title {
+      font-size: 12px; color: #ccc; line-height: 1.4;
+    }
+    .chapter-item.active .chapter-title { color: #fff; }
+
+    .chapters-loading { font-size: 12px; color: #555; padding: 10px; }
+
+    /* ── Scrollbar ───────────────────────────────────── */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #2a2a4a; border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="course-info">
+    <h1>CSCI 576 &nbsp;·&nbsp; Digital Data Acquisition and Media Basics</h1>
+    <p>Prof. Papadopoulos &nbsp;·&nbsp; USC Viterbi School of Engineering</p>
+  </div>
+  <div class="student-selector">
+    <label for="studentIdInput">Student:</label>
+    <input type="text" id="studentIdInput" value="demo_student_1" placeholder="student id" />
+  </div>
+</header>
+
+<div class="main">
+
+  <!-- Left: video + controls -->
+  <div class="video-side">
+    <div class="video-container" id="videoContainer">
+      <video id="lectureVideo" controls preload="metadata" crossorigin="anonymous">
+        <source src="/video/lecture.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <!-- Status -->
+    <div class="status-bar">
+      <div class="status-dot" id="statusDot"></div>
+      <span id="statusText">Install the extension, then pause and speak your question.</span>
+    </div>
+
+    <!-- Jump to time -->
+    <div class="seek-row">
+      <label for="seekInput">Jump to:</label>
+      <input type="text" id="seekInput" placeholder="e.g. 14:30" title="Format: mm:ss or hh:mm:ss or seconds" />
+      <button class="btn primary" onclick="doSeek()">Go</button>
+      <span style="font-size:11px;color:#444;margin-left:4px">mm:ss or seconds</span>
+    </div>
+  </div>
+
+  <!-- Right: chapter list -->
+  <div class="chapters-panel">
+    <h2>Chapters</h2>
+    <div class="chapters-list" id="chaptersList">
+      <div class="chapters-loading">Loading chapters…</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const API = window.location.port === '8000' ? '' : 'http://localhost:8000';
+
+  // ── Expose to extension ──────────────────────────────
+  window.__lectureVideo    = document.getElementById('lectureVideo');
+  window.__studentIdInput  = document.getElementById('studentIdInput');
+  window.__studentId       = 'demo_student_1';
+
+  document.getElementById('studentIdInput').addEventListener('input', (e) => {
+    window.__studentId = e.target.value.trim() || 'demo_student_1';
+  });
+
+  window.__setStatus = function(state, text) {
+    const dot = document.getElementById('statusDot');
+    const txt = document.getElementById('statusText');
+    dot.className = 'status-dot' + (state ? ' ' + state : '');
+    txt.textContent = text;
+  };
+
+  // ── Seek helper ───────────────────────────────────────
+  function parseTime(str) {
+    str = str.trim();
+    if (/^\d+(\.\d+)?$/.test(str)) return parseFloat(str);
+    const parts = str.split(':').map(Number);
+    if (parts.length === 2) return parts[0]*60 + parts[1];
+    if (parts.length === 3) return parts[0]*3600 + parts[1]*60 + parts[2];
+    return null;
+  }
+
+  function formatTime(s) {
+    const h = Math.floor(s/3600), m = Math.floor((s%3600)/60), sec = Math.floor(s%60);
+    return h > 0
+      ? `${h}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`
+      : `${m}:${String(sec).padStart(2,'0')}`;
+  }
+
+  function seekTo(seconds) {
+    const v = document.getElementById('lectureVideo');
+    v.currentTime = seconds;
+    v.focus();
+    highlightActiveChapter(seconds);
+  }
+
+  function doSeek() {
+    const t = parseTime(document.getElementById('seekInput').value);
+    if (t !== null && t >= 0) seekTo(t);
+    else alert('Invalid time format. Use mm:ss, hh:mm:ss, or plain seconds.');
+  }
+
+  document.getElementById('seekInput').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') doSeek();
+  });
+
+  // ── Chapters ──────────────────────────────────────────
+  let chapters = [];
+
+  async function loadChapters() {
+    try {
+      const res = await fetch(`${API}/segments`);
+      if (!res.ok) throw new Error('not ok');
+      chapters = await res.json();
+      renderChapters();
+    } catch (e) {
+      document.getElementById('chaptersList').innerHTML =
+        '<div class="chapters-loading">Could not load chapters — is the backend running?</div>';
+    }
+  }
+
+  function renderChapters() {
+    const list = document.getElementById('chaptersList');
+    if (!chapters.length) {
+      list.innerHTML = '<div class="chapters-loading">No chapters found.</div>';
+      return;
+    }
+    list.innerHTML = chapters.map((ch, i) => `
+      <div class="chapter-item" data-idx="${i}" onclick="seekTo(${ch.start_time})">
+        <span class="chapter-time">${formatTime(ch.start_time)}</span>
+        <span class="chapter-title">${escHtml(ch.title)}</span>
+      </div>
+    `).join('');
+  }
+
+  function highlightActiveChapter(currentTime) {
+    const items = document.querySelectorAll('.chapter-item');
+    items.forEach(el => el.classList.remove('active'));
+    // find last chapter whose start_time <= currentTime
+    let activeIdx = -1;
+    chapters.forEach((ch, i) => {
+      if (ch.start_time <= currentTime) activeIdx = i;
+    });
+    if (activeIdx >= 0) {
+      const el = document.querySelector(`.chapter-item[data-idx="${activeIdx}"]`);
+      if (el) {
+        el.classList.add('active');
+        el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      }
+    }
+  }
+
+  // Update active chapter as video plays
+  document.getElementById('lectureVideo').addEventListener('timeupdate', (e) => {
+    highlightActiveChapter(e.target.currentTime);
+  });
+
+  function escHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  loadChapters();
+</script>
+
+</body>
+</html>

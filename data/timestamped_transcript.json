@@ -1,0 +1,6507 @@
+[
+  {
+    "start": 0.0,
+    "end": 7.2,
+    "text": "[Auto-generated transcript. Edits may have been applied for clarity.]"
+  },
+  {
+    "start": 7.2,
+    "end": 14.39,
+    "text": "All right, students, let's. Let's start with the class."
+  },
+  {
+    "start": 14.39,
+    "end": 21.59,
+    "text": "Can you guys see me? Yes."
+  },
+  {
+    "start": 21.59,
+    "end": 28.78,
+    "text": "No. You need to live. Of course. Extremely sorry."
+  },
+  {
+    "start": 28.78,
+    "end": 35.98,
+    "text": "And thank you for adjusting to my, um, my schedule today."
+  },
+  {
+    "start": 35.98,
+    "end": 43.18,
+    "text": "Uh, it was just not possible for me to come to campus by 6 p.m."
+  },
+  {
+    "start": 43.18,
+    "end": 50.37,
+    "text": "Uh, I'm pretty sure this won't happen again. So for today, I."
+  },
+  {
+    "start": 50.37,
+    "end": 57.57,
+    "text": "You know, I'm very grateful to you."
+  },
+  {
+    "start": 57.57,
+    "end": 64.76,
+    "text": "Um, but before we go ahead so that we can make this session, uh, interactive as usual, we need to follow some protocols."
+  },
+  {
+    "start": 64.76,
+    "end": 71.96,
+    "text": "Uh, so hands up if you can see me in class, you can hear me."
+  },
+  {
+    "start": 71.96,
+    "end": 79.15,
+    "text": "Well. All right. Uh, once you have a question, which is, I'll give you a regular."
+  },
+  {
+    "start": 79.15,
+    "end": 86.35,
+    "text": "At regular times. We'll take a pause for you to ask questions. But if you do have a burning question, put your hand up so I can see it."
+  },
+  {
+    "start": 86.35,
+    "end": 93.55,
+    "text": "Or just say something and we can like, you know, pause and, uh, and answer that question."
+  },
+  {
+    "start": 93.55,
+    "end": 100.74,
+    "text": "Um, for answering questions and for interacting. I've done a few things."
+  },
+  {
+    "start": 100.74,
+    "end": 107.94,
+    "text": "I've asked them to provide you with the mic that you can pass along, uh, and ask a question."
+  },
+  {
+    "start": 107.94,
+    "end": 115.13,
+    "text": "If you're loud enough and I can hear. Yes. That's also that also works."
+  },
+  {
+    "start": 115.13,
+    "end": 122.33,
+    "text": "Um, there is a live Q&A session that I've started on Piazza."
+  },
+  {
+    "start": 122.33,
+    "end": 129.53,
+    "text": "So if you have your laptops or your phone and log into Piazza, you can definitely post questions there that can be uploaded."
+  },
+  {
+    "start": 129.53,
+    "end": 136.72,
+    "text": "And we can, you know, take care of those questions as well. Uh, we get some time during the progress of the lecture."
+  },
+  {
+    "start": 136.72,
+    "end": 143.92,
+    "text": "Yeah. So with that in mind, uh, let's start the class."
+  },
+  {
+    "start": 143.92,
+    "end": 151.11,
+    "text": "Any any suggestions? Questions? Okay. Okay, so let me share my screen."
+  },
+  {
+    "start": 151.11,
+    "end": 158.31,
+    "text": "Shares the. Right."
+  },
+  {
+    "start": 158.31,
+    "end": 165.5,
+    "text": "I'm. I think you guys can see this, right?"
+  },
+  {
+    "start": 165.5,
+    "end": 172.7,
+    "text": "Uh, I've also, for today's session, uh, have a second, second camera that have hooked up."
+  },
+  {
+    "start": 172.7,
+    "end": 179.9,
+    "text": "So you should be able to, uh, see notes that I might scribble about the content of today's lecture."
+  },
+  {
+    "start": 179.9,
+    "end": 187.09,
+    "text": "Mhm. I think in the second half. Okay."
+  },
+  {
+    "start": 187.09,
+    "end": 194.29,
+    "text": "All right. So today's lecture is going to be the first lecture after the introductory session we had two weeks ago."
+  },
+  {
+    "start": 194.29,
+    "end": 201.48,
+    "text": "Um, this is going to be on digital data acquisition and media basics."
+  },
+  {
+    "start": 201.48,
+    "end": 208.68,
+    "text": "Uh, this will cover chapters two and three of the textbook."
+  },
+  {
+    "start": 208.68,
+    "end": 215.88,
+    "text": "Uh, at the end of this lecture, I will also announced the first assignment."
+  },
+  {
+    "start": 215.88,
+    "end": 223.07,
+    "text": "Share it with you, go over it briefly and post it as well."
+  },
+  {
+    "start": 223.07,
+    "end": 230.27,
+    "text": "Um, so let's. See what this lecture, uh, covers."
+  },
+  {
+    "start": 230.27,
+    "end": 237.46,
+    "text": "Now, in the last lecture, we described this end to end multimedia pipeline."
+  },
+  {
+    "start": 237.46,
+    "end": 244.66,
+    "text": "We also said that. Essentially to talk about multimedia, we need to be in the digital representations."
+  },
+  {
+    "start": 244.66,
+    "end": 251.86,
+    "text": "It is a digital representation of the digital ness of um, uh, of uh uh uh, the fact that all video,"
+  },
+  {
+    "start": 251.86,
+    "end": 259.05,
+    "text": "audio in different media types can be in ones and zeros, that it allows, uh, for us to be, um."
+  },
+  {
+    "start": 259.05,
+    "end": 266.25,
+    "text": "I know what you. Montevideo. Data. Um, but this."
+  },
+  {
+    "start": 266.25,
+    "end": 273.44,
+    "text": "But the signals that we, uh, have around us in this world are analog."
+  },
+  {
+    "start": 273.44,
+    "end": 280.64,
+    "text": "And these analog signals are then converted by, um, by recording devices like camcorders and digital cameras to go into the digital representation."
+  },
+  {
+    "start": 280.64,
+    "end": 287.83,
+    "text": "So today's lecture will essentially have, um, this area of coverage,"
+  },
+  {
+    "start": 287.83,
+    "end": 295.03,
+    "text": "which is how do we go from the analog medium into the digital representation"
+  },
+  {
+    "start": 295.03,
+    "end": 302.23,
+    "text": "for all the different media types and what's in the digital representation?"
+  },
+  {
+    "start": 302.23,
+    "end": 309.42,
+    "text": "How do we, uh, go about representing our data data structures and what, what what are exactly the formats that,"
+  },
+  {
+    "start": 309.42,
+    "end": 316.62,
+    "text": "uh, that encompass all those different media types in the digital domain?"
+  },
+  {
+    "start": 316.62,
+    "end": 323.81,
+    "text": "And then, um. Or do you want to study in this lecture is actually how do you digitize a signal?"
+  },
+  {
+    "start": 323.81,
+    "end": 331.01,
+    "text": "What is it that you need to be aware of when digitizing a signal?"
+  },
+  {
+    "start": 331.01,
+    "end": 338.21,
+    "text": "How do we make sure that we have no loss in the digitization?"
+  },
+  {
+    "start": 338.21,
+    "end": 345.4,
+    "text": "Um, but lastly, if there is a loss that needs to happen, uh, whether it's during the digitization process or even after the digitization process,"
+  },
+  {
+    "start": 345.4,
+    "end": 352.6,
+    "text": "because frequently when you go into the digital domain, you might end up."
+  },
+  {
+    "start": 352.6,
+    "end": 359.79,
+    "text": "Resampling. What is the signal? For example, to take a high resolution image from anyone who posted on Facebook or somebody?"
+  },
+  {
+    "start": 359.79,
+    "end": 366.99,
+    "text": "It might get downsampled to a lot with one resolution. You know, inherently causing some kind of loss."
+  },
+  {
+    "start": 366.99,
+    "end": 374.18,
+    "text": "So in such cases, how do you minimize that loss? Um, so this lecture."
+  },
+  {
+    "start": 374.18,
+    "end": 381.38,
+    "text": "Could stand to be like, you know, the compressing of a, uh, of a signal processing course, uh, to go into the basic to go into the very deep details."
+  },
+  {
+    "start": 381.38,
+    "end": 388.58,
+    "text": "But that's not what the intent of this lecture is. In fact, what you want to understand out here is basically in the digitization process,"
+  },
+  {
+    "start": 388.58,
+    "end": 395.77,
+    "text": "how do we manage the quality of the data and also the quantity of the data,"
+  },
+  {
+    "start": 395.77,
+    "end": 402.97,
+    "text": "because both quality and quantity ultimately, uh,"
+  },
+  {
+    "start": 402.97,
+    "end": 410.16,
+    "text": "represent a big factor in how we interact with this volume in this data and how"
+  },
+  {
+    "start": 410.16,
+    "end": 417.36,
+    "text": "we perceive the overall quality of the content that's going to be created."
+  },
+  {
+    "start": 417.36,
+    "end": 424.56,
+    "text": "Okay, so in today's lectures we want to have issues in digitizing your signal."
+  },
+  {
+    "start": 424.56,
+    "end": 431.75,
+    "text": "Uh, signal sampling, quantization, bitrate. What do you lose in resizing process?"
+  },
+  {
+    "start": 431.75,
+    "end": 438.95,
+    "text": "What do you and why do you lose it? How can you minimize this loss?"
+  },
+  {
+    "start": 438.95,
+    "end": 446.14,
+    "text": "We're talking about filtering and subsampling. We don't talk about acquisition, the media and the formats."
+  },
+  {
+    "start": 446.14,
+    "end": 453.34,
+    "text": "A large part of the second half would be devoted to the video signal and the beginnings of television."
+  },
+  {
+    "start": 453.34,
+    "end": 460.53,
+    "text": "Uh, television is a video signal, uh, as we understand it."
+  },
+  {
+    "start": 460.53,
+    "end": 467.73,
+    "text": "But the way it has evolved in terms of its standards and its establishment for sharing"
+  },
+  {
+    "start": 467.73,
+    "end": 474.93,
+    "text": "TV content has long standing in the standards that digital data now has to be."
+  },
+  {
+    "start": 474.93,
+    "end": 482.12,
+    "text": "Digital video now has to be to to make sure that those standards and legacy,"
+  },
+  {
+    "start": 482.12,
+    "end": 489.32,
+    "text": "uh, formats are somehow respected as you go into the digital presentation."
+  },
+  {
+    "start": 489.32,
+    "end": 496.51,
+    "text": "So that will be, uh, a good understanding of the progress of the history of television."
+  },
+  {
+    "start": 496.51,
+    "end": 503.71,
+    "text": "Um, and then finally we'll talk about, you know, some aspects like aspect ratios and component video formats as well."
+  },
+  {
+    "start": 503.71,
+    "end": 510.91,
+    "text": "Um. All right. So. Did you guys see my video?"
+  },
+  {
+    "start": 510.91,
+    "end": 518.1,
+    "text": "My face. Yes, though."
+  },
+  {
+    "start": 518.1,
+    "end": 525.3,
+    "text": "In glass because it helps to have a visual. Or do you just see the screen?"
+  },
+  {
+    "start": 525.3,
+    "end": 532.49,
+    "text": "Okay, good. So. I'm stealing from Christopher's response."
+  },
+  {
+    "start": 532.49,
+    "end": 539.69,
+    "text": "Could see my face as well, so I can do some gesturing and, uh, hopefully get some feedback."
+  },
+  {
+    "start": 539.69,
+    "end": 546.89,
+    "text": "Okay, so let's start with the digitization process. Okay."
+  },
+  {
+    "start": 546.89,
+    "end": 554.08,
+    "text": "Is this? Hopefully this large enough for you guys? Um."
+  },
+  {
+    "start": 554.08,
+    "end": 561.28,
+    "text": "So the goal of the digitization process is to take a signal which is in its analog form."
+  },
+  {
+    "start": 561.28,
+    "end": 568.47,
+    "text": "Let's say, for instance, the light in the room which we measure with the camera, uh, the light signal, the amount of light in the room, you know,"
+  },
+  {
+    "start": 568.47,
+    "end": 575.67,
+    "text": "it keeps on changing depending upon, uh, light speed is switched on and off, doors opening and more light entering and so on and so forth."
+  },
+  {
+    "start": 575.67,
+    "end": 582.86,
+    "text": "And so this signal, which is changing continuously in the digital world and in the analog world, needs to be."
+  },
+  {
+    "start": 582.86,
+    "end": 590.06,
+    "text": "Digitized through a capturing device, which in our case is a camera."
+  },
+  {
+    "start": 590.06,
+    "end": 597.26,
+    "text": "So if you take the example of a camera, we have a a lens."
+  },
+  {
+    "start": 597.26,
+    "end": 604.45,
+    "text": "This lens, the job of the lens is to make sure all the rays of light are then converged on, or focused onto the image plane."
+  },
+  {
+    "start": 604.45,
+    "end": 611.65,
+    "text": "Right. There is an image playing out here. And the image plane is covered with a lot of sensors."
+  },
+  {
+    "start": 611.65,
+    "end": 618.84,
+    "text": "Which I call, which may be similar sensors, let's say."
+  },
+  {
+    "start": 618.84,
+    "end": 626.04,
+    "text": "Um. These sensors have provided a substrate onto which the light is falling."
+  },
+  {
+    "start": 626.04,
+    "end": 633.24,
+    "text": "The amount of light energy that falls on it releases a charge."
+  },
+  {
+    "start": 633.24,
+    "end": 640.43,
+    "text": "And the charge mimics. Photo is analogous to the original signal that's falling in that area."
+  },
+  {
+    "start": 640.43,
+    "end": 647.63,
+    "text": "Consider an analogous problem the iron ore. Um, but then this signal needs to go through a."
+  },
+  {
+    "start": 647.63,
+    "end": 654.82,
+    "text": "Digitization process goes from analog to digital HD."
+  },
+  {
+    "start": 654.82,
+    "end": 662.02,
+    "text": "And the output of this is going to be a discrete set of samples."
+  },
+  {
+    "start": 662.02,
+    "end": 669.21,
+    "text": "Now, in theory, this is pretty well known."
+  },
+  {
+    "start": 669.21,
+    "end": 676.41,
+    "text": "You can understand the fact that this is a continuous signal, uh, in one dimension."
+  },
+  {
+    "start": 676.41,
+    "end": 683.61,
+    "text": "Or it could be a continuous signal in two dimensions."
+  },
+  {
+    "start": 683.61,
+    "end": 690.8,
+    "text": "Uh, and this is a discrete signal that samples in one dimension or samples in two dimensions to represent the surface."
+  },
+  {
+    "start": 690.8,
+    "end": 698.0,
+    "text": "Right. In the end, when we take the digital samples for digital representation and use it to create our content, make our videos,"
+  },
+  {
+    "start": 698.0,
+    "end": 705.19,
+    "text": "make our images Getty Images and then finally deliver it through a network to the end"
+  },
+  {
+    "start": 705.19,
+    "end": 712.39,
+    "text": "terminal the consumer that needs to then consume it by watching it or hearing it."
+  },
+  {
+    "start": 712.39,
+    "end": 719.59,
+    "text": "The signal on the other end at the endpoint. This is frequently going to be converted back from its digital form to an analog from the D to A right."
+  },
+  {
+    "start": 719.59,
+    "end": 726.78,
+    "text": "And ultimately we get."
+  },
+  {
+    "start": 726.78,
+    "end": 733.98,
+    "text": "A signal coming out and the whole goal of this process that you want to others and that you want to do is in the initial capture process."
+  },
+  {
+    "start": 733.98,
+    "end": 741.17,
+    "text": "You capture enough of the salient information in the signal such that when you go from digital to analog, this."
+  },
+  {
+    "start": 741.17,
+    "end": 748.37,
+    "text": "Is the same as this. These two need to be equal."
+  },
+  {
+    "start": 748.37,
+    "end": 755.57,
+    "text": "Otherwise, there's a loss. And that's the whole, uh. The whole goal of these classes."
+  },
+  {
+    "start": 755.57,
+    "end": 762.76,
+    "text": "And this lecture is to the first half of this lecture is to understand what is it that we need to ensure in this digitization process,"
+  },
+  {
+    "start": 762.76,
+    "end": 769.96,
+    "text": "how does this occur and where do we go? How do you go about this conversion process?"
+  },
+  {
+    "start": 769.96,
+    "end": 777.15,
+    "text": "To give you an example of an analog and a digital signal, um."
+  },
+  {
+    "start": 777.15,
+    "end": 784.35,
+    "text": "Here's another log. Which is a continuous signal on the left, and you have a discretize of digital signal on the same representation on the right."
+  },
+  {
+    "start": 784.35,
+    "end": 791.54,
+    "text": "Thank. Don't we want to ruin the digital book for many reasons?"
+  },
+  {
+    "start": 791.54,
+    "end": 798.74,
+    "text": "One digital signals are where we find our multimedia representations, and also digital signals are better than the box signals."
+  },
+  {
+    "start": 798.74,
+    "end": 805.94,
+    "text": "As long as you capture them appropriately in the conversion process."
+  },
+  {
+    "start": 805.94,
+    "end": 813.13,
+    "text": "Because number one, digital signals don't degrade over time or over speed."
+  },
+  {
+    "start": 813.13,
+    "end": 820.33,
+    "text": "So distance if you make a copy of digital signals, it's an exact copy."
+  },
+  {
+    "start": 820.33,
+    "end": 827.52,
+    "text": "Because now you have many, many different."
+  },
+  {
+    "start": 827.52,
+    "end": 834.72,
+    "text": "Many, many different ways of distributing digital signals across a variety of networks of consumption,"
+  },
+  {
+    "start": 834.72,
+    "end": 841.92,
+    "text": "and all practical applications become possible with digital signals and."
+  },
+  {
+    "start": 841.92,
+    "end": 849.11,
+    "text": "Yeah, I mean, it seem to just more high fidelity. I mean, think, uh, um, you know, degree or time, um, can be recorded properly."
+  },
+  {
+    "start": 849.11,
+    "end": 856.31,
+    "text": "You can do a checksum on them to make sure that if the, if any copy is not up to the mark, then you can create the copy again."
+  },
+  {
+    "start": 856.31,
+    "end": 863.5,
+    "text": "Yeah. So the process of going from analog to digital."
+  },
+  {
+    "start": 863.5,
+    "end": 870.7,
+    "text": "Happens to be, uh, to, um. Who?"
+  },
+  {
+    "start": 870.7,
+    "end": 877.89,
+    "text": "Which is going to be, uh, sampling. Let's call it sampling."
+  },
+  {
+    "start": 877.89,
+    "end": 885.09,
+    "text": "And quantization. Now in the sampling process, what happens is."
+  },
+  {
+    "start": 885.09,
+    "end": 892.29,
+    "text": "You have the original signal. This original signal is then."
+  },
+  {
+    "start": 892.29,
+    "end": 899.48,
+    "text": "Captured or reasoned with at distinct points in time."
+  },
+  {
+    "start": 899.48,
+    "end": 906.68,
+    "text": "Or space. If it's a two dimensional signal, like an image where."
+  },
+  {
+    "start": 906.68,
+    "end": 913.87,
+    "text": "These. Unique points in time are separated by a parameter of d units daytime units, which is called the sampling period."
+  },
+  {
+    "start": 913.87,
+    "end": 921.07,
+    "text": "And at each location you want to find out what is the value or what assign."
+  },
+  {
+    "start": 921.07,
+    "end": 928.27,
+    "text": "How can you assign a value to that signal? So in a sense, if you have a analog, an original work signal, which is x of T, the sampled signal x of N."
+  },
+  {
+    "start": 928.27,
+    "end": 935.46,
+    "text": "Will be defined over x0 and d."
+  },
+  {
+    "start": 935.46,
+    "end": 942.66,
+    "text": "Where excess of one is equal to."
+  },
+  {
+    "start": 942.66,
+    "end": 949.85,
+    "text": "Effects of t x sample of two."
+  },
+  {
+    "start": 949.85,
+    "end": 957.05,
+    "text": "Physical effects of duty. And so on."
+  },
+  {
+    "start": 957.05,
+    "end": 964.24,
+    "text": "But just as you'd, which is a sampling period. You also have f, which is equal to one over t for the sampling frequency."
+  },
+  {
+    "start": 964.24,
+    "end": 971.44,
+    "text": "Right. And."
+  },
+  {
+    "start": 971.44,
+    "end": 978.64,
+    "text": "You can choose any tea, right? Normally these are very regular quantity."
+  },
+  {
+    "start": 978.64,
+    "end": 985.83,
+    "text": "Um. It's the same or. Um, for the signal capture."
+  },
+  {
+    "start": 985.83,
+    "end": 993.03,
+    "text": "Normally. The big question is what?"
+  },
+  {
+    "start": 993.03,
+    "end": 1000.22,
+    "text": "Should. TV."
+  },
+  {
+    "start": 1000.22,
+    "end": 1007.42,
+    "text": "Because if the increases, which implies frequency decreases."
+  },
+  {
+    "start": 1007.42,
+    "end": 1014.62,
+    "text": "Right. Is this good or bad? Well, the good reason that if D increases, that means the distance between these two units is going to increase,"
+  },
+  {
+    "start": 1014.62,
+    "end": 1021.81,
+    "text": "which means there's going to be less number of samples, which means there's going to be less data."
+  },
+  {
+    "start": 1021.81,
+    "end": 1029.01,
+    "text": "Which is good because you want to. Start off with less data if you can."
+  },
+  {
+    "start": 1029.01,
+    "end": 1036.2,
+    "text": "But you don't want to compromise the quality of the signal, right?"
+  },
+  {
+    "start": 1036.2,
+    "end": 1043.4,
+    "text": "Correspondingly, the decreases which implies a frequency increases the sampling frequency, which corresponds to a shorter distance."
+  },
+  {
+    "start": 1043.4,
+    "end": 1050.6,
+    "text": "Then you get a lot more data. Which is good because that will increase your quality."
+  },
+  {
+    "start": 1050.6,
+    "end": 1057.79,
+    "text": "The quality of the signal. But then you also run the risk of oversampling and giving too much data."
+  },
+  {
+    "start": 1057.79,
+    "end": 1064.99,
+    "text": "And so the main. Question you want to ask is for your signal."
+  },
+  {
+    "start": 1064.99,
+    "end": 1072.18,
+    "text": "What is the ideal value of the. Um."
+  },
+  {
+    "start": 1072.18,
+    "end": 1079.38,
+    "text": "Let's keep that question aside, um, and come back to it."
+  },
+  {
+    "start": 1079.38,
+    "end": 1086.57,
+    "text": "Okay. But once you know what your TV is and know the exact points in time at which you're going to sample your signal."
+  },
+  {
+    "start": 1086.57,
+    "end": 1093.77,
+    "text": "Thank you. Then need to assign a number of bits for each sample, which is the quantization process."
+  },
+  {
+    "start": 1093.77,
+    "end": 1100.97,
+    "text": "So in the quantization process you take the range of the signal which is in this case let's say going from zero to R and you have the signal."
+  },
+  {
+    "start": 1100.97,
+    "end": 1108.16,
+    "text": "And you divide the range into. Different levels."
+  },
+  {
+    "start": 1108.16,
+    "end": 1115.36,
+    "text": "So in this case, let's say for the three bit approximation you have the zero level which is 000."
+  },
+  {
+    "start": 1115.36,
+    "end": 1122.55,
+    "text": "Then you have the first level which is 001. 010011100."
+  },
+  {
+    "start": 1122.55,
+    "end": 1129.75,
+    "text": "101110 and 111."
+  },
+  {
+    "start": 1129.75,
+    "end": 1136.95,
+    "text": "So are. Eight. There are eight intervals."
+  },
+  {
+    "start": 1136.95,
+    "end": 1144.14,
+    "text": "Um, and there are a number of those folks, um, or actually in sort 123456, seven intervals, eight levels."
+  },
+  {
+    "start": 1144.14,
+    "end": 1151.34,
+    "text": "And they all equal equidistance and increase based and the sample they are represented as follows."
+  },
+  {
+    "start": 1151.34,
+    "end": 1158.53,
+    "text": "So given your sampling rate or whatever your chosen D is at each location,"
+  },
+  {
+    "start": 1158.53,
+    "end": 1165.73,
+    "text": "we need to figure out what the value, what the level is that this can be quantized to."
+  },
+  {
+    "start": 1165.73,
+    "end": 1172.92,
+    "text": "So there is going to be some kind of a um, so like for instance this one, it's in the middle somewhere."
+  },
+  {
+    "start": 1172.92,
+    "end": 1180.12,
+    "text": "We need to decide, uh, what is the best."
+  },
+  {
+    "start": 1180.12,
+    "end": 1187.32,
+    "text": "So you round it off to the nearest level. Then in that case, in this case it's going to be the top one, right?"
+  },
+  {
+    "start": 1187.32,
+    "end": 1194.51,
+    "text": "In this case, depending upon where it is. You want to round it off to the nearest level that you can see."
+  },
+  {
+    "start": 1194.51,
+    "end": 1201.71,
+    "text": "Like. And so on."
+  },
+  {
+    "start": 1201.71,
+    "end": 1208.9,
+    "text": "And so the output that comes through a quantization process will be."
+  },
+  {
+    "start": 1208.9,
+    "end": 1216.1,
+    "text": "This will result in a. 011."
+  },
+  {
+    "start": 1216.1,
+    "end": 1223.3,
+    "text": "This will result in a. 110."
+  },
+  {
+    "start": 1223.3,
+    "end": 1230.49,
+    "text": "This will result in A111. This will result in A110."
+  },
+  {
+    "start": 1230.49,
+    "end": 1237.69,
+    "text": "And out comes the redistricting. Knowing that this is syntactically organized as three bit samples."
+  },
+  {
+    "start": 1237.69,
+    "end": 1244.88,
+    "text": "So this is sample one, sample two, sample three, sample four and so on."
+  },
+  {
+    "start": 1244.88,
+    "end": 1252.08,
+    "text": "Mathematically speaking, you're x quantized of n."
+  },
+  {
+    "start": 1252.08,
+    "end": 1259.28,
+    "text": "Is going to be equal to some quantization of x."
+  },
+  {
+    "start": 1259.28,
+    "end": 1266.47,
+    "text": "Friend. And this quantization function is normally a rounding."
+  },
+  {
+    "start": 1266.47,
+    "end": 1273.67,
+    "text": "Which rounds the value to the. At the nearest, uh, interval level."
+  },
+  {
+    "start": 1273.67,
+    "end": 1280.86,
+    "text": "Doing. So in this case we are quantizing."
+  },
+  {
+    "start": 1280.86,
+    "end": 1288.06,
+    "text": "In this example we are quantizing it using b bits. For anarchists is equal to three above."
+  },
+  {
+    "start": 1288.06,
+    "end": 1295.25,
+    "text": "But understand that quantization on undergoes rounding."
+  },
+  {
+    "start": 1295.25,
+    "end": 1302.45,
+    "text": "And whenever there's a rounding, there's a loss. There's an error."
+  },
+  {
+    "start": 1302.45,
+    "end": 1309.65,
+    "text": "Right. So given that your ranges are."
+  },
+  {
+    "start": 1309.65,
+    "end": 1316.84,
+    "text": "And your quantizing would be bits. What is your maximum error that you will get?"
+  },
+  {
+    "start": 1316.84,
+    "end": 1324.04,
+    "text": "So give this some thought. You want an answer in terms of R and B?"
+  },
+  {
+    "start": 1324.04,
+    "end": 1331.23,
+    "text": "So what is the maximum error that can happen given and given that there are, but what is the size of the interval?"
+  },
+  {
+    "start": 1331.23,
+    "end": 1338.43,
+    "text": "If I were in class, I would have asked you. Uh, but let me just give you the answer."
+  },
+  {
+    "start": 1338.43,
+    "end": 1345.63,
+    "text": "The range are is divided into. In this case one, two, three, four, five, five, six, seven intervals and seven intervals."
+  },
+  {
+    "start": 1345.63,
+    "end": 1352.82,
+    "text": "Because it's two raise to three, which is three bits minus one."
+  },
+  {
+    "start": 1352.82,
+    "end": 1360.02,
+    "text": "So if there are bits, the number of intervals would be to raise to be minus one."
+  },
+  {
+    "start": 1360.02,
+    "end": 1367.21,
+    "text": "And so all divided by two is to be minus one would be the interval size."
+  },
+  {
+    "start": 1367.21,
+    "end": 1374.41,
+    "text": "And the maximal error. Has to be equal to half this interval size, because if it's more than half, then let's go down to the upper one."
+  },
+  {
+    "start": 1374.41,
+    "end": 1381.6,
+    "text": "If it's less than half, it gets down to the lower one. If it's at half, then it's your choice over here."
+  },
+  {
+    "start": 1381.6,
+    "end": 1388.8,
+    "text": "You want to grab it too. Um, but if it's at Harvard and that is the maximum at or half the interval size is what your maximum variable would be."
+  },
+  {
+    "start": 1388.8,
+    "end": 1396.0,
+    "text": "So let's take a look at some examples. Um, thanks for sampling it and what quantization is."
+  },
+  {
+    "start": 1396.0,
+    "end": 1403.19,
+    "text": "Here's an example of quantization and wondering where on the left side the same signal is quantized with four bits,"
+  },
+  {
+    "start": 1403.19,
+    "end": 1410.39,
+    "text": "and the right side is quantized with three bits. And you can see that."
+  },
+  {
+    "start": 1410.39,
+    "end": 1417.58,
+    "text": "More number of, uh, less number of bits."
+  },
+  {
+    "start": 1417.58,
+    "end": 1424.78,
+    "text": "Gets to one larger error in the approximation of the signal more number of."
+  },
+  {
+    "start": 1424.78,
+    "end": 1431.98,
+    "text": "It's being gets to a nicer approximation of the error."
+  },
+  {
+    "start": 1431.98,
+    "end": 1439.17,
+    "text": "And so a natural question for this is. What should."
+  },
+  {
+    "start": 1439.17,
+    "end": 1446.37,
+    "text": "What should. The value of B."
+  },
+  {
+    "start": 1446.37,
+    "end": 1453.56,
+    "text": "B. So."
+  },
+  {
+    "start": 1453.56,
+    "end": 1460.76,
+    "text": "So just as you watch your TV, you have also what should be okay because the higher the be."
+  },
+  {
+    "start": 1460.76,
+    "end": 1467.96,
+    "text": "The more clearer is the signal. But also the more the data."
+  },
+  {
+    "start": 1467.96,
+    "end": 1475.15,
+    "text": "And the lower the B, the less of the data, which is good, but also the more coarser the signal,"
+  },
+  {
+    "start": 1475.15,
+    "end": 1482.35,
+    "text": "the more loss that you have in the digitization process."
+  },
+  {
+    "start": 1482.35,
+    "end": 1489.54,
+    "text": "So you want to be the right optimal sweet spot for both B and D."
+  },
+  {
+    "start": 1489.54,
+    "end": 1496.74,
+    "text": "And that's what we need to discuss next. So before we get into that let me."
+  },
+  {
+    "start": 1496.74,
+    "end": 1503.93,
+    "text": "Show you some examples in 1D."
+  },
+  {
+    "start": 1503.93,
+    "end": 1511.13,
+    "text": "So this is how quantization in 1D looks when the same signal just started on the right or the left is four bits for signal for example,"
+  },
+  {
+    "start": 1511.13,
+    "end": 1518.33,
+    "text": "and on the right is two bits for some. If you look at it in, uh, competition in Google,"
+  },
+  {
+    "start": 1518.33,
+    "end": 1525.52,
+    "text": "then you can see that every pixel which was originally eight bits, has been quantized down to six bits."
+  },
+  {
+    "start": 1525.52,
+    "end": 1532.72,
+    "text": "Has been quantized amplified bits. And as you go lower."
+  },
+  {
+    "start": 1532.72,
+    "end": 1539.91,
+    "text": "You start seeing, you know, all kinds of loss effects like banding and coloring and."
+  },
+  {
+    "start": 1539.91,
+    "end": 1547.11,
+    "text": "You can go on all the way to two bits and one bit, and this is what you can see, right?"
+  },
+  {
+    "start": 1547.11,
+    "end": 1554.31,
+    "text": "You also have similar effects in color images where on the left you have every pixel represented by big bits."
+  },
+  {
+    "start": 1554.31,
+    "end": 1561.5,
+    "text": "This is 24 bits per pixel. And on the right you can see every pixel represented by four bits or just 16 colors."
+  },
+  {
+    "start": 1561.5,
+    "end": 1568.7,
+    "text": "So there's a color palette that you see on the bottom left here, which has been chosen through quite often."
+  },
+  {
+    "start": 1568.7,
+    "end": 1575.89,
+    "text": "Um, now every color, every pixel is a four bit index that maps to a color."
+  },
+  {
+    "start": 1575.89,
+    "end": 1583.09,
+    "text": "Each of these colors in this lookup table are all 24 bit columns, but do not, sorry, 24 bits for each pixel."
+  },
+  {
+    "start": 1583.09,
+    "end": 1590.28,
+    "text": "You're just storing a lookup table of 16, 24, 24 bit colors, and all the pixels in the in the in the image are mapped to one of those 16 values."
+  },
+  {
+    "start": 1590.28,
+    "end": 1597.48,
+    "text": "So each value in the image is now four bits. So a lot of compression."
+  },
+  {
+    "start": 1597.48,
+    "end": 1604.68,
+    "text": "I could see that there are artifacts. Um, but."
+  },
+  {
+    "start": 1604.68,
+    "end": 1611.87,
+    "text": "Depending upon what your output is or compression and the needs are, these things can be made to work and work really well."
+  },
+  {
+    "start": 1611.87,
+    "end": 1619.07,
+    "text": "What you're looking like across there. See if anyone has any questions."
+  },
+  {
+    "start": 1619.07,
+    "end": 1626.26,
+    "text": "Any questions where we want students or from in the class. All good."
+  },
+  {
+    "start": 1626.26,
+    "end": 1633.46,
+    "text": "Okay. Simple stuff so far. Okay. Now we come to the more, uh."
+  },
+  {
+    "start": 1633.46,
+    "end": 1640.66,
+    "text": "Involvement is, um. How do we decide?"
+  },
+  {
+    "start": 1640.66,
+    "end": 1647.85,
+    "text": "Um, you know. Uh, you know, um, you know, t and how to decide your beef."
+  },
+  {
+    "start": 1647.85,
+    "end": 1655.05,
+    "text": "But before that, let's get into a the next metric, uh, which is."
+  },
+  {
+    "start": 1655.05,
+    "end": 1662.24,
+    "text": "Um, which is the bitrate. Sampling and quantization together will bring you to an important metric in multimedia, which is called the bitrate,"
+  },
+  {
+    "start": 1662.24,
+    "end": 1669.44,
+    "text": "which is simply equal to the sampling rate times the quantization number of bits, which is equal to samples."
+  },
+  {
+    "start": 1669.44,
+    "end": 1676.63,
+    "text": "For second times bits."
+  },
+  {
+    "start": 1676.63,
+    "end": 1683.83,
+    "text": "Um. You know, it's samples for a second."
+  },
+  {
+    "start": 1683.83,
+    "end": 1691.03,
+    "text": "Bits for sample. So if you cross those two things out, you'll get bits of second."
+  },
+  {
+    "start": 1691.03,
+    "end": 1698.22,
+    "text": "Now if you go to some examples, you will see that in your bitrate."
+  },
+  {
+    "start": 1698.22,
+    "end": 1705.42,
+    "text": "Um. For example, if you hear something speech like human speech,"
+  },
+  {
+    "start": 1705.42,
+    "end": 1712.61,
+    "text": "this has a sampling rate of eight kilohertz and a bit rate of eight bits per sample, producing a bit rate of 64 beeps."
+  },
+  {
+    "start": 1712.61,
+    "end": 1719.81,
+    "text": "So quantization of eight bits per sample producing a bit rate of 64 gigs."
+  },
+  {
+    "start": 1719.81,
+    "end": 1727.01,
+    "text": "Your audio CD has got 44.1kHz for sampling rate, and each sample is represented by 16 bits."
+  },
+  {
+    "start": 1727.01,
+    "end": 1734.2,
+    "text": "When you multiply them out, you get 706 kilo bits per second for mono sound."
+  },
+  {
+    "start": 1734.2,
+    "end": 1741.4,
+    "text": "Or if it's a studio, then it's doubled to 1.4mbps."
+  },
+  {
+    "start": 1741.4,
+    "end": 1748.59,
+    "text": "Teleconferencing similarly has a bitrate with 16 bits per sample, producing a um, so sampling rate between bits per sample for a single pick."
+  },
+  {
+    "start": 1748.59,
+    "end": 1755.79,
+    "text": "So you can see in this table, depending on whether it's an image or a video or audio or low speed signal,"
+  },
+  {
+    "start": 1755.79,
+    "end": 1762.99,
+    "text": "you have various standards that that you and these standards and these numbers using are not arbitrary."
+  },
+  {
+    "start": 1762.99,
+    "end": 1770.18,
+    "text": "They have been arrived at with some constraints because this is besides your D, and this decides to be the number of bits."
+  },
+  {
+    "start": 1770.18,
+    "end": 1777.38,
+    "text": "Right. So now let's go to, um."
+  },
+  {
+    "start": 1777.38,
+    "end": 1784.57,
+    "text": "Then this is. How did I decide, you know. Okay."
+  },
+  {
+    "start": 1784.57,
+    "end": 1791.77,
+    "text": "Okay. So let's answer the next question, which is. How did you decide you did?"
+  },
+  {
+    "start": 1791.77,
+    "end": 1798.96,
+    "text": "So what should be the value of each?"
+  },
+  {
+    "start": 1798.96,
+    "end": 1806.16,
+    "text": "I'm. So let's take an example of a signal."
+  },
+  {
+    "start": 1806.16,
+    "end": 1813.36,
+    "text": "Let's say. If you have a constant signal."
+  },
+  {
+    "start": 1813.36,
+    "end": 1820.55,
+    "text": "How many samples do you need? So that you can reproduce the same signal properly in back when you transfer it to the analog domain."
+  },
+  {
+    "start": 1820.55,
+    "end": 1827.75,
+    "text": "Yes. Uh, if."
+  },
+  {
+    "start": 1827.75,
+    "end": 1834.94,
+    "text": "If you think about it, it's just going to be one sample. It doesn't matter what it is like."
+  },
+  {
+    "start": 1834.94,
+    "end": 1842.14,
+    "text": "You just need one sample. And this sample should be enough knowing that it's a constant signal, uh, to be able to reproduce the signal by."
+  },
+  {
+    "start": 1842.14,
+    "end": 1849.34,
+    "text": "What if it's, uh. What if it's a around?"
+  },
+  {
+    "start": 1849.34,
+    "end": 1856.53,
+    "text": "You need to have some all over the place. So again, you should think about the fact that it's a linear signal up here."
+  },
+  {
+    "start": 1856.53,
+    "end": 1863.73,
+    "text": "Then, um, you will see that, uh, you just need, um, maybe two samples somewhere."
+  },
+  {
+    "start": 1863.73,
+    "end": 1870.92,
+    "text": "It doesn't matter where."
+  },
+  {
+    "start": 1870.92,
+    "end": 1878.12,
+    "text": "And then when it's around the corner, you have two points, and then you can fit a linear line to it, and that should be sufficient."
+  },
+  {
+    "start": 1878.12,
+    "end": 1885.31,
+    "text": "But it starts getting more complex when things signal gets more arbitrary."
+  },
+  {
+    "start": 1885.31,
+    "end": 1892.51,
+    "text": "The first arbitrary signal I can think of, not an arbitrary, but at least a more regular signal, is a senior sign."
+  },
+  {
+    "start": 1892.51,
+    "end": 1899.71,
+    "text": "That said. So what should."
+  },
+  {
+    "start": 1899.71,
+    "end": 1906.9,
+    "text": "What version or sample this. If I let's see if I sample this."
+  },
+  {
+    "start": 1906.9,
+    "end": 1914.1,
+    "text": "Here, here, here and here."
+  },
+  {
+    "start": 1914.1,
+    "end": 1921.29,
+    "text": "Which is every, um. 80s apart."
+  },
+  {
+    "start": 1921.29,
+    "end": 1928.49,
+    "text": "Is this sufficient to reproduce this signal in the analog domain?"
+  },
+  {
+    "start": 1928.49,
+    "end": 1935.69,
+    "text": "Yes, you can yell in the glass. Yes."
+  },
+  {
+    "start": 1935.69,
+    "end": 1942.88,
+    "text": "On the looks of it, it seems sufficient because, um, yeah, you've captured the highlight points out here,"
+  },
+  {
+    "start": 1942.88,
+    "end": 1950.08,
+    "text": "and then you sort of interpolated this with a similar, you know, some kind of a curve."
+  },
+  {
+    "start": 1950.08,
+    "end": 1957.27,
+    "text": "You should be able to fit it properly. But this value of D."
+  },
+  {
+    "start": 1957.27,
+    "end": 1964.47,
+    "text": "Is really accidentally aligned in this case because you just managed to come to the right position."
+  },
+  {
+    "start": 1964.47,
+    "end": 1971.67,
+    "text": "What if this was not one of you didn't sample or did? What if you sampled somewhere at a different location?"
+  },
+  {
+    "start": 1971.67,
+    "end": 1978.86,
+    "text": "So let's say you sampled this is the original signal."
+  },
+  {
+    "start": 1978.86,
+    "end": 1986.06,
+    "text": "What have you sampled at, uh, let's say this location, which would give you this value and then exactly 10s apart."
+  },
+  {
+    "start": 1986.06,
+    "end": 1993.25,
+    "text": "You sampled it at this location, and then exactly three seconds apart, you sample data, this location,"
+  },
+  {
+    "start": 1993.25,
+    "end": 2000.45,
+    "text": "and in this case, the constructed signal would probably look like something like this."
+  },
+  {
+    "start": 2000.45,
+    "end": 2007.64,
+    "text": "Which is far away from the actual signal. So in this case, it works because you took a very specific location."
+  },
+  {
+    "start": 2007.64,
+    "end": 2014.84,
+    "text": "But in general, depending upon where you sample 50s apart, you are not going to get the same original signal back."
+  },
+  {
+    "start": 2014.84,
+    "end": 2022.04,
+    "text": "And then this brings us down to what should be."
+  },
+  {
+    "start": 2022.04,
+    "end": 2029.23,
+    "text": "What's your TV wear? What? What is this? Maximum? Uh, what is this optimal, uh, thing to one?"
+  },
+  {
+    "start": 2029.23,
+    "end": 2036.43,
+    "text": "To do this, we need to, uh, understand, um, very applicable, uh, theorem theory, uh,"
+  },
+  {
+    "start": 2036.43,
+    "end": 2043.62,
+    "text": "not just in signal processing, but it comes up in all over the place, which is your."
+  },
+  {
+    "start": 2043.62,
+    "end": 2050.82,
+    "text": "Here. Transform. Oh, and I asked you guys, how many of you have heard about the Fourier transform?"
+  },
+  {
+    "start": 2050.82,
+    "end": 2058.02,
+    "text": "I'm sure all of your hands are going to go. What if I take a vote on how many really understand the Fourier transform?"
+  },
+  {
+    "start": 2058.02,
+    "end": 2065.21,
+    "text": "And this is big because not only does signaling and signal processing do the Fourier transform,"
+  },
+  {
+    "start": 2065.21,
+    "end": 2072.41,
+    "text": "but since all the distribution channels are based on mPEG and Jpeg,"
+  },
+  {
+    "start": 2072.41,
+    "end": 2079.6,
+    "text": "which also deals with frequency spaces and by folio and discrete cosine transforms, come again?"
+  },
+  {
+    "start": 2079.6,
+    "end": 2086.8,
+    "text": "Um, that's an important place to really, you know, understand the value of it and how it works."
+  },
+  {
+    "start": 2086.8,
+    "end": 2093.99,
+    "text": "And now when it comes to digital rights management, because the distribution is in mPEG,"
+  },
+  {
+    "start": 2093.99,
+    "end": 2101.19,
+    "text": "which uses frequency spaces for its representation for compression,"
+  },
+  {
+    "start": 2101.19,
+    "end": 2108.39,
+    "text": "the digital rights management or the encryption and the watermarking algorithms that are used."
+  },
+  {
+    "start": 2108.39,
+    "end": 2115.58,
+    "text": "They also take into account. Um missed a few years contribution."
+  },
+  {
+    "start": 2115.58,
+    "end": 2122.78,
+    "text": "And so understanding Fourier transform and understanding actually um frequency base frequency space representations."
+  },
+  {
+    "start": 2122.78,
+    "end": 2129.97,
+    "text": "It's pretty cool to the understanding of, of of all these, uh, media related signals."
+  },
+  {
+    "start": 2129.97,
+    "end": 2137.17,
+    "text": "Um. So I think we should take some time to understand intuitively what is happening here."
+  },
+  {
+    "start": 2137.17,
+    "end": 2144.37,
+    "text": "Okay. Uh, so simply put, um, in the Fourier transform, what you proposed was, uh, given any signal f of t."
+  },
+  {
+    "start": 2144.37,
+    "end": 2151.56,
+    "text": "Um. This signal F of B can be composed of a summation of, uh, what I, uh, I sign I omega t."
+  },
+  {
+    "start": 2151.56,
+    "end": 2158.76,
+    "text": "Plus. Um summation over I again of VI cos I omega t."
+  },
+  {
+    "start": 2158.76,
+    "end": 2165.95,
+    "text": "And Omega is nothing but a function."
+  },
+  {
+    "start": 2165.95,
+    "end": 2173.15,
+    "text": "Of your, um, sampling period. Now let's simplify this, and let's think a little bit more of an intuitive understanding into this."
+  },
+  {
+    "start": 2173.15,
+    "end": 2180.34,
+    "text": "Now you know that sine and cosine functions are really the same."
+  },
+  {
+    "start": 2180.34,
+    "end": 2187.54,
+    "text": "They're just phase shifting. So whatever is applicable for the two of this together should be applicable for sine alone and for cosine alone also."
+  },
+  {
+    "start": 2187.54,
+    "end": 2194.74,
+    "text": "Uh so yeah let's do that. So you know in general you can say."
+  },
+  {
+    "start": 2194.74,
+    "end": 2201.93,
+    "text": "PhD. If you just think of the cosine does the cosine problems."
+  },
+  {
+    "start": 2201.93,
+    "end": 2209.13,
+    "text": "Then this should be represented as a summation of this which is equal to b zero"
+  },
+  {
+    "start": 2209.13,
+    "end": 2216.32,
+    "text": "cos zero omega t plus b one cos one omega t plus b two cos two omega t plus so on."
+  },
+  {
+    "start": 2216.32,
+    "end": 2223.52,
+    "text": "Or in other words it's just b zero plus b one cross omega t plus the two."
+  },
+  {
+    "start": 2223.52,
+    "end": 2230.72,
+    "text": "Of course two omega t plus. So off."
+  },
+  {
+    "start": 2230.72,
+    "end": 2237.91,
+    "text": "You with me so far. I can't see you guys."
+  },
+  {
+    "start": 2237.91,
+    "end": 2245.11,
+    "text": "So let's. If not, raise your hands or write something in the um."
+  },
+  {
+    "start": 2245.11,
+    "end": 2252.3,
+    "text": "You are supposed. So what does this mean geometrically when you think about this representation?"
+  },
+  {
+    "start": 2252.3,
+    "end": 2259.5,
+    "text": "So if you had a function which was something like this and this is your PhD."
+  },
+  {
+    "start": 2259.5,
+    "end": 2266.7,
+    "text": "Right. What this equation is saying is this is equal to."
+  },
+  {
+    "start": 2266.7,
+    "end": 2273.89,
+    "text": "We zero times a constant value cos zero is one."
+  },
+  {
+    "start": 2273.89,
+    "end": 2281.09,
+    "text": "Yeah, plus B1 times."
+  },
+  {
+    "start": 2281.09,
+    "end": 2288.28,
+    "text": "Cost of omega T. So this is going to be. Plus be two times."
+  },
+  {
+    "start": 2288.28,
+    "end": 2295.48,
+    "text": "Cost of two omega T, which is going to be. Plus be three times cost of three."
+  },
+  {
+    "start": 2295.48,
+    "end": 2302.67,
+    "text": "So essentially what it's saying is given at. You did the same thing."
+  },
+  {
+    "start": 2302.67,
+    "end": 2309.87,
+    "text": "On all these sides. Right."
+  },
+  {
+    "start": 2309.87,
+    "end": 2317.07,
+    "text": "You think the value of. Uh b zero times."
+  },
+  {
+    "start": 2317.07,
+    "end": 2324.26,
+    "text": "This is one. And that is because there is one. So f of t."
+  },
+  {
+    "start": 2324.26,
+    "end": 2331.46,
+    "text": "Is equal to b zero plus b one times cos of omega t."
+  },
+  {
+    "start": 2331.46,
+    "end": 2338.65,
+    "text": "If you call this let's call this specific d. Let's call this uh d zero."
+  },
+  {
+    "start": 2338.65,
+    "end": 2345.85,
+    "text": "D zero. Cross. Cross Omega T zero v2 cross."
+  },
+  {
+    "start": 2345.85,
+    "end": 2353.05,
+    "text": "Of. 2.30 plus four."
+  },
+  {
+    "start": 2353.05,
+    "end": 2360.24,
+    "text": "So we'll get to what the b0, b1, b2 are. But looking at this representation."
+  },
+  {
+    "start": 2360.24,
+    "end": 2367.44,
+    "text": "This should be pretty familiar to you. And in other domains like for example, if you had a three dimensional point."
+  },
+  {
+    "start": 2367.44,
+    "end": 2374.63,
+    "text": "How would you represent a 3D viewpoint? You have the point represented as x, y, z which are three coordinates, and you represent this point."
+  },
+  {
+    "start": 2374.63,
+    "end": 2381.83,
+    "text": "And if you remember, your coordinate geometry is x dot I plus y times g plus z times scale."
+  },
+  {
+    "start": 2381.83,
+    "end": 2389.02,
+    "text": "IJK are the linearly independent vectors that describe 3D space."
+  },
+  {
+    "start": 2389.02,
+    "end": 2396.22,
+    "text": "And x, y, z are the coordinates given an origin that can describe where the point B is along the, along with the ijk independent vectors."
+  },
+  {
+    "start": 2396.22,
+    "end": 2403.42,
+    "text": "So this ijk uh the basis vectors."
+  },
+  {
+    "start": 2403.42,
+    "end": 2410.61,
+    "text": "So you can see I j. And qui are the basis."
+  },
+  {
+    "start": 2410.61,
+    "end": 2417.81,
+    "text": "Vectors. And x, y, z."
+  },
+  {
+    "start": 2417.81,
+    "end": 2425.0,
+    "text": "Uh. The coordinates. What you're seeing on the left hand side is very similar."
+  },
+  {
+    "start": 2425.0,
+    "end": 2432.2,
+    "text": "They'll as you described. In 3D space any point P."
+  },
+  {
+    "start": 2432.2,
+    "end": 2439.4,
+    "text": "With coordinates x, y, z can be described by the following equation or ijk of the basis vectors and the basis vectors are known, right?"
+  },
+  {
+    "start": 2439.4,
+    "end": 2446.59,
+    "text": "It's either a direction the x is a unit vector in the x direction of J's unit vector in the y direction."
+  },
+  {
+    "start": 2446.59,
+    "end": 2453.79,
+    "text": "K is an effect in the z direction in a similar way in the space of of frequencies."
+  },
+  {
+    "start": 2453.79,
+    "end": 2460.98,
+    "text": "Any single NFT can be described by."
+  },
+  {
+    "start": 2460.98,
+    "end": 2468.18,
+    "text": "A weighted combination. Given the coordinates, B will be zero, b1, and b2."
+  },
+  {
+    "start": 2468.18,
+    "end": 2475.38,
+    "text": "Just as you explained the same rule, a weighted combination of coordinates times the basis frequency vectors."
+  },
+  {
+    "start": 2475.38,
+    "end": 2482.57,
+    "text": "Okay, now the frequency vectors are also running. This is a course omega T, given that T is fixed."
+  },
+  {
+    "start": 2482.57,
+    "end": 2489.77,
+    "text": "You know, your, um your this period omega is fixed."
+  },
+  {
+    "start": 2489.77,
+    "end": 2496.96,
+    "text": "This is fixed. This is fixed and costs two cross three omega T is also fixed and so on."
+  },
+  {
+    "start": 2496.96,
+    "end": 2504.16,
+    "text": "So this is again the same in the same vein, trying to tell you that any function can be expressed as a linear combination of basis functions."
+  },
+  {
+    "start": 2504.16,
+    "end": 2511.35,
+    "text": "Which spanned the frequency space."
+  },
+  {
+    "start": 2511.35,
+    "end": 2518.55,
+    "text": "And these coordinates b0, b1, and p2 give the contributions of those functions or the contributions of excuse the contribution along the y axis,"
+  },
+  {
+    "start": 2518.55,
+    "end": 2525.75,
+    "text": "y of the contribution of the axes by g unit vector z gives the contribution of the Kenan affected the some other way."
+  },
+  {
+    "start": 2525.75,
+    "end": 2532.94,
+    "text": "B0 gives the contribution along the um."
+  },
+  {
+    "start": 2532.94,
+    "end": 2540.14,
+    "text": "The amount of energy that is given by a basis function is given by its coordinate, and this coordinate b is."
+  },
+  {
+    "start": 2540.14,
+    "end": 2547.33,
+    "text": "Simply calculated as integral minus infinity to infinity, um of um."
+  },
+  {
+    "start": 2547.33,
+    "end": 2554.53,
+    "text": "Of. PhD. Cross of I, Omega Dee dee dee, whatever."
+  },
+  {
+    "start": 2554.53,
+    "end": 2561.73,
+    "text": "Is that ever in the signal for this frequency I omega."
+  },
+  {
+    "start": 2561.73,
+    "end": 2568.92,
+    "text": "Appears. Sum that amount of contribution up to give a weight to it, which is you by."
+  },
+  {
+    "start": 2568.92,
+    "end": 2576.12,
+    "text": "Okay. So let me take a pause here and ask if there are any questions."
+  },
+  {
+    "start": 2576.12,
+    "end": 2583.31,
+    "text": "Questions. Have you understood?"
+  },
+  {
+    "start": 2583.31,
+    "end": 2590.51,
+    "text": "The concept of any function can be represented in the land of frequency spaces."
+  },
+  {
+    "start": 2590.51,
+    "end": 2597.7,
+    "text": "As a linear combination of weighted sums of basis frequencies."
+  },
+  {
+    "start": 2597.7,
+    "end": 2604.9,
+    "text": "Yes. Raise your hands if you have understood this."
+  },
+  {
+    "start": 2604.9,
+    "end": 2612.1,
+    "text": "Who? Okay. Uh, but it does beg some discussion."
+  },
+  {
+    "start": 2612.1,
+    "end": 2619.29,
+    "text": "Um. So when fully actually."
+  },
+  {
+    "start": 2619.29,
+    "end": 2626.49,
+    "text": "Discovered the strange relationship that any function is a sum of cosines or weighted sum of cosine."
+  },
+  {
+    "start": 2626.49,
+    "end": 2633.68,
+    "text": "So we did some of science. What was he trying to solve?"
+  },
+  {
+    "start": 2633.68,
+    "end": 2640.88,
+    "text": "You didn't this. Magically just remember this. I was trying to solve something."
+  },
+  {
+    "start": 2640.88,
+    "end": 2648.08,
+    "text": "It was heat transfer. In the early, uh."
+  },
+  {
+    "start": 2648.08,
+    "end": 2655.27,
+    "text": "In the early 1800s. Uh, this was a problem that was, uh, you know, trying to."
+  },
+  {
+    "start": 2655.27,
+    "end": 2662.47,
+    "text": "Um, was eluding a lot of the mathematicians and physicists of those at that time."
+  },
+  {
+    "start": 2662.47,
+    "end": 2669.66,
+    "text": "Well, how do you come up with the way,"
+  },
+  {
+    "start": 2669.66,
+    "end": 2676.86,
+    "text": "a formal way of describing how he travels through a rod or a blade where one side is heated and you want to find out the temperature?"
+  },
+  {
+    "start": 2676.86,
+    "end": 2684.06,
+    "text": "Uh, at some point along the road, at some point along the plate. And to be able to predict that correctly."
+  },
+  {
+    "start": 2684.06,
+    "end": 2691.25,
+    "text": "Uh full-year. How to design. Um. This theorem, where he shows that, um, any function functional of heat."
+  },
+  {
+    "start": 2691.25,
+    "end": 2698.45,
+    "text": "In this case could be represented as a sum of cosines and sines, and so over time or over distance,"
+  },
+  {
+    "start": 2698.45,
+    "end": 2705.64,
+    "text": "when you plug in the right values of d or the right values of x and y for the two dimensional function, then you get the actual value computed."
+  },
+  {
+    "start": 2705.64,
+    "end": 2712.84,
+    "text": "But the strange thing about this is when you propose."
+  },
+  {
+    "start": 2712.84,
+    "end": 2720.03,
+    "text": "He proposes for his thesis. Um, and his, um."
+  },
+  {
+    "start": 2720.03,
+    "end": 2727.23,
+    "text": "She says. Advisers who were actually grappling with what is this and how do we understand this were none other than, um, Lagrange."
+  },
+  {
+    "start": 2727.23,
+    "end": 2734.43,
+    "text": "The plus. Monge. And these mathematicians are greedy bigwigs of his time."
+  },
+  {
+    "start": 2734.43,
+    "end": 2741.62,
+    "text": "Not just his time. Of all the times. Imagine, as a student, you grew good in front of a committee that comprises of Laplace and Lagrange."
+  },
+  {
+    "start": 2741.62,
+    "end": 2748.82,
+    "text": "So obviously at first sight, you know, they did not accept his, uh, his contribution and his, uh, because there are many questions."
+  },
+  {
+    "start": 2748.82,
+    "end": 2756.01,
+    "text": "Does this work in all cases? Does it work when, uh, when the function is discontinuous?"
+  },
+  {
+    "start": 2756.01,
+    "end": 2763.21,
+    "text": "Does it work when a function is is broken up?"
+  },
+  {
+    "start": 2763.21,
+    "end": 2770.41,
+    "text": "Uh, what happens?"
+  },
+  {
+    "start": 2770.41,
+    "end": 2777.6,
+    "text": "Uh, I mean, lots of exceptions, uh, and, uh, and I think when it was proposed, it wasn't like, you know, beginning in the like it should be."
+  },
+  {
+    "start": 2777.6,
+    "end": 2784.8,
+    "text": "But then after about another five years of work for you, approve."
+  },
+  {
+    "start": 2784.8,
+    "end": 2791.99,
+    "text": "That doesn't matter. Whatever the function is, it could be continuous, discontinuous, broken."
+  },
+  {
+    "start": 2791.99,
+    "end": 2799.19,
+    "text": "Um, c1 continuous, C2 continuous."
+  },
+  {
+    "start": 2799.19,
+    "end": 2806.38,
+    "text": "Uh, it still works. You could still figure out, uh, what the frequencies on, uh, what are the frequencies needed to approximate that signal?"
+  },
+  {
+    "start": 2806.38,
+    "end": 2813.58,
+    "text": "It turns out that if it was a continuous signal, then you have less frequencies that approximate it."
+  },
+  {
+    "start": 2813.58,
+    "end": 2820.78,
+    "text": "If it's a discontinuous signal, then you probably have infinite frequencies that include the approximate."
+  },
+  {
+    "start": 2820.78,
+    "end": 2827.97,
+    "text": "Um, but overall, yeah, he was able to convince his, uh, his, uh, uh, his committee and,"
+  },
+  {
+    "start": 2827.97,
+    "end": 2835.17,
+    "text": "um, although it was not for signal processing at that point of time,"
+  },
+  {
+    "start": 2835.17,
+    "end": 2842.36,
+    "text": "this whole theorem has become pretty crucial to the crucial contribution to mathematics and thereby to other subjects which he was and understand,"
+  },
+  {
+    "start": 2842.36,
+    "end": 2849.56,
+    "text": "uh, analyze, cause and analyze from uh, and his students."
+  },
+  {
+    "start": 2849.56,
+    "end": 2856.76,
+    "text": "Students test of time."
+  },
+  {
+    "start": 2856.76,
+    "end": 2863.95,
+    "text": "So I think it's I mean, the story is well worth it to understand, you know, how this theorem got into into practice and its usefulness."
+  },
+  {
+    "start": 2863.95,
+    "end": 2871.15,
+    "text": "Um. Yeah."
+  },
+  {
+    "start": 2871.15,
+    "end": 2878.34,
+    "text": "So, um. So in the in one of the upcoming lectures."
+  },
+  {
+    "start": 2878.34,
+    "end": 2885.54,
+    "text": "I'll go into more details with this because we need it for understanding compression."
+  },
+  {
+    "start": 2885.54,
+    "end": 2892.73,
+    "text": "Um, I'll bring up some applications, uh, apps that detail in one dimension and two dimensions."
+  },
+  {
+    "start": 2892.73,
+    "end": 2899.93,
+    "text": "Exactly how this works is computed. And you get a far better visual understanding."
+  },
+  {
+    "start": 2899.93,
+    "end": 2907.13,
+    "text": "But for now, in today's just to understand that every frequency or every signal that you want to digitize is composed of many frequencies."
+  },
+  {
+    "start": 2907.13,
+    "end": 2914.32,
+    "text": "And so, um. If you can find out the maximum frequency in the signal, then that will allow us to, uh, figure out how to digitize the signal."
+  },
+  {
+    "start": 2914.32,
+    "end": 2921.52,
+    "text": "Um. So let's take an example of what Fourier transforms do."
+  },
+  {
+    "start": 2921.52,
+    "end": 2928.71,
+    "text": "Oh. You see the lines here? Raise your hands if you can."
+  },
+  {
+    "start": 2928.71,
+    "end": 2935.91,
+    "text": "Yeah. So on the top you have X1, which is a signal of a particular frequency."
+  },
+  {
+    "start": 2935.91,
+    "end": 2943.11,
+    "text": "Yes, the amplitude is changing over time, but it's a signal on a specific frequency."
+  },
+  {
+    "start": 2943.11,
+    "end": 2950.3,
+    "text": "So if you did a Fourier transform of that. That's the output you see on the right."
+  },
+  {
+    "start": 2950.3,
+    "end": 2957.5,
+    "text": "What is this output? What is the signal on the left? Signal?"
+  },
+  {
+    "start": 2957.5,
+    "end": 2964.69,
+    "text": "It's on the x axis. This time on the y axis is the amplitude."
+  },
+  {
+    "start": 2964.69,
+    "end": 2971.89,
+    "text": "Right? Uh, so over time, you see how the signal takers. On the Fourier transform site, which is of the right use on the x axis."
+  },
+  {
+    "start": 2971.89,
+    "end": 2979.09,
+    "text": "You see that you see all the frequencies frequencies starting from 0 to 1 to 1 to 50, 100, 1000, and so on and so forth."
+  },
+  {
+    "start": 2979.09,
+    "end": 2986.28,
+    "text": "Right and on the y axis for each frequency is the contribution of the frequency the b0, b1, b2, beis, and so on."
+  },
+  {
+    "start": 2986.28,
+    "end": 2993.48,
+    "text": "So what this is saying is that for this signal which is changing in this, in this manner,"
+  },
+  {
+    "start": 2993.48,
+    "end": 3000.67,
+    "text": "I mean, it's crossing the, uh, the x axis at a distinct amount of time as you see out here."
+  },
+  {
+    "start": 3000.67,
+    "end": 3007.87,
+    "text": "The beaches are B zero is zero, B one is zero, B two is zero, P30 all the way until maybe B 50 is where the value is 300 and something."
+  },
+  {
+    "start": 3007.87,
+    "end": 3015.06,
+    "text": "220. And the 51 is zero and all the other by zero."
+  },
+  {
+    "start": 3015.06,
+    "end": 3022.26,
+    "text": "If you look at this other signal, x2 or the bottom,"
+  },
+  {
+    "start": 3022.26,
+    "end": 3029.46,
+    "text": "and if you look at how it's changing and how densely that is, you know, going across the x axis, um."
+  },
+  {
+    "start": 3029.46,
+    "end": 3036.65,
+    "text": "With a higher frequency, presumably, and a bit of Fourier transform on it."
+  },
+  {
+    "start": 3036.65,
+    "end": 3043.85,
+    "text": "You see that it peaks at the actual frequency, which is probably around this, I'm going to guess, or 800 or 750 out here."
+  },
+  {
+    "start": 3043.85,
+    "end": 3051.04,
+    "text": "All right. But all the other frequency coefficients are zeros, because this is a frequency."
+  },
+  {
+    "start": 3051.04,
+    "end": 3058.24,
+    "text": "This is a signal made of just one frequency. If you take a combination, if you take x1 and x2 and add them together, which is what you want."
+  },
+  {
+    "start": 3058.24,
+    "end": 3065.44,
+    "text": "I'm just going to jump ahead a bit. Um. Yeah."
+  },
+  {
+    "start": 3065.44,
+    "end": 3072.63,
+    "text": "If you add x1 and x2 together. You will see that it looks like the following."
+  },
+  {
+    "start": 3072.63,
+    "end": 3079.83,
+    "text": "And if you pass this through a Fourier analysis and got the frequency coefficients and you plotted them,"
+  },
+  {
+    "start": 3079.83,
+    "end": 3087.02,
+    "text": "you will see that the Fourier output gives you two peaks at the two different frequencies that comprise a single."
+  },
+  {
+    "start": 3087.02,
+    "end": 3094.22,
+    "text": "And in general, when we take any arbitrary signal that you record."
+  },
+  {
+    "start": 3094.22,
+    "end": 3101.41,
+    "text": "It's going to be of arbitrary shape. You're going to have many frequencies."
+  },
+  {
+    "start": 3101.41,
+    "end": 3108.61,
+    "text": "Some are going to be zero, some are going to be non zero. For sampling reasons."
+  },
+  {
+    "start": 3108.61,
+    "end": 3115.81,
+    "text": "To decide your tea, you want to find out the maximal signal whose frequency is non-zero."
+  },
+  {
+    "start": 3115.81,
+    "end": 3123.0,
+    "text": "Also whose value is non-zero on the on the on the Fourier transform sign."
+  },
+  {
+    "start": 3123.0,
+    "end": 3130.2,
+    "text": "So take a Fourier transform and you'll see peaks at various point."
+  },
+  {
+    "start": 3130.2,
+    "end": 3137.39,
+    "text": "Go to the last the highest frequency at which the signal is non-zero."
+  },
+  {
+    "start": 3137.39,
+    "end": 3144.59,
+    "text": "Um, given that frequency, you will need to sample at more than twice that frequency."
+  },
+  {
+    "start": 3144.59,
+    "end": 3151.79,
+    "text": "This is the Nyquist sampling theory to decide what your p value should be."
+  },
+  {
+    "start": 3151.79,
+    "end": 3158.98,
+    "text": "You. Um. Sorry for scrolling up your eyes."
+  },
+  {
+    "start": 3158.98,
+    "end": 3166.18,
+    "text": "Yeah. So the Fourier transform is very useful because given any signal that you want to capture."
+  },
+  {
+    "start": 3166.18,
+    "end": 3173.37,
+    "text": "You want to see that another important thing, something that you can take away from this class is."
+  },
+  {
+    "start": 3173.37,
+    "end": 3180.57,
+    "text": "The world. In which you and I live is not filled with random signals."
+  },
+  {
+    "start": 3180.57,
+    "end": 3187.77,
+    "text": "If it was random, and with the Fourier analysis of a random signal, you get all the frequencies present."
+  },
+  {
+    "start": 3187.77,
+    "end": 3194.96,
+    "text": "What's noise? But we have evolved to understand a structured world around us and the structured world with all its biases and its kind of,"
+  },
+  {
+    "start": 3194.96,
+    "end": 3202.16,
+    "text": "you know, uh, lack of randomness. Is very structured and not all frequencies are going to be present in any signal."
+  },
+  {
+    "start": 3202.16,
+    "end": 3209.35,
+    "text": "Because of that structure, and because of the fact that only a few frequencies might comprise that signal,"
+  },
+  {
+    "start": 3209.35,
+    "end": 3216.55,
+    "text": "doing a Fourier transform on that signal gives you the maximum frequency in that signal, and it tells you how do you."
+  },
+  {
+    "start": 3216.55,
+    "end": 3223.74,
+    "text": "Sample that signal. So, for example, the human voice."
+  },
+  {
+    "start": 3223.74,
+    "end": 3230.94,
+    "text": "It's produced by the likes. The larynx."
+  },
+  {
+    "start": 3230.94,
+    "end": 3238.14,
+    "text": "Whether it's a male or female human. It doesn't matter how loud you shout or how strange you sound."
+  },
+  {
+    "start": 3238.14,
+    "end": 3245.33,
+    "text": "The maximum frequency that a larynx can produce, because it is a mechanical biological device, is just four kilohertz."
+  },
+  {
+    "start": 3245.33,
+    "end": 3252.53,
+    "text": "You take anybody's sound and you do a Fourier analysis on it."
+  },
+  {
+    "start": 3252.53,
+    "end": 3259.72,
+    "text": "You'll see that the maximum frequency that there can be is only up to four kilohertz."
+  },
+  {
+    "start": 3259.72,
+    "end": 3266.92,
+    "text": "Okay. And so if that's the case, then you can sample the signal at twice that eight kilohertz."
+  },
+  {
+    "start": 3266.92,
+    "end": 3274.12,
+    "text": "And you can capture all the different details of frequencies in that signal. And so when you go to."
+  },
+  {
+    "start": 3274.12,
+    "end": 3281.31,
+    "text": "The stable back again. And you see these numbers?"
+  },
+  {
+    "start": 3281.31,
+    "end": 3288.51,
+    "text": "Eight kilohertz, 44.1 K. These numbers are there for a specific reason."
+  },
+  {
+    "start": 3288.51,
+    "end": 3295.7,
+    "text": "For the human voice. For speech. I just told you that the lyrics can't produce more than four kilohertz of sampling frequency."
+  },
+  {
+    "start": 3295.7,
+    "end": 3302.9,
+    "text": "And therefore, by the Nyquist theorem,"
+  },
+  {
+    "start": 3302.9,
+    "end": 3310.09,
+    "text": "you want to sample at more than twice the frequencies to be able to reproduce the signal back in the analog domain at the same without any loss of,"
+  },
+  {
+    "start": 3310.09,
+    "end": 3317.29,
+    "text": "uh, loss of error. The audio CD is 44.1kHz."
+  },
+  {
+    "start": 3317.29,
+    "end": 3324.49,
+    "text": "Why is it 44.1? One second."
+  },
+  {
+    "start": 3324.49,
+    "end": 3331.68,
+    "text": "The dense stuff to the shirt content is blocked by a secondary shared application."
+  },
+  {
+    "start": 3331.68,
+    "end": 3338.88,
+    "text": "Can you share? Can you see my shared content? On the screen."
+  },
+  {
+    "start": 3338.88,
+    "end": 3346.07,
+    "text": "Okay. All right."
+  },
+  {
+    "start": 3346.07,
+    "end": 3353.27,
+    "text": "Thank you guys for the feedback. Um. Yeah, for the Audio City."
+  },
+  {
+    "start": 3353.27,
+    "end": 3360.47,
+    "text": "Why is this, like 44 different? It's because the ultimate consumer of any sound signal is your human ear."
+  },
+  {
+    "start": 3360.47,
+    "end": 3367.66,
+    "text": "And the human ear, just as your larynx is, also has also has, um, capabilities and shortcomings."
+  },
+  {
+    "start": 3367.66,
+    "end": 3374.86,
+    "text": "It cannot hear anything that is above 20kHz."
+  },
+  {
+    "start": 3374.86,
+    "end": 3382.05,
+    "text": "In fact, your ear is is operational."
+  },
+  {
+    "start": 3382.05,
+    "end": 3389.25,
+    "text": "You can hear things. Uh, between 20Hz to 20kHz."
+  },
+  {
+    "start": 3389.25,
+    "end": 3396.45,
+    "text": "If you cannot hear anything about 20kHz, then why bother?"
+  },
+  {
+    "start": 3396.45,
+    "end": 3403.64,
+    "text": "Do we want to capture that signal? So you should actually sample at twice that rate if you want to sample music or you know somebody"
+  },
+  {
+    "start": 3403.64,
+    "end": 3410.84,
+    "text": "who's playing a guitar sound or somebody singing with the guitar or with the music in the background."
+  },
+  {
+    "start": 3410.84,
+    "end": 3418.03,
+    "text": "You want to sample that at twice the human threshold of a frequency listing of 12, which is twice two times 20, which is 40kg."
+  },
+  {
+    "start": 3418.03,
+    "end": 3425.23,
+    "text": "So this number would have been sufficient if it was 40. But it's just 44.1 for standard services."
+  },
+  {
+    "start": 3425.23,
+    "end": 3432.42,
+    "text": "And for some, you know, variability and error at the, at the, at the, at the high levels of particulates."
+  },
+  {
+    "start": 3432.42,
+    "end": 3439.62,
+    "text": "So this column. There is a reason why each number is what it is."
+  },
+  {
+    "start": 3439.62,
+    "end": 3446.82,
+    "text": "This column is also a reason for why this number is that it is."
+  },
+  {
+    "start": 3446.82,
+    "end": 3454.01,
+    "text": "Okay. Um. How do you fix quantization beam?"
+  },
+  {
+    "start": 3454.01,
+    "end": 3461.21,
+    "text": "Again, it's to do with perception. You can. At some point of time, when you start adding more and more bits to your samples in your representation,"
+  },
+  {
+    "start": 3461.21,
+    "end": 3468.4,
+    "text": "you're going to come to a point where adding more bits is not going to change your perceived value."
+  },
+  {
+    "start": 3468.4,
+    "end": 3475.6,
+    "text": "They'll always be a loss in the signal. To get the signal, to be exact."
+  },
+  {
+    "start": 3475.6,
+    "end": 3482.8,
+    "text": "You get an infinite precision of bits. But what?"
+  },
+  {
+    "start": 3482.8,
+    "end": 3489.99,
+    "text": "B is tolerable enough so that your perception does not make all the difference between the original and the sample."
+  },
+  {
+    "start": 3489.99,
+    "end": 3497.19,
+    "text": "That is what you want to work with. So for speech is in bits adding it, adding more bits, nine bits per sample,"
+  },
+  {
+    "start": 3497.19,
+    "end": 3504.38,
+    "text": "converts for sample and then converting the signal back in the analog domain. You will find no difference."
+  },
+  {
+    "start": 3504.38,
+    "end": 3511.58,
+    "text": "And so you just think that minimal amount required so that your perception does not make all the difference."
+  },
+  {
+    "start": 3511.58,
+    "end": 3518.77,
+    "text": "For audio since is high much more high dynamic range."
+  },
+  {
+    "start": 3518.77,
+    "end": 3525.97,
+    "text": "And so you required, uh, more precision."
+  },
+  {
+    "start": 3525.97,
+    "end": 3533.17,
+    "text": "And that's why you would have 16 bits percent. And see with all the numbers that you see."
+  },
+  {
+    "start": 3533.17,
+    "end": 3540.36,
+    "text": "Okay. And we'll come across we'll see why these are as this 12 to 16 seven in the second half of the lecture."
+  },
+  {
+    "start": 3540.36,
+    "end": 3547.56,
+    "text": "Okay. The one thing I. I need to, um."
+  },
+  {
+    "start": 3547.56,
+    "end": 3554.75,
+    "text": "It was over for you guys. Uh, in the interest of, uh, full, um."
+  },
+  {
+    "start": 3554.75,
+    "end": 3561.95,
+    "text": "Capabilities of what signals do, because to tell you that we can do this sampling and quantization to come up with a digital signal."
+  },
+  {
+    "start": 3561.95,
+    "end": 3569.15,
+    "text": "Um. The whole process of digitization, sampling and quantization because, I mean,"
+  },
+  {
+    "start": 3569.15,
+    "end": 3576.34,
+    "text": "that'll only work when our worlds and our and our recording instruments are LTI systems."
+  },
+  {
+    "start": 3576.34,
+    "end": 3583.54,
+    "text": "You know, if you are, uh, signal processing student or have taken any course in that, you will know what LTI is and stands for linear."
+  },
+  {
+    "start": 3583.54,
+    "end": 3590.73,
+    "text": "Time invariant systems. I'll just give you a brief closure on this."
+  },
+  {
+    "start": 3590.73,
+    "end": 3597.93,
+    "text": "This is. Um."
+  },
+  {
+    "start": 3597.93,
+    "end": 3605.12,
+    "text": "For any system if you have an analog signal. Next."
+  },
+  {
+    "start": 3605.12,
+    "end": 3612.32,
+    "text": "That needs to be digitized and produces an output quality."
+  },
+  {
+    "start": 3612.32,
+    "end": 3619.52,
+    "text": "On a sample, not with a bias. As long as this system is linear time invariant, you can do some sampling and quantization."
+  },
+  {
+    "start": 3619.52,
+    "end": 3626.71,
+    "text": "And what that means is if your, um."
+  },
+  {
+    "start": 3626.71,
+    "end": 3633.91,
+    "text": "If your input is, uh, x1, add some."
+  },
+  {
+    "start": 3633.91,
+    "end": 3641.1,
+    "text": "Let's say if your input is f0. So I'm just going to call x1 is equal to x of t one."
+  },
+  {
+    "start": 3641.1,
+    "end": 3648.3,
+    "text": "And x2 is equal to. X of T two."
+  },
+  {
+    "start": 3648.3,
+    "end": 3655.5,
+    "text": "Um, if your input is going to be x one. Then f of x one will give rise to y one, as the output f of x two will give rise to y two as the output."
+  },
+  {
+    "start": 3655.5,
+    "end": 3662.69,
+    "text": "The linear part of it is saying that if your input becomes f of c one times x1 plus c two times x2."
+  },
+  {
+    "start": 3662.69,
+    "end": 3669.89,
+    "text": "Then your output should be c1 times y1 plus c2 times y2."
+  },
+  {
+    "start": 3669.89,
+    "end": 3677.08,
+    "text": "Then it's linear. And if it's linear, then you can sample and quantize."
+  },
+  {
+    "start": 3677.08,
+    "end": 3684.28,
+    "text": "Time invariant, as the name suggests, is that if you go about sampling the signal at that time instant, then the value that you're giving to it,"
+  },
+  {
+    "start": 3684.28,
+    "end": 3691.48,
+    "text": "or the value of that signal that you're that you're just seeing is dependent on only that time instant."
+  },
+  {
+    "start": 3691.48,
+    "end": 3698.67,
+    "text": "It's not dependent because of the contribution of that signal from the future, or from the contribution from the signal from the past."
+  },
+  {
+    "start": 3698.67,
+    "end": 3705.87,
+    "text": "It's only at that time, instant and instantaneous, that you can, uh, that you can, you can, you can, um."
+  },
+  {
+    "start": 3705.87,
+    "end": 3713.06,
+    "text": "You would have value, right? Um. So as long as it's linear and time invariant,"
+  },
+  {
+    "start": 3713.06,
+    "end": 3720.26,
+    "text": "you can take a delta function and convolve it with the actual signal to get a value, which can then be your sample value."
+  },
+  {
+    "start": 3720.26,
+    "end": 3727.45,
+    "text": "To get into this a little bit further. If you have a function y equal to k x."
+  },
+  {
+    "start": 3727.45,
+    "end": 3734.65,
+    "text": "Is this a linear function? Jesus Christ."
+  },
+  {
+    "start": 3734.65,
+    "end": 3741.85,
+    "text": "Look at. Well, yeah, it's a line passing through the origin."
+  },
+  {
+    "start": 3741.85,
+    "end": 3749.04,
+    "text": "So yes, it is linear because you can find out that in this case that uh, uh y1 is equal to k x1, y2 is equal to k x2."
+  },
+  {
+    "start": 3749.04,
+    "end": 3756.24,
+    "text": "Uh, then if you see, um."
+  },
+  {
+    "start": 3756.24,
+    "end": 3763.43,
+    "text": "Uh uh uh. The combination of these two, which is going to be gigs one plus gigs two."
+  },
+  {
+    "start": 3763.43,
+    "end": 3770.63,
+    "text": "S equal to k into x1 plus x2. And this is equal to."
+  },
+  {
+    "start": 3770.63,
+    "end": 3777.83,
+    "text": "21 plus one. Two. Right. So if you have an input which is x1 plus x2."
+  },
+  {
+    "start": 3777.83,
+    "end": 3785.02,
+    "text": "It's a combined sum of y one plus y. What about, uh, the system?"
+  },
+  {
+    "start": 3785.02,
+    "end": 3792.22,
+    "text": "Uh, do I equal to x squared? Is this a linear system?"
+  },
+  {
+    "start": 3792.22,
+    "end": 3799.41,
+    "text": "Well, it should not be because it's got the exponent in it, right."
+  },
+  {
+    "start": 3799.41,
+    "end": 3806.61,
+    "text": "And you can you can think of it. You can prove it by saying, okay, if the input is x one,"
+  },
+  {
+    "start": 3806.61,
+    "end": 3813.8,
+    "text": "you got x one squared as the output from the input is x2 x2 square of the input as the output."
+  },
+  {
+    "start": 3813.8,
+    "end": 3821.0,
+    "text": "And so the input is x1 plus x2 the whole the sum of the two."
+  },
+  {
+    "start": 3821.0,
+    "end": 3828.2,
+    "text": "Then the output is x1 squared plus x2 square plus two x1 x2."
+  },
+  {
+    "start": 3828.2,
+    "end": 3835.39,
+    "text": "And this is why was. This is why do and you have this."
+  },
+  {
+    "start": 3835.39,
+    "end": 3842.59,
+    "text": "So this is not equal to one and plus way to."
+  },
+  {
+    "start": 3842.59,
+    "end": 3849.78,
+    "text": "So it's not. And thereby, if a signal is like this, then you should not be able to."
+  },
+  {
+    "start": 3849.78,
+    "end": 3856.98,
+    "text": "Uh, what if it's, um. Y equal to x plus eight."
+  },
+  {
+    "start": 3856.98,
+    "end": 3864.18,
+    "text": "Is this a linear system? At the simplest, at the look of simplicity, it seems it's a linear system."
+  },
+  {
+    "start": 3864.18,
+    "end": 3871.37,
+    "text": "But when you work things out, see if your input is x1. And that implies the output y1 is equal to x one plus eight."
+  },
+  {
+    "start": 3871.37,
+    "end": 3878.57,
+    "text": "If the input is x two, this implies that your output y2 is equal to x two plus a or the include is x1 plus x2."
+  },
+  {
+    "start": 3878.57,
+    "end": 3885.76,
+    "text": "It implies your output y is equal to."
+  },
+  {
+    "start": 3885.76,
+    "end": 3892.96,
+    "text": "X1 plus X2 is replaced here. So it's going to be equal to x one plus x2 plus eight."
+  },
+  {
+    "start": 3892.96,
+    "end": 3900.16,
+    "text": "And this is not equal to y one plus y two. So this is not a linear system."
+  },
+  {
+    "start": 3900.16,
+    "end": 3907.35,
+    "text": "Anyway, this was just a, um, refresher to let you know that you need to have LTI systems that."
+  },
+  {
+    "start": 3907.35,
+    "end": 3914.55,
+    "text": "Uh, that that need to follow, uh, the, um."
+  },
+  {
+    "start": 3914.55,
+    "end": 3921.74,
+    "text": "Uh, because it's an AI system that you can. Sample and quantize and get your outputs."
+  },
+  {
+    "start": 3921.74,
+    "end": 3928.94,
+    "text": "Uh. That will. Okay, so now we come to the fact that, you know, now we know how to choose the."
+  },
+  {
+    "start": 3928.94,
+    "end": 3936.13,
+    "text": "So how do you how do choose? Be."
+  },
+  {
+    "start": 3936.13,
+    "end": 3943.33,
+    "text": "This we know now, right? Because it's by using the micro sampling micro student."
+  },
+  {
+    "start": 3943.33,
+    "end": 3950.53,
+    "text": "Which to summarizes our world is not random."
+  },
+  {
+    "start": 3950.53,
+    "end": 3957.72,
+    "text": "It's structured. And so when you do a Fourier analysis on your structured signal you will come across."
+  },
+  {
+    "start": 3957.72,
+    "end": 3964.92,
+    "text": "Not all frequencies, but some frequencies."
+  },
+  {
+    "start": 3964.92,
+    "end": 3972.11,
+    "text": "You want to choose the maximum frequency that is non-zero and sample at two times."
+  },
+  {
+    "start": 3972.11,
+    "end": 3979.31,
+    "text": "The maximum at more than two times the maximum frequency, and then you're guaranteed to produce the signal in the, um, to be correct."
+  },
+  {
+    "start": 3979.31,
+    "end": 3986.51,
+    "text": "Right. Which implies sample, uh, two times."
+  },
+  {
+    "start": 3986.51,
+    "end": 3993.7,
+    "text": "Max frequency. And you also don't know how to choose the."
+  },
+  {
+    "start": 3993.7,
+    "end": 4000.9,
+    "text": "The number of bits to represent a sample. And this is more empirical than experimental, because you want to have the human in the loop,"
+  },
+  {
+    "start": 4000.9,
+    "end": 4008.09,
+    "text": "because ultimately all signals are going to be received by either the AI or the."
+  },
+  {
+    "start": 4008.09,
+    "end": 4015.29,
+    "text": "You're right. When you when you, when you go into your virtual worlds or your, you know, your your digital worlds."
+  },
+  {
+    "start": 4015.29,
+    "end": 4022.48,
+    "text": "And so we need to understand what the contribution of how the contribution of being is going to change your perception."
+  },
+  {
+    "start": 4022.48,
+    "end": 4029.68,
+    "text": "And you want to use a B. Which is enough so that adding more bits in B will not cause changes to your perception."
+  },
+  {
+    "start": 4029.68,
+    "end": 4036.88,
+    "text": "So we know how to do this. So as long as you follow these things."
+  },
+  {
+    "start": 4036.88,
+    "end": 4044.07,
+    "text": "You will. You're you're guaranteed to start with a signal in your multimedia pipeline that is at the best quality,"
+  },
+  {
+    "start": 4044.07,
+    "end": 4051.27,
+    "text": "as it needs to be at the optimal quantity as it needs to be."
+  },
+  {
+    "start": 4051.27,
+    "end": 4058.46,
+    "text": "Because if you don't follow that, then you're going to have problems."
+  },
+  {
+    "start": 4058.46,
+    "end": 4065.66,
+    "text": "And sometimes also after the quantity has been, after the signal has been digitized with a certain value of t and a certain value of b."
+  },
+  {
+    "start": 4065.66,
+    "end": 4072.86,
+    "text": "When you go into the, uh, content creation process, you might end up."
+  },
+  {
+    "start": 4072.86,
+    "end": 4080.05,
+    "text": "Manipulating the signal or adjusting the signal in some manner that might end up."
+  },
+  {
+    "start": 4080.05,
+    "end": 4087.25,
+    "text": "Violating these principles. And as a result, you might end up, you know, in a loss."
+  },
+  {
+    "start": 4087.25,
+    "end": 4094.44,
+    "text": "So now we need to see what is this loss. Before that."
+  },
+  {
+    "start": 4094.44,
+    "end": 4101.64,
+    "text": "Let's take some examples. Um."
+  },
+  {
+    "start": 4101.64,
+    "end": 4108.83,
+    "text": "Whenever there's a loss. It's called anything."
+  },
+  {
+    "start": 4108.83,
+    "end": 4116.03,
+    "text": "And anything can happen in the time domain, in the spatial domain, and one dimensions and two dimensions in three dimensional matter."
+  },
+  {
+    "start": 4116.03,
+    "end": 4123.23,
+    "text": "It's a signal. It has a minimum requirement for sampling and quantization."
+  },
+  {
+    "start": 4123.23,
+    "end": 4130.42,
+    "text": "And if you don't follow actually sampling, if you don't follow that requirement, then you're bound to get."
+  },
+  {
+    "start": 4130.42,
+    "end": 4137.62,
+    "text": "A loss. So, um."
+  },
+  {
+    "start": 4137.62,
+    "end": 4144.81,
+    "text": "Let's see this in. One dimension."
+  },
+  {
+    "start": 4144.81,
+    "end": 4152.01,
+    "text": "So here is an example of."
+  },
+  {
+    "start": 4152.01,
+    "end": 4159.21,
+    "text": "A signal that is giving. So what is this showing you? Uh, this is showing you the original frequency, which is the sampling frequency."
+  },
+  {
+    "start": 4159.21,
+    "end": 4166.4,
+    "text": "Let me just get this to. Okay. So you can take an original signal."
+  },
+  {
+    "start": 4166.4,
+    "end": 4173.6,
+    "text": "This is the blue one, and the blue one is saying the blue line is telling you what the maximal frequency."
+  },
+  {
+    "start": 4173.6,
+    "end": 4180.79,
+    "text": "What is the frequency of the of the signal. So for example sinusoid of frequency five of frequency ten."
+  },
+  {
+    "start": 4180.79,
+    "end": 4187.99,
+    "text": "And so on. So you could produce any signal off a high frequency, low frequency light."
+  },
+  {
+    "start": 4187.99,
+    "end": 4195.19,
+    "text": "Forget the Microsoft. The red markers are giving you."
+  },
+  {
+    "start": 4195.19,
+    "end": 4202.38,
+    "text": "What? How should you sample this?"
+  },
+  {
+    "start": 4202.38,
+    "end": 4209.58,
+    "text": "Should a sample that or. Uh. And what did you want to use for sampling?"
+  },
+  {
+    "start": 4209.58,
+    "end": 4216.77,
+    "text": "You could sample it or a smaller or a larger."
+  },
+  {
+    "start": 4216.77,
+    "end": 4223.97,
+    "text": "And the signal in green that is now laid out here."
+  },
+  {
+    "start": 4223.97,
+    "end": 4231.16,
+    "text": "And it matches because there's no aliasing, there's no loss. It's not just the blue is what you, uh, what's the output?"
+  },
+  {
+    "start": 4231.16,
+    "end": 4238.36,
+    "text": "So you can see as, as long as you're following the fact that your sampling frequency,"
+  },
+  {
+    "start": 4238.36,
+    "end": 4245.56,
+    "text": "which is this readout here, which is 22 right now, is more than twice the input."
+  },
+  {
+    "start": 4245.56,
+    "end": 4252.75,
+    "text": "The input is also two more than four. All right."
+  },
+  {
+    "start": 4252.75,
+    "end": 4259.95,
+    "text": "Let's make it original quick. As long as it's sampling frequency is more than twice which is ten."
+  },
+  {
+    "start": 4259.95,
+    "end": 4267.14,
+    "text": "You want okay. I. So now with this, if you get your sampling rate to be smaller and get it to be less than ten."
+  },
+  {
+    "start": 4267.14,
+    "end": 4274.34,
+    "text": "You can see that the reconstructed signal which is in green, which is the interpolation of all the sample signals in red."
+  },
+  {
+    "start": 4274.34,
+    "end": 4281.54,
+    "text": "It does not match the original blue signal. And so, you know, this was a Samsung."
+  },
+  {
+    "start": 4281.54,
+    "end": 4288.73,
+    "text": "It was a human voice. Or if this was a music signal song, you would hear it very differently."
+  },
+  {
+    "start": 4288.73,
+    "end": 4295.93,
+    "text": "You're visibly you're seeing it differently, right? But you'll also hear it very differently."
+  },
+  {
+    "start": 4295.93,
+    "end": 4303.12,
+    "text": "And as long as you're less than the Nyquist limit, you're going to get at this thing."
+  },
+  {
+    "start": 4303.12,
+    "end": 4310.32,
+    "text": "And this is not going to match up to match this up. You have to increase the number of samples."
+  },
+  {
+    "start": 4310.32,
+    "end": 4317.51,
+    "text": "You can go and increase it to a large extent and oversample the signal."
+  },
+  {
+    "start": 4317.51,
+    "end": 4324.71,
+    "text": "And that's useless because now you have more samples of necessity, knowing that your original signal had a maximum of five."
+  },
+  {
+    "start": 4324.71,
+    "end": 4331.91,
+    "text": "You want to make sure that you go and sample that somewhere at slightly higher than ten."
+  },
+  {
+    "start": 4331.91,
+    "end": 4339.1,
+    "text": "And you okay, below ten will have anything above ten would be okay."
+  },
+  {
+    "start": 4339.1,
+    "end": 4346.3,
+    "text": "This is a visual depiction of what happens when you, uh, undergo and you see when you're not following in that closely."
+  },
+  {
+    "start": 4346.3,
+    "end": 4353.49,
+    "text": "But here's an example of what would happen when use."
+  },
+  {
+    "start": 4353.49,
+    "end": 4360.69,
+    "text": "Uh. Let's see. Um."
+  },
+  {
+    "start": 4360.69,
+    "end": 4367.89,
+    "text": "How that. Pretty sure. Yes."
+  },
+  {
+    "start": 4367.89,
+    "end": 4375.08,
+    "text": "Um. Hands up if you could. See if you could. If you could hear them."
+  },
+  {
+    "start": 4375.08,
+    "end": 4382.28,
+    "text": "All right. So let me try it again. So this is a un."
+  },
+  {
+    "start": 4382.28,
+    "end": 4389.47,
+    "text": "But if you were to sample it and add a lower, it's got some maximum frequency."
+  },
+  {
+    "start": 4389.47,
+    "end": 4396.67,
+    "text": "As long as you sample at twice the maximal frequency, you would okay."
+  },
+  {
+    "start": 4396.67,
+    "end": 4403.87,
+    "text": "But if you sampled at less than twice the maximum frequency and then try to convert it back to the analog to interpolate on the speaker,"
+  },
+  {
+    "start": 4403.87,
+    "end": 4411.06,
+    "text": "you would see how it sounds. Uh."
+  },
+  {
+    "start": 4411.06,
+    "end": 4418.26,
+    "text": "You see, it's missing all the high frequencies in there. It doesn't sound the same as the original signal."
+  },
+  {
+    "start": 4418.26,
+    "end": 4425.45,
+    "text": "Here's an example of just one song, which is the middle C on a guitar line."
+  },
+  {
+    "start": 4425.45,
+    "end": 4432.65,
+    "text": "Let's play it again. You can see how it sounds."
+  },
+  {
+    "start": 4432.65,
+    "end": 4439.84,
+    "text": "And this is a two 56Hz. So it needs to be seamless."
+  },
+  {
+    "start": 4439.84,
+    "end": 4447.04,
+    "text": "Typically six or so needs to be sampled twice that, more than twice that."
+  },
+  {
+    "start": 4447.04,
+    "end": 4454.24,
+    "text": "But if you don't sample do it more than twice that. Oh, you see what happens?"
+  },
+  {
+    "start": 4454.24,
+    "end": 4461.43,
+    "text": "You don't hear the exact door. And that's the same as a greeting you're watching in the other case."
+  },
+  {
+    "start": 4461.43,
+    "end": 4468.63,
+    "text": "That's one dimensional, right? Uh, you can have aliasing in two dimensions and also in two dimension."
+  },
+  {
+    "start": 4468.63,
+    "end": 4475.82,
+    "text": "Uh, good example on the right here is a nice curve that you see of your image."
+  },
+  {
+    "start": 4475.82,
+    "end": 4483.02,
+    "text": "Right. But if you didn't have enough pixels in the image to capture that curve."
+  },
+  {
+    "start": 4483.02,
+    "end": 4490.22,
+    "text": "If you didn't have enough of a resolution, then what's going to happen is you're going to have a very discontinuous approximation,"
+  },
+  {
+    "start": 4490.22,
+    "end": 4497.41,
+    "text": "because those are the only samples you have. Right."
+  },
+  {
+    "start": 4497.41,
+    "end": 4504.61,
+    "text": "Uh, the same thing happens in this classical example of a checkerboard."
+  },
+  {
+    "start": 4504.61,
+    "end": 4511.8,
+    "text": "Now, the original signal is shown in all the cases of here. But what you see are the places where sampling occurs."
+  },
+  {
+    "start": 4511.8,
+    "end": 4519.0,
+    "text": "How the dots. Right. So if you look at the dots, have the prism into this and you can see it more."
+  },
+  {
+    "start": 4519.0,
+    "end": 4526.19,
+    "text": "Okay. So you can see that the dots are the places where sampling is occurring, is here,"
+  },
+  {
+    "start": 4526.19,
+    "end": 4533.39,
+    "text": "and each sample is given the value of the, uh, value of the of the of the other pixel in that location."
+  },
+  {
+    "start": 4533.39,
+    "end": 4540.59,
+    "text": "So if you're sampling here and then here and then here and then here,"
+  },
+  {
+    "start": 4540.59,
+    "end": 4547.78,
+    "text": "you are actually above the sampling frequency in the image, which is the changes of black and white pixels."
+  },
+  {
+    "start": 4547.78,
+    "end": 4554.98,
+    "text": "And you can get the entire, uh, thing as you see out here."
+  },
+  {
+    "start": 4554.98,
+    "end": 4562.17,
+    "text": "On the bottom right, you are sampling at a different sampling distance."
+  },
+  {
+    "start": 4562.17,
+    "end": 4569.37,
+    "text": "You increase the sampling distance and thereby know audio frequency."
+  },
+  {
+    "start": 4569.37,
+    "end": 4576.57,
+    "text": "And you can see that in this case your sampling the locations that we are sampling."
+  },
+  {
+    "start": 4576.57,
+    "end": 4583.76,
+    "text": "Results in this. You don't get to go back in."
+  },
+  {
+    "start": 4583.76,
+    "end": 4590.96,
+    "text": "See you on the right, you can see that you actually sampled at a much larger distance than even this one."
+  },
+  {
+    "start": 4590.96,
+    "end": 4598.15,
+    "text": "And as a result, you just got black."
+  },
+  {
+    "start": 4598.15,
+    "end": 4605.35,
+    "text": "So the sampling frequency. Or in this case, your sampling distance is very important."
+  },
+  {
+    "start": 4605.35,
+    "end": 4612.55,
+    "text": "You want to make sure that whatever you're using as your frequency is more than twice the frequency of the signal, plus the maximum frequency."
+  },
+  {
+    "start": 4612.55,
+    "end": 4619.74,
+    "text": "Yeah. And you can see this."
+  },
+  {
+    "start": 4619.74,
+    "end": 4626.94,
+    "text": "And this in effect happening when it comes to spatial aliasing."
+  },
+  {
+    "start": 4626.94,
+    "end": 4634.13,
+    "text": "Thank you. You can see the image of the shirt out here which is got a very high frequency texture pattern."
+  },
+  {
+    "start": 4634.13,
+    "end": 4641.33,
+    "text": "It looks good, but frequently when you have an image of it or if you don't,"
+  },
+  {
+    "start": 4641.33,
+    "end": 4648.52,
+    "text": "you you observe this on television because the television resolution is not as"
+  },
+  {
+    "start": 4648.52,
+    "end": 4655.72,
+    "text": "high as your resolution required to understand the spacing between these lines."
+  },
+  {
+    "start": 4655.72,
+    "end": 4662.92,
+    "text": "And as a result, you get some sampling effects out here. Um, editing effects."
+  },
+  {
+    "start": 4662.92,
+    "end": 4670.11,
+    "text": "Uh, here is another example of patterns which are called moir\u00e9 patterns."
+  },
+  {
+    "start": 4670.11,
+    "end": 4677.31,
+    "text": "Uh, and. You can see that."
+  },
+  {
+    "start": 4677.31,
+    "end": 4684.5,
+    "text": "Depending upon. Uh, I think it's it's going to be seen."
+  },
+  {
+    "start": 4684.5,
+    "end": 4691.7,
+    "text": "Can you see these concentric circles?"
+  },
+  {
+    "start": 4691.7,
+    "end": 4698.9,
+    "text": "The difference between them is the distance between the circles on the left is larger than the distance between the circles on the right."
+  },
+  {
+    "start": 4698.9,
+    "end": 4706.09,
+    "text": "Now you can see at this resolution you can see that the left one behaves well."
+  },
+  {
+    "start": 4706.09,
+    "end": 4713.29,
+    "text": "You can see concentric circles. I don't know how you're seeing it."
+  },
+  {
+    "start": 4713.29,
+    "end": 4720.48,
+    "text": "It might be different on your resolution would depend on the resolution to seeing on the screen of that."
+  },
+  {
+    "start": 4720.48,
+    "end": 4727.68,
+    "text": "But this has shown that it's concentric circles, whereas the center one on the right one."
+  },
+  {
+    "start": 4727.68,
+    "end": 4734.87,
+    "text": "You see that although I've told you the concentric circle, you see certain moir\u00e9 patterns which don't match."
+  },
+  {
+    "start": 4734.87,
+    "end": 4742.07,
+    "text": "But that's because the resolution of sampling is violating the Nyquist criterion."
+  },
+  {
+    "start": 4742.07,
+    "end": 4749.27,
+    "text": "Now, if you zoom into this. You, you'll see that some resolution."
+  },
+  {
+    "start": 4749.27,
+    "end": 4756.46,
+    "text": "This guy looks perfect. This guy looks better is actually concentric circles,"
+  },
+  {
+    "start": 4756.46,
+    "end": 4763.66,
+    "text": "but this guy might have some patterns on your screen that you, uh, that don't conform to concentric circles."
+  },
+  {
+    "start": 4763.66,
+    "end": 4770.85,
+    "text": "Which is again, the more in effect the aliasing effect. Yeah."
+  },
+  {
+    "start": 4770.85,
+    "end": 4778.05,
+    "text": "And you can also see this in three dimensions. I'm sure you've heard of the Wagon Wheel phenomenon."
+  },
+  {
+    "start": 4778.05,
+    "end": 4785.25,
+    "text": "Let it load and I'll put it on screen. Okay, so here is, uh, rotating view."
+  },
+  {
+    "start": 4785.25,
+    "end": 4792.44,
+    "text": "Right. I'm going to. 20 frames per second, but, um, increase it."
+  },
+  {
+    "start": 4792.44,
+    "end": 4799.64,
+    "text": "It rotates. And to make sure that, you know, the actual speed of rotation,"
+  },
+  {
+    "start": 4799.64,
+    "end": 4806.83,
+    "text": "the actual speed of rotation that's been computed is also shown to you by this rendering of a school."
+  },
+  {
+    "start": 4806.83,
+    "end": 4814.03,
+    "text": "On top. So this is all of the ground truth. Thank."
+  },
+  {
+    "start": 4814.03,
+    "end": 4821.22,
+    "text": "You know what's going to happen as I start increasing it. And at some point of time you will see the wheel turning the other way."
+  },
+  {
+    "start": 4821.22,
+    "end": 4828.42,
+    "text": "It would also come to a point where it becomes. Static."
+  },
+  {
+    "start": 4828.42,
+    "end": 4835.62,
+    "text": "Although. You know that."
+  },
+  {
+    "start": 4835.62,
+    "end": 4842.81,
+    "text": "The roof actually rotated. Okay."
+  },
+  {
+    "start": 4842.81,
+    "end": 4850.01,
+    "text": "So what is happening? You. What is causing aliasing."
+  },
+  {
+    "start": 4850.01,
+    "end": 4857.2,
+    "text": "But think about that. You need to understand a few things. What is your signal?"
+  },
+  {
+    "start": 4857.2,
+    "end": 4864.4,
+    "text": "What is your sampling? Is this sampling large enough?"
+  },
+  {
+    "start": 4864.4,
+    "end": 4871.6,
+    "text": "More than twice the frequency of the of the signal such that it is and should not occur."
+  },
+  {
+    "start": 4871.6,
+    "end": 4878.79,
+    "text": "And if it's not, then it is. So what is the signal?"
+  },
+  {
+    "start": 4878.79,
+    "end": 4885.99,
+    "text": "Not here. The signal not here is your RPM rotation rotations per minute."
+  },
+  {
+    "start": 4885.99,
+    "end": 4893.18,
+    "text": "All right, politicians, for a second. How many rotations does it get per second?"
+  },
+  {
+    "start": 4893.18,
+    "end": 4900.38,
+    "text": "Yeah, it's given an RPM, but you can convert that into rotations for a second."
+  },
+  {
+    "start": 4900.38,
+    "end": 4907.58,
+    "text": "Right. Um, and then the sampling corresponds to the display of the frame rate of display."
+  },
+  {
+    "start": 4907.58,
+    "end": 4914.77,
+    "text": "And as it's rotating, how frequently are you sampling and showing the image?"
+  },
+  {
+    "start": 4914.77,
+    "end": 4921.97,
+    "text": "As long as that rate of display is faster than twice the rotation of the screen, you will be fine."
+  },
+  {
+    "start": 4921.97,
+    "end": 4929.16,
+    "text": "The moment your speed of rotation increases such that it goes above."
+  },
+  {
+    "start": 4929.16,
+    "end": 4936.36,
+    "text": "The display of the twice the frequency goes above the display."
+  },
+  {
+    "start": 4936.36,
+    "end": 4943.55,
+    "text": "You're going to get aliasing and the and the image is going to start looking as it's going backwards."
+  },
+  {
+    "start": 4943.55,
+    "end": 4950.75,
+    "text": "Um, or has got some, you know, spatial catching up to do although the actual rotation is is in the forward direction to."
+  },
+  {
+    "start": 4950.75,
+    "end": 4957.95,
+    "text": "Okay. And then, um."
+  },
+  {
+    "start": 4957.95,
+    "end": 4965.14,
+    "text": "One more last example. This is a good example of a."
+  },
+  {
+    "start": 4965.14,
+    "end": 4972.34,
+    "text": "Are going, in fact. You can see that the properties are not turning at all."
+  },
+  {
+    "start": 4972.34,
+    "end": 4979.53,
+    "text": "This happens because the speed of rotation of the of the of the of the propeller was exactly equal to or direct multiple of,"
+  },
+  {
+    "start": 4979.53,
+    "end": 4986.73,
+    "text": "uh, the actual, uh, shutter speed of the camera. So these are some of the aliasing effects that you observe in the real world when you"
+  },
+  {
+    "start": 4986.73,
+    "end": 4993.93,
+    "text": "cannot when you don't follow the Nyquist criterion of digitizing in the first place."
+  },
+  {
+    "start": 4993.93,
+    "end": 5001.12,
+    "text": "Okay. So next. I want to share with you."
+  },
+  {
+    "start": 5001.12,
+    "end": 5008.32,
+    "text": "Another common thing that happens, which is. When you go about, uh."
+  },
+  {
+    "start": 5008.32,
+    "end": 5015.51,
+    "text": "If you've captured the signal properly, it looks correct, it renders correctly, but in your multimedia pipeline, in your content creation point."
+  },
+  {
+    "start": 5015.51,
+    "end": 5022.71,
+    "text": "And at some point you discover that, oops, this is."
+  },
+  {
+    "start": 5022.71,
+    "end": 5029.9,
+    "text": "Not working correctly because, um."
+  },
+  {
+    "start": 5029.9,
+    "end": 5037.1,
+    "text": "Something changed. For example, you might have taken an image which was originally cut to the 1920 by 1080 high definition quality."
+  },
+  {
+    "start": 5037.1,
+    "end": 5044.3,
+    "text": "But when you went to um. Do some operation that they can stick it in a, in a word document or, you know,"
+  },
+  {
+    "start": 5044.3,
+    "end": 5051.49,
+    "text": "upload it to Facebook it, downsize it to half its size and growth and height for preserving memory."
+  },
+  {
+    "start": 5051.49,
+    "end": 5058.69,
+    "text": "And thereby now we threw away samples and throwing away samples."
+  },
+  {
+    "start": 5058.69,
+    "end": 5065.88,
+    "text": "Now for us to violate the maker's criteria. And you get anything?"
+  },
+  {
+    "start": 5065.88,
+    "end": 5073.08,
+    "text": "Uh, a very good example of that. I mean, let's just walk through it. Um."
+  },
+  {
+    "start": 5073.08,
+    "end": 5080.28,
+    "text": "And let's look at, um. This original image from the original image."
+  },
+  {
+    "start": 5080.28,
+    "end": 5087.47,
+    "text": "When you subsample it by two. Subsample by two means throw away every other pixel."
+  },
+  {
+    "start": 5087.47,
+    "end": 5094.67,
+    "text": "Subsample by three minutes through every third pixel. So you're throwing away every other pixel."
+  },
+  {
+    "start": 5094.67,
+    "end": 5101.86,
+    "text": "So this is a video of a final image to begin with. And then you start throwing away every other pixel."
+  },
+  {
+    "start": 5101.86,
+    "end": 5109.06,
+    "text": "Right. So, um, just look at the example on your left."
+  },
+  {
+    "start": 5109.06,
+    "end": 5116.26,
+    "text": "Forget that. Like, we'll talk about what the right is. We look at that, you see that although the original signal sort of clear."
+  },
+  {
+    "start": 5116.26,
+    "end": 5123.45,
+    "text": "Quality of all pixels in the image, including the low frequency areas, which is like the surface of the fruit and the and the plate,"
+  },
+  {
+    "start": 5123.45,
+    "end": 5130.65,
+    "text": "and the high frequency areas, which is the towel or the napkin that you see."
+  },
+  {
+    "start": 5130.65,
+    "end": 5137.84,
+    "text": "Okay, I call it high frequency because the pixels in the neighborhood are changing very rapidly compared to the pixels in the neighborhood on the,"
+  },
+  {
+    "start": 5137.84,
+    "end": 5145.04,
+    "text": "on the fruit or the fruit. Right. So when you subsample it by two and you come down to a 2 to 6 by 26 map, you start seeing that."
+  },
+  {
+    "start": 5145.04,
+    "end": 5152.23,
+    "text": "Yeah. I mean I'm getting the images of the fruit and plate are looking kind of okay, but you're seeing some noisy patterns coming up."
+  },
+  {
+    "start": 5152.23,
+    "end": 5159.43,
+    "text": "In the napkin area. The high frequency is getting aliased, and that becomes even more obvious when you go down on a subsample by, you know,"
+  },
+  {
+    "start": 5159.43,
+    "end": 5166.63,
+    "text": "again, uh, by two for the previous one, where you see that now the napkin is really horribly, uh, in the stump."
+  },
+  {
+    "start": 5166.63,
+    "end": 5173.82,
+    "text": "Um, and you can see some menacing effects in the, in the other parts of the."
+  },
+  {
+    "start": 5173.82,
+    "end": 5181.02,
+    "text": "Now, this is natural because you're throwing away samples. You're throwing away samples."
+  },
+  {
+    "start": 5181.02,
+    "end": 5188.21,
+    "text": "There's going to be a loss and there's going to be a loss. You're going to have aliasing no matter what."
+  },
+  {
+    "start": 5188.21,
+    "end": 5195.41,
+    "text": "The question here is how do you minimize the effect of aliasing when you're going through such operations in your, uh, in your content creation by."
+  },
+  {
+    "start": 5195.41,
+    "end": 5202.61,
+    "text": "And one common way to do it is by filtering. How many of you know what a filter is?"
+  },
+  {
+    "start": 5202.61,
+    "end": 5209.8,
+    "text": "A filter is a way in which you process the input image so that you change the frequency content of."
+  },
+  {
+    "start": 5209.8,
+    "end": 5217.0,
+    "text": "Okay. So in this case, what we have done."
+  },
+  {
+    "start": 5217.0,
+    "end": 5224.19,
+    "text": "Now I going to explain to you mathematically, you'll be able to implement it in your in your in your assignment is doing a averaging filter."
+  },
+  {
+    "start": 5224.19,
+    "end": 5231.39,
+    "text": "So from the original image. When you subsample by two, you took every other pixel, right?"
+  },
+  {
+    "start": 5231.39,
+    "end": 5238.58,
+    "text": "And you threw away the corresponding other pixels than your rows and columns."
+  },
+  {
+    "start": 5238.58,
+    "end": 5245.78,
+    "text": "When you did it without referring to just simply straightforward, you had a straightforward copy of that value."
+  },
+  {
+    "start": 5245.78,
+    "end": 5252.98,
+    "text": "In that location. But rather than copying just that value."
+  },
+  {
+    "start": 5252.98,
+    "end": 5260.17,
+    "text": "If you look at the neighborhood of the value. And take the average of the neighborhood."
+  },
+  {
+    "start": 5260.17,
+    "end": 5267.37,
+    "text": "A three by three neighborhood, let's say, and copy the average of the neighborhood into its location on the right hand side."
+  },
+  {
+    "start": 5267.37,
+    "end": 5274.56,
+    "text": "Then you see the content becoming a lot more. Visually smoother."
+  },
+  {
+    "start": 5274.56,
+    "end": 5281.76,
+    "text": "There is a loss. Of course there's a loss. You're throwing away information for throwing away pixels, right?"
+  },
+  {
+    "start": 5281.76,
+    "end": 5288.96,
+    "text": "But the but the fact that you're resampling by throwing away, that's what you're doing."
+  },
+  {
+    "start": 5288.96,
+    "end": 5296.15,
+    "text": "You're throwing away samples, right? When you're in a resampling process, you're doing an averaging."
+  },
+  {
+    "start": 5296.15,
+    "end": 5303.35,
+    "text": "Fruit of the averaging filter gets the original frequencies, the original signals frequency frequency content lower."
+  },
+  {
+    "start": 5303.35,
+    "end": 5310.54,
+    "text": "That's what an average does, right? If there is. Frequency variation."
+  },
+  {
+    "start": 5310.54,
+    "end": 5317.74,
+    "text": "Doing an average of all the frequency variations and lower on the average, the average becomes lower than that."
+  },
+  {
+    "start": 5317.74,
+    "end": 5324.93,
+    "text": "Then whatever's going on in the neighborhood. And by lowering down the average."
+  },
+  {
+    "start": 5324.93,
+    "end": 5332.13,
+    "text": "What you do now, do a sampling or a resampling, your anything effects are also minimized."
+  },
+  {
+    "start": 5332.13,
+    "end": 5339.33,
+    "text": "So same thing here. When you do a subsampling, why do you get the value to be this."
+  },
+  {
+    "start": 5339.33,
+    "end": 5346.52,
+    "text": "But if you replace instead of directly copying it, if you copied it as the average of a three by three neighborhood."
+  },
+  {
+    "start": 5346.52,
+    "end": 5353.72,
+    "text": "Then you can see that the output is much more pleasing to the eye, and there is less aliasing compared to what would have happened without, uh."
+  },
+  {
+    "start": 5353.72,
+    "end": 5360.91,
+    "text": "Without subsampling. You know."
+  },
+  {
+    "start": 5360.91,
+    "end": 5368.11,
+    "text": "So that's a whole goal of a goal of approaching filters is when you have, um."
+  },
+  {
+    "start": 5368.11,
+    "end": 5375.31,
+    "text": "When you have a signal and you pass it through its low pass and its high pass filter."
+  },
+  {
+    "start": 5375.31,
+    "end": 5382.5,
+    "text": "Low pass is simply the averaging in a three by three neighborhood, and high pass is a different signal in a three by three quarter."
+  },
+  {
+    "start": 5382.5,
+    "end": 5389.7,
+    "text": "But forget the differencing for the. You can see that the sum of these two will bring back this."
+  },
+  {
+    "start": 5389.7,
+    "end": 5396.89,
+    "text": "What you're interested in is really when you're when you're subsampling, when you're resampling it down to a lower size,"
+  },
+  {
+    "start": 5396.89,
+    "end": 5404.09,
+    "text": "whether it's audio signal or image signal, you want to make sure that there is, uh, low pass filter outputs that are then copied into the output."
+  },
+  {
+    "start": 5404.09,
+    "end": 5411.29,
+    "text": "Here's an example for some of the audio filtering example. You have a cutoff frequency the microphone which is 100kHz."
+  },
+  {
+    "start": 5411.29,
+    "end": 5418.48,
+    "text": "Which was sampled at 200kW. If the cut off is a 100 because the maximum frequency of signal is 100,"
+  },
+  {
+    "start": 5418.48,
+    "end": 5425.68,
+    "text": "and if quantized to 16 bits per sample, that's going to be 16 into 200, which is 3.2mbps."
+  },
+  {
+    "start": 5425.68,
+    "end": 5432.87,
+    "text": "What are hearing system. Can only detect frequencies up to 20kW."
+  },
+  {
+    "start": 5432.87,
+    "end": 5440.07,
+    "text": "So if you pre-filter this by putting it through a low pass filter with limited to 20kHz and then sample at 40kHz, then the overall signal will be 40."
+  },
+  {
+    "start": 5440.07,
+    "end": 5447.26,
+    "text": "Times 16, which is 640 bits for sale. So you can see that the quality of your reception is going to maintain."
+  },
+  {
+    "start": 5447.26,
+    "end": 5454.46,
+    "text": "It's going to be the same. You will not have any interesting effect, although your sampling at lesser than the cutoff."
+  },
+  {
+    "start": 5454.46,
+    "end": 5461.66,
+    "text": "So understanding perception or the frequencies of perception, and thereby filtering their content to be at twice the maximal frequency."
+  },
+  {
+    "start": 5461.66,
+    "end": 5468.85,
+    "text": "Sorry to be at that frequency of reception. Then you can sample at twice the maximal frequency so as to get a really good signal."
+  },
+  {
+    "start": 5468.85,
+    "end": 5476.05,
+    "text": "So we talked about subsampling by two."
+  },
+  {
+    "start": 5476.05,
+    "end": 5483.24,
+    "text": "Subsampling by four. Um. Yeah."
+  },
+  {
+    "start": 5483.24,
+    "end": 5490.44,
+    "text": "Any questions so far? How has the pace been?"
+  },
+  {
+    "start": 5490.44,
+    "end": 5497.64,
+    "text": "I know it's very hard for me to gauge because I can. You have a great understanding of your of of of uh of your of your of how you perceive this."
+  },
+  {
+    "start": 5497.64,
+    "end": 5504.83,
+    "text": "Since I'm on camera and you guys are in class. Uh, but, um."
+  },
+  {
+    "start": 5504.83,
+    "end": 5512.03,
+    "text": "Raise your hands if you feel that. A piece of cake. Right."
+  },
+  {
+    "start": 5512.03,
+    "end": 5519.22,
+    "text": "Do you want it to be faster or slower? We'll take that next one and come to class again."
+  },
+  {
+    "start": 5519.22,
+    "end": 5526.42,
+    "text": "Um. I've also uploaded some recent research in signal processing, which tells you an advancement."
+  },
+  {
+    "start": 5526.42,
+    "end": 5533.61,
+    "text": "This is a very nice people. I'd rather explain it to you in class next time."
+  },
+  {
+    "start": 5533.61,
+    "end": 5540.81,
+    "text": "But it's it shows you how all these signaling theories, which have been held very strongly for the past few."
+  },
+  {
+    "start": 5540.81,
+    "end": 5548.01,
+    "text": "Um. Plus many hundreds of years."
+  },
+  {
+    "start": 5548.01,
+    "end": 5555.2,
+    "text": "With a slight twist. Uh. You can see how, um."
+  },
+  {
+    "start": 5555.2,
+    "end": 5562.4,
+    "text": "Let me take an example. You can see how, uh."
+  },
+  {
+    "start": 5562.4,
+    "end": 5569.59,
+    "text": "Anything. Effects can be really grossly minimized by a boost in the, in the understanding, uh, where uh, some improvements in."
+  },
+  {
+    "start": 5569.59,
+    "end": 5576.79,
+    "text": "Here's a good example. So this is a high definition image of a well of a piece of for short with, uh, with with high frequency pattern."
+  },
+  {
+    "start": 5576.79,
+    "end": 5583.99,
+    "text": "Right. Um, what you see out here is if you."
+  },
+  {
+    "start": 5583.99,
+    "end": 5591.18,
+    "text": "It's. All."
+  },
+  {
+    "start": 5591.18,
+    "end": 5598.38,
+    "text": "You can see it here. You can see a few. Resample it or subsample it to something using any number of kind of filters."
+  },
+  {
+    "start": 5598.38,
+    "end": 5605.57,
+    "text": "You still get aliasing effects and missing effects, but if you do it with a slight variation, what does results suggest?"
+  },
+  {
+    "start": 5605.57,
+    "end": 5612.77,
+    "text": "You see that the outputs are pretty. Uh."
+  },
+  {
+    "start": 5612.77,
+    "end": 5619.97,
+    "text": "Pretty good. Oh. When we tried digging for the full sized image."
+  },
+  {
+    "start": 5619.97,
+    "end": 5627.16,
+    "text": "Here is a full sized image that you can see. Um."
+  },
+  {
+    "start": 5627.16,
+    "end": 5634.36,
+    "text": "Um. There is a."
+  },
+  {
+    "start": 5634.36,
+    "end": 5641.55,
+    "text": "The resample industry for the new changes that you can see."
+  },
+  {
+    "start": 5641.55,
+    "end": 5648.75,
+    "text": "You can. Much."
+  },
+  {
+    "start": 5648.75,
+    "end": 5655.94,
+    "text": "So here's the original. Um, on the doll."
+  },
+  {
+    "start": 5655.94,
+    "end": 5663.14,
+    "text": "Um. See? That's what I've been. But when you."
+  },
+  {
+    "start": 5663.14,
+    "end": 5670.34,
+    "text": "Sampler, Don. You can see. Because of the averaging filter."
+  },
+  {
+    "start": 5670.34,
+    "end": 5677.53,
+    "text": "How it gets very blurry. The is anything but."
+  },
+  {
+    "start": 5677.53,
+    "end": 5684.73,
+    "text": "The aliasing is apparently minimized by being a pre-filter."
+  },
+  {
+    "start": 5684.73,
+    "end": 5691.92,
+    "text": "Uh, but with this adjustment to the peashooter, you can see that the output remains much better."
+  },
+  {
+    "start": 5691.92,
+    "end": 5699.12,
+    "text": "Similar to other filters that the various other filters that are being used, and this is an adjustment to the filter using the new TV."
+  },
+  {
+    "start": 5699.12,
+    "end": 5706.32,
+    "text": "Is another example of aliased outputs because of another filter."
+  },
+  {
+    "start": 5706.32,
+    "end": 5713.51,
+    "text": "Uh, but here is the output produced because."
+  },
+  {
+    "start": 5713.51,
+    "end": 5720.71,
+    "text": "So it's pretty remarkable how this has been patented and sold to be used in most of the production pipelines."
+  },
+  {
+    "start": 5720.71,
+    "end": 5727.9,
+    "text": "Okay. So once you're in."
+  },
+  {
+    "start": 5727.9,
+    "end": 5735.1,
+    "text": "The digital domain. You have audio signals which are one dimensional."
+  },
+  {
+    "start": 5735.1,
+    "end": 5742.29,
+    "text": "They may be stereo or surround sound, in which case every channel has got binary signals which are computed over time."
+  },
+  {
+    "start": 5742.29,
+    "end": 5749.49,
+    "text": "Your images which are 2D signals, which is a color x y location."
+  },
+  {
+    "start": 5749.49,
+    "end": 5756.69,
+    "text": "You have a video signal, which is a 3D signal, uh, with color at X, Y, and D, and you have graphics between the digital and the 2D graphical objects."
+  },
+  {
+    "start": 5756.69,
+    "end": 5763.88,
+    "text": "3D graphic will fix it. Now, in all these things, we know how audio signals are presented."
+  },
+  {
+    "start": 5763.88,
+    "end": 5771.08,
+    "text": "We know image signal presented. And you can guess a video signals a sequence of images and also represent what the video signals have actually a."
+  },
+  {
+    "start": 5771.08,
+    "end": 5778.27,
+    "text": "A big history from the beginning of television for analog video, for example."
+  },
+  {
+    "start": 5778.27,
+    "end": 5785.47,
+    "text": "This can be, although it's a two dimensional signal. The scanning mechanism perceives it as a one dimensional see."
+  },
+  {
+    "start": 5785.47,
+    "end": 5792.67,
+    "text": "So what happens is for every image you do, a scan line from top the top row to the next row, to the next row, to the next row, to the next row."
+  },
+  {
+    "start": 5792.67,
+    "end": 5799.86,
+    "text": "And for each row you have a, uh, horizontal, uh, a horizontal sync that comes in uh, and then."
+  },
+  {
+    "start": 5799.86,
+    "end": 5807.06,
+    "text": "Processing it until the last line."
+  },
+  {
+    "start": 5807.06,
+    "end": 5814.25,
+    "text": "Uh, and then there is a vertical thing that comes in. To make the electron gun go to the top left and it goes on scanning again, all ready."
+  },
+  {
+    "start": 5814.25,
+    "end": 5821.45,
+    "text": "So by going Scanlon, where Scanlon was, Scanlon on one image and then going to the next image of."
+  },
+  {
+    "start": 5821.45,
+    "end": 5828.65,
+    "text": "Of the next sequence in the frame. And we scan linear scan. Then it essentially converts a three dimensional signal."
+  },
+  {
+    "start": 5828.65,
+    "end": 5835.84,
+    "text": "Into a long one dimensional draw. And this was a long one dimensional row of of of of signal has is interspersed between"
+  },
+  {
+    "start": 5835.84,
+    "end": 5843.04,
+    "text": "horizontal sync signals and vertical sync signals which make the electron gun."
+  },
+  {
+    "start": 5843.04,
+    "end": 5850.23,
+    "text": "Reset to the next row for the horizontal three and to the next frame on the top upper left corner for the horizontal for a vertical sink."
+  },
+  {
+    "start": 5850.23,
+    "end": 5857.43,
+    "text": "But this mechanism has allowed. A camera to capture a signal, a video signal in a scanline by scanline."
+  },
+  {
+    "start": 5857.43,
+    "end": 5864.62,
+    "text": "Line by line. Manner."
+  },
+  {
+    "start": 5864.62,
+    "end": 5871.82,
+    "text": "Kind of frame by frame manner, line by line, into essentially a one dimensional signal that can be sent over the ionosphere using,"
+  },
+  {
+    "start": 5871.82,
+    "end": 5879.02,
+    "text": "uh, you know, uh, amplitude modulation or frequency modulation to come to a receiver,"
+  },
+  {
+    "start": 5879.02,
+    "end": 5886.21,
+    "text": "uh, television when you're in your home, which then also can scan and by scan and render it, uh, in a synchronized manner, and thereby you see video."
+  },
+  {
+    "start": 5886.21,
+    "end": 5893.41,
+    "text": "Right. This is a this is a things that I think that the only black and white when the even when television started off,"
+  },
+  {
+    "start": 5893.41,
+    "end": 5900.6,
+    "text": "uh, this was what was, uh, what was uh."
+  },
+  {
+    "start": 5900.6,
+    "end": 5907.8,
+    "text": "The. So if you look at the television evolution and this is connected, the entire thing you."
+  },
+  {
+    "start": 5907.8,
+    "end": 5915.0,
+    "text": "You have the, uh, um, video signal."
+  },
+  {
+    "start": 5915.0,
+    "end": 5922.19,
+    "text": "That was wanting to be digitized. And this video signal, as I said, was a, uh, was viewed as A1D signal with horizontal."
+  },
+  {
+    "start": 5922.19,
+    "end": 5929.39,
+    "text": "For example, things would go from scrambling to sunlight and vertical things."
+  },
+  {
+    "start": 5929.39,
+    "end": 5936.58,
+    "text": "We go from, um. Uh, you go from one thing to the next."
+  },
+  {
+    "start": 5936.58,
+    "end": 5943.78,
+    "text": "Know this. Was this allowed a camcorder?"
+  },
+  {
+    "start": 5943.78,
+    "end": 5950.97,
+    "text": "In your studio for, you know, recording onto a table that say, uh, capture this signal."
+  },
+  {
+    "start": 5950.97,
+    "end": 5958.17,
+    "text": "And this was a black and white signal. So we call it a white signal. Okay."
+  },
+  {
+    "start": 5958.17,
+    "end": 5965.37,
+    "text": "This Y signal was then sent to a, um, radio tower."
+  },
+  {
+    "start": 5965.37,
+    "end": 5972.56,
+    "text": "Which broadcast the signal, and the signal came down to your antenna."
+  },
+  {
+    "start": 5972.56,
+    "end": 5979.76,
+    "text": "Right. And this then went into your television."
+  },
+  {
+    "start": 5979.76,
+    "end": 5986.95,
+    "text": "Or maybe you have gravity Earth and it's rendered it's scanline by scanline as"
+  },
+  {
+    "start": 5986.95,
+    "end": 5994.15,
+    "text": "it scans scanline by scanline and then went to the next frame and next frame."
+  },
+  {
+    "start": 5994.15,
+    "end": 6001.35,
+    "text": "And you saw. A video."
+  },
+  {
+    "start": 6001.35,
+    "end": 6008.54,
+    "text": "You. But for this to work, the first thing that needed to happen was a synchronization between the capture device and the rendering device."
+  },
+  {
+    "start": 6008.54,
+    "end": 6015.74,
+    "text": "How do you synchronize? These."
+  },
+  {
+    "start": 6015.74,
+    "end": 6022.93,
+    "text": "And when you're talking about the 1930s, okay, 1920s and 30s."
+  },
+  {
+    "start": 6022.93,
+    "end": 6030.13,
+    "text": "How do you synchronize the signal being captured with the signal being displayed"
+  },
+  {
+    "start": 6030.13,
+    "end": 6037.32,
+    "text": "so that both the scan and scan at the same time and render at the same time,"
+  },
+  {
+    "start": 6037.32,
+    "end": 6044.52,
+    "text": "and go back to the next line, and next line, the next line and back to the top frame."
+  },
+  {
+    "start": 6044.52,
+    "end": 6051.72,
+    "text": "This is not an easy problem to solve, obviously, because this the camera capturing device is in a different location compared to the rendering device,"
+  },
+  {
+    "start": 6051.72,
+    "end": 6058.91,
+    "text": "and there is no one connecting the two of them. If there was a wire going into, we could have just locked them or something or like, you know,"
+  },
+  {
+    "start": 6058.91,
+    "end": 6066.11,
+    "text": "make sure that the synchronizing, the scanning on the in your camera is, is, is at the same rate as the um."
+  },
+  {
+    "start": 6066.11,
+    "end": 6073.3,
+    "text": "Through some real connection between the two devices, but the devices are just not connected."
+  },
+  {
+    "start": 6073.3,
+    "end": 6080.5,
+    "text": "So how do you ensure that there is a synchronization that is established between this?"
+  },
+  {
+    "start": 6080.5,
+    "end": 6087.7,
+    "text": "To resolve that what the engineers of the time did was use the, uh, electrical outlet."
+  },
+  {
+    "start": 6087.7,
+    "end": 6094.89,
+    "text": "Glad frequency. So in the US and North America, the, um."
+  },
+  {
+    "start": 6094.89,
+    "end": 6102.09,
+    "text": "Electrical outlets are 60Hz. One ten volts."
+  },
+  {
+    "start": 6102.09,
+    "end": 6109.28,
+    "text": "This doesn't matter, right? Whereas in um, in Asia and other countries, it's 50Hz."
+  },
+  {
+    "start": 6109.28,
+    "end": 6116.48,
+    "text": "And at a higher voltage. And this was used."
+  },
+  {
+    "start": 6116.48,
+    "end": 6123.68,
+    "text": "This frequency of the output which was available."
+  },
+  {
+    "start": 6123.68,
+    "end": 6130.87,
+    "text": "When you plugged in the camcorder into the outlet. It is available when you plugged in the, um, the television to the outlet."
+  },
+  {
+    "start": 6130.87,
+    "end": 6138.07,
+    "text": "That frequency was available to help the synchronization process."
+  },
+  {
+    "start": 6138.07,
+    "end": 6145.26,
+    "text": "And as a result, this led to different standards. We had NTSC for 60 frames per second, and this is the file and sequence standards."
+  },
+  {
+    "start": 6145.26,
+    "end": 6152.46,
+    "text": "In Asia and in parts of Europe. Um, then I've got a 50Hz."
+  },
+  {
+    "start": 6152.46,
+    "end": 6159.65,
+    "text": "So that's number one. So the first problem was synchronization problem."
+  },
+  {
+    "start": 6159.65,
+    "end": 6166.85,
+    "text": "Okay. The second problem was, um."
+  },
+  {
+    "start": 6166.85,
+    "end": 6174.05,
+    "text": "So let me just write the problem down. Was synchronization."
+  },
+  {
+    "start": 6174.05,
+    "end": 6181.24,
+    "text": "Kind of synchronization is between the captured instrument and the displacement, which are not connected in any way."
+  },
+  {
+    "start": 6181.24,
+    "end": 6188.44,
+    "text": "The outlet, so does a way to resolve the connection and the frequencies of the outlets."
+  },
+  {
+    "start": 6188.44,
+    "end": 6195.63,
+    "text": "Uh, was used for that. And as a result, the video,"
+  },
+  {
+    "start": 6195.63,
+    "end": 6202.83,
+    "text": "the television video that was captured in the United States and Northern America"
+  },
+  {
+    "start": 6202.83,
+    "end": 6210.03,
+    "text": "with 60Hz follows a different standard compared to the television signal."
+  },
+  {
+    "start": 6210.03,
+    "end": 6217.22,
+    "text": "And this captured in other parts of Asia and Europe, which which takes 50 hours."
+  },
+  {
+    "start": 6217.22,
+    "end": 6224.42,
+    "text": "So that's."
+  },
+  {
+    "start": 6224.42,
+    "end": 6231.61,
+    "text": "Outcome number one, which now when you go to the digital pipeline, you need to respect this because there are empty signals everywhere recorded."
+  },
+  {
+    "start": 6231.61,
+    "end": 6238.81,
+    "text": "There are found signals everywhere the corner. The second one was your dream."
+  },
+  {
+    "start": 6238.81,
+    "end": 6246.0,
+    "text": "Stream. Fast forward. The technology of the TV's first full screen,"
+  },
+  {
+    "start": 6246.0,
+    "end": 6253.2,
+    "text": "which was now being illuminated by an electron gun as scanned from left to right and left to right and left to right, and so on."
+  },
+  {
+    "start": 6253.2,
+    "end": 6260.4,
+    "text": "Well, such that with a scan from left to right, at that rate it glowed."
+  },
+  {
+    "start": 6260.4,
+    "end": 6267.59,
+    "text": "And you saw online I. It's just a very high frame rate."
+  },
+  {
+    "start": 6267.59,
+    "end": 6274.79,
+    "text": "I scanned it, right. But when it came to the lower portion."
+  },
+  {
+    "start": 6274.79,
+    "end": 6281.98,
+    "text": "The upper falls for which was which was which was lit started to fade away over time."
+  },
+  {
+    "start": 6281.98,
+    "end": 6289.18,
+    "text": "And so by the time you get to the bottom, to the top was fading away."
+  },
+  {
+    "start": 6289.18,
+    "end": 6296.38,
+    "text": "And when it reset back to the top. And so it's counting on the top, the bottom started fading away."
+  },
+  {
+    "start": 6296.38,
+    "end": 6303.57,
+    "text": "And this fade started to cause visual."
+  },
+  {
+    "start": 6303.57,
+    "end": 6310.77,
+    "text": "Um, you know, visual trouble in accepting the signal. And so flicker, which is not."
+  },
+  {
+    "start": 6310.77,
+    "end": 6317.96,
+    "text": "Which is not good. Okay. And so that problem needs to be resolved."
+  },
+  {
+    "start": 6317.96,
+    "end": 6325.16,
+    "text": "And the way the engineering community at that point solve the problem was by splitting."
+  },
+  {
+    "start": 6325.16,
+    "end": 6332.36,
+    "text": "One frame. Into."
+  },
+  {
+    "start": 6332.36,
+    "end": 6339.55,
+    "text": "Who feels. Which is the odd field."
+  },
+  {
+    "start": 6339.55,
+    "end": 6346.75,
+    "text": "And even for you. So understand this concept of the same thing which has got, let's say, 400 lines."
+  },
+  {
+    "start": 6346.75,
+    "end": 6353.94,
+    "text": "Is now been split into."
+  },
+  {
+    "start": 6353.94,
+    "end": 6361.14,
+    "text": "Two fields, each of 200 lines, where the odd field contains all the odd numbered lines, and the even field contains only the equal number plates."
+  },
+  {
+    "start": 6361.14,
+    "end": 6368.33,
+    "text": "So how does that help? Uh, well."
+  },
+  {
+    "start": 6368.33,
+    "end": 6375.53,
+    "text": "It helps. Why? Um. By seeing the two fields differently."
+  },
+  {
+    "start": 6375.53,
+    "end": 6382.73,
+    "text": "The upper field or the odd field and the lower field and the even field and the television would then render."
+  },
+  {
+    "start": 6382.73,
+    "end": 6389.92,
+    "text": "The evil filled out. And then also in the opposite, the odd field out."
+  },
+  {
+    "start": 6389.92,
+    "end": 6397.12,
+    "text": "And then as the outfield started to decay, it came in the middle and interspersed it with the evil few."
+  },
+  {
+    "start": 6397.12,
+    "end": 6404.31,
+    "text": "Right. So the decay was not noticeable because in between the two lines there was a new refresh."
+  },
+  {
+    "start": 6404.31,
+    "end": 6411.51,
+    "text": "Uh, refresh render being done by the scan lines."
+  },
+  {
+    "start": 6411.51,
+    "end": 6418.71,
+    "text": "So there is no. It's only a smarter way to scan."
+  },
+  {
+    "start": 6418.71,
+    "end": 6425.9,
+    "text": "You're not doing any more, um, information or getting any more information."
+  },
+  {
+    "start": 6425.9,
+    "end": 6433.1,
+    "text": "I'm getting less. And for me, the same amount of information. It is all the scan lines for free and all the frames per second,"
+  },
+  {
+    "start": 6433.1,
+    "end": 6440.29,
+    "text": "but just the order in which you're scanning the scan lines and transporting them has states just scanning them,"
+  },
+  {
+    "start": 6440.29,
+    "end": 6447.49,
+    "text": "not in a progressive manner, which is line by line by line."
+  },
+  {
+    "start": 6447.49,
+    "end": 6454.68,
+    "text": "Which led to the decay of the phosphor and render time when the coverage."
+  },
+  {
+    "start": 6454.68,
+    "end": 6461.88,
+    "text": "But rather than that, your scanning every odd line first, followed by even line, and this order even separation now gives rise to um, uh uh,"
+  },
+  {
+    "start": 6461.88,
+    "end": 6469.08,
+    "text": "a render process between the online first and then your lines interspersed such that when one field starts to decay,"
+  },
+  {
+    "start": 6469.08,
+    "end": 6476.27,
+    "text": "the other one is coming in the middle and drawing over it. And so the, the flicker problem is now."
+  },
+  {
+    "start": 6476.27,
+    "end": 6483.47,
+    "text": "Less noticeable on the positive to be not. So."
+  },
+  {
+    "start": 6483.47,
+    "end": 6490.66,
+    "text": "That was the second problem to be solved. With me so far."
+  },
+  {
+    "start": 6490.66,
+    "end": 6497.86,
+    "text": "And the reason I'm, you know, we need to understand all this is because not only go to the digital domain."
+  },
+  {
+    "start": 6497.86,
+    "end": 6505.06,
+    "text": "You need to support. NTSC and Pal as formats in the digital formats."
+  },
+  {
+    "start": 6505.06,
+    "end": 6512.25,
+    "text": "You need to be able to support progressive and um, and uh, um, uh, this is called interlaced."
+  },
+  {
+    "start": 6512.25,
+    "end": 6519.45,
+    "text": "Into this fields in your in your format. And the third big thing that happened."
+  },
+  {
+    "start": 6519.45,
+    "end": 6526.64,
+    "text": "Through the signals was rendered with the introduction of color."
+  },
+  {
+    "start": 6526.64,
+    "end": 6533.84,
+    "text": "In the 1930s and 40s, when color. Color theory became, uh, well understood."
+  },
+  {
+    "start": 6533.84,
+    "end": 6541.03,
+    "text": "Phenomena or understood. Uh uh uh um, area."
+  },
+  {
+    "start": 6541.03,
+    "end": 6548.23,
+    "text": "And you could capture color signals. You also wanted to transmit color signals right now, color signals."
+  },
+  {
+    "start": 6548.23,
+    "end": 6555.43,
+    "text": "And the color cameras, they work by capturing time. The war by the concordant is going to capture."
+  },
+  {
+    "start": 6555.43,
+    "end": 6562.62,
+    "text": "O, r, g and b three."
+  },
+  {
+    "start": 6562.62,
+    "end": 6569.82,
+    "text": "Channels. So there will be three scan lines."
+  },
+  {
+    "start": 6569.82,
+    "end": 6577.01,
+    "text": "Paul Scanlon 0323. Scans for line one is going to be the scan."
+  },
+  {
+    "start": 6577.01,
+    "end": 6584.21,
+    "text": "One is going to be the G scale, one is going to be the scan. So now your amount of information has triple."
+  },
+  {
+    "start": 6584.21,
+    "end": 6591.41,
+    "text": "So we have two subproblems that the bandwidth is high."
+  },
+  {
+    "start": 6591.41,
+    "end": 6598.6,
+    "text": "It will not transmit at the frequency carrier that was decided before."
+  },
+  {
+    "start": 6598.6,
+    "end": 6605.8,
+    "text": "That's number one and number two. There's already an ecosystem of black and white television distributed all over the, you know, the marketplace."
+  },
+  {
+    "start": 6605.8,
+    "end": 6612.99,
+    "text": "And now you're imposing a color distribution at the same time. How do you make the two different types of."
+  },
+  {
+    "start": 6612.99,
+    "end": 6620.19,
+    "text": "Uh, gives play well when the transmission can be of only one type, either a black and white transmission or a color transmission."
+  },
+  {
+    "start": 6620.19,
+    "end": 6627.39,
+    "text": "Now think of a scenario in which. People in the, in the, in the, uh, in the city or in the world have got black and white and colored televisions."
+  },
+  {
+    "start": 6627.39,
+    "end": 6634.58,
+    "text": "Right. And now if you transmit just black and white transmission."
+  },
+  {
+    "start": 6634.58,
+    "end": 6641.78,
+    "text": "Yeah. So the color televisions can be made to display just black and white, but not the reverse."
+  },
+  {
+    "start": 6641.78,
+    "end": 6648.97,
+    "text": "If it's a color transmission going, the need to make sure you have some solution in place that if it's a color TV, is displays the color signal."
+  },
+  {
+    "start": 6648.97,
+    "end": 6656.17,
+    "text": "And if it's a black and white TV, it displays the black and white signal."
+  },
+  {
+    "start": 6656.17,
+    "end": 6663.36,
+    "text": "And for this to happen we the there was a colorspace transmission a transition which converted RGB."
+  },
+  {
+    "start": 6663.36,
+    "end": 6670.56,
+    "text": "Who? Why you? Thanks."
+  },
+  {
+    "start": 6670.56,
+    "end": 6677.76,
+    "text": "So y u v is a color space which consists of y."
+  },
+  {
+    "start": 6677.76,
+    "end": 6684.95,
+    "text": "Which is the luminance signal, and u and V which is the prominence of colors."
+  },
+  {
+    "start": 6684.95,
+    "end": 6692.15,
+    "text": "So the Y and the C signal was then sent across to the um, to the transmission tower to be sent to the different televisions."
+  },
+  {
+    "start": 6692.15,
+    "end": 6699.34,
+    "text": "And when this came back to the, uh."
+  },
+  {
+    "start": 6699.34,
+    "end": 6706.54,
+    "text": "Oh, uh, by the antennas. Um, this Y and C signal was split up into y and u and V, and then there was a conversion from y u v to RGB."
+  },
+  {
+    "start": 6706.54,
+    "end": 6713.74,
+    "text": "Because if it was a television and for the the, uh uh uh, not a color television, you just ignore that."
+  },
+  {
+    "start": 6713.74,
+    "end": 6720.93,
+    "text": "Would you and V just do the Y and just do the life of your black and white television?"
+  },
+  {
+    "start": 6720.93,
+    "end": 6728.13,
+    "text": "So that way you ensure that both the black and white and the colored transitions work."
+  },
+  {
+    "start": 6728.13,
+    "end": 6735.32,
+    "text": "Okay, but this is not all we have to support in a digital formats the way you reformat now."
+  },
+  {
+    "start": 6735.32,
+    "end": 6742.52,
+    "text": "And the original problem is for bandwidth."
+  },
+  {
+    "start": 6742.52,
+    "end": 6749.71,
+    "text": "And multiplied by three. And the other one was the, uh."
+  },
+  {
+    "start": 6749.71,
+    "end": 6756.91,
+    "text": "Color plus black and white. These."
+  },
+  {
+    "start": 6756.91,
+    "end": 6764.11,
+    "text": "In the ecosystem. Right. So we solve this problem by inventing the new region of space."
+  },
+  {
+    "start": 6764.11,
+    "end": 6771.3,
+    "text": "The bandit problem still remains because even though you converted to binary,"
+  },
+  {
+    "start": 6771.3,
+    "end": 6778.5,
+    "text": "you have still have y, u and v, which is three times one channel, but the three channels."
+  },
+  {
+    "start": 6778.5,
+    "end": 6785.69,
+    "text": "And to be able to deal with that, you need to throw away information so that the bandwidth reduced."
+  },
+  {
+    "start": 6785.69,
+    "end": 6792.89,
+    "text": "And for that, we had to leave the, uh."
+  },
+  {
+    "start": 6792.89,
+    "end": 6800.09,
+    "text": "A process for the engineers new to invent. Uh, different."
+  },
+  {
+    "start": 6800.09,
+    "end": 6807.28,
+    "text": "Why? You've, um. Subsampling techniques."
+  },
+  {
+    "start": 6807.28,
+    "end": 6814.48,
+    "text": "Where you throw away parts of. Either Y, you or V, depending upon, uh, what you want to accomplish."
+  },
+  {
+    "start": 6814.48,
+    "end": 6821.67,
+    "text": "Now, the choice of why you V was was pretty deliberate."
+  },
+  {
+    "start": 6821.67,
+    "end": 6828.87,
+    "text": "Uh, why? U v is a space which separates out criminals information which is you and V from the luminance information."
+  },
+  {
+    "start": 6828.87,
+    "end": 6836.07,
+    "text": "No statistically or psycho visual experiments."
+  },
+  {
+    "start": 6836.07,
+    "end": 6843.26,
+    "text": "It was shown that the why information is a lot more important to perception than the color information you and."
+  },
+  {
+    "start": 6843.26,
+    "end": 6850.46,
+    "text": "So if we can find a mechanism in which you keep all the y's and maybe for bandwidth considerations,"
+  },
+  {
+    "start": 6850.46,
+    "end": 6857.65,
+    "text": "throw away some of the dual v's, then maybe you can reduce your bandwidth and still give a better color image quality."
+  },
+  {
+    "start": 6857.65,
+    "end": 6864.85,
+    "text": "And that's why these are some things to introduce. So the first thing I want to talk about is just for completeness."
+  },
+  {
+    "start": 6864.85,
+    "end": 6872.04,
+    "text": "So you know how it works. You have why you've move forward for."
+  },
+  {
+    "start": 6872.04,
+    "end": 6879.24,
+    "text": "Okay. So what you're doing out here is in your, uh, samples that you have."
+  },
+  {
+    "start": 6879.24,
+    "end": 6886.44,
+    "text": "Right. So I'm just drawing the first few samples. If you're scanline by scanline."
+  },
+  {
+    "start": 6886.44,
+    "end": 6893.63,
+    "text": "What these increase in this score like. So you have got a layer of samples like this for your Y."
+  },
+  {
+    "start": 6893.63,
+    "end": 6900.83,
+    "text": "You have a little samples like this for you. And then there are samples like this for your V."
+  },
+  {
+    "start": 6900.83,
+    "end": 6908.02,
+    "text": "Now this is we don't really have a why we for for for something standard,"
+  },
+  {
+    "start": 6908.02,
+    "end": 6915.22,
+    "text": "but I'm just illustrating this so that you can understand the upcoming other standards that that are"
+  },
+  {
+    "start": 6915.22,
+    "end": 6922.42,
+    "text": "more important and that I use very heavily in the why you before for for we take for for pixels."
+  },
+  {
+    "start": 6922.42,
+    "end": 6929.61,
+    "text": "In the local area and four pixels in a local area, and so on and so forth."
+  },
+  {
+    "start": 6929.61,
+    "end": 6936.81,
+    "text": "And for all this, for we keep. All y samples, all phone y."
+  },
+  {
+    "start": 6936.81,
+    "end": 6944.0,
+    "text": "We give all for you and we keep all for me."
+  },
+  {
+    "start": 6944.0,
+    "end": 6951.2,
+    "text": "Now, originally the RGB were eight bits per channel."
+  },
+  {
+    "start": 6951.2,
+    "end": 6958.39,
+    "text": "Conversion to why you read keeps it to be eight bits for Y for you and for B also."
+  },
+  {
+    "start": 6958.39,
+    "end": 6965.59,
+    "text": "So it's total of 24 bits per pixel, right. We're going to keep all four of why you get four into eight which is equal to 32."
+  },
+  {
+    "start": 6965.59,
+    "end": 6972.79,
+    "text": "You get four into eight which is equal to 32 bits. You go to four into eight which is equal to 32."
+  },
+  {
+    "start": 6972.79,
+    "end": 6979.98,
+    "text": "Some those of you get it equal to two plus two plus two and three plus three plus three."
+  },
+  {
+    "start": 6979.98,
+    "end": 6987.18,
+    "text": "That's 96. So you get 96 bits overall."
+  },
+  {
+    "start": 6987.18,
+    "end": 6994.37,
+    "text": "So the average bits per pixel."
+  },
+  {
+    "start": 6994.37,
+    "end": 7001.57,
+    "text": "It's going to be equal to 96 divided by four pixels, because you're considered four pixels together, and that's equal to."
+  },
+  {
+    "start": 7001.57,
+    "end": 7008.77,
+    "text": "24 bits per pixel. No surprises there because he didn't throw anything."
+  },
+  {
+    "start": 7008.77,
+    "end": 7015.96,
+    "text": "He started at 24 and you got back 24."
+  },
+  {
+    "start": 7015.96,
+    "end": 7023.16,
+    "text": "This process was just for you to understand how the calculation, of course, of the year for why you went."
+  },
+  {
+    "start": 7023.16,
+    "end": 7030.35,
+    "text": "Because now when you go to the next one. Which is why you, the poor who do."
+  },
+  {
+    "start": 7030.35,
+    "end": 7037.55,
+    "text": "Here also you have. Your slices of your wise."
+  },
+  {
+    "start": 7037.55,
+    "end": 7044.75,
+    "text": "You use. And your visa, right?"
+  },
+  {
+    "start": 7044.75,
+    "end": 7051.94,
+    "text": "So for every four pixels that you're considering now. Okay."
+  },
+  {
+    "start": 7051.94,
+    "end": 7059.14,
+    "text": "You keep all four. Why? Because why is that important for your perception?"
+  },
+  {
+    "start": 7059.14,
+    "end": 7066.33,
+    "text": "That's equal to four times eight, which is equal to 32. But you keep two of you out of your use and two of you leave."
+  },
+  {
+    "start": 7066.33,
+    "end": 7073.53,
+    "text": "Right. So you might keep wild here, wild here, wild, wild you."
+  },
+  {
+    "start": 7073.53,
+    "end": 7080.72,
+    "text": "But you just keep. You're you out here and you're you out here, and you vote here and you vote here."
+  },
+  {
+    "start": 7080.72,
+    "end": 7087.92,
+    "text": "You throw away the U and V in this location. Okay x is equal to two times eight equal to 16."
+  },
+  {
+    "start": 7087.92,
+    "end": 7095.12,
+    "text": "Again two times x is equal to 16. So you get uh eight and 614 get it 13456."
+  },
+  {
+    "start": 7095.12,
+    "end": 7102.31,
+    "text": "And so your average. And it's for pixel because they're taking four pixels at a time."
+  },
+  {
+    "start": 7102.31,
+    "end": 7109.51,
+    "text": "So is equal to 64 or by four is equal to 16."
+  },
+  {
+    "start": 7109.51,
+    "end": 7116.7,
+    "text": "So you managed to save. 33% of your bandwidth."
+  },
+  {
+    "start": 7116.7,
+    "end": 7123.9,
+    "text": "By throwing away and using two things."
+  },
+  {
+    "start": 7123.9,
+    "end": 7131.1,
+    "text": "When the receiver gets this, it knows exactly. Knowing it's a 4 to 2, it knows exactly which use."
+  },
+  {
+    "start": 7131.1,
+    "end": 7138.29,
+    "text": "And these are mixed with a missing."
+  },
+  {
+    "start": 7138.29,
+    "end": 7145.49,
+    "text": "And so it interpolates them, or just copies the value of u and v from here into the original, into the missing locations."
+  },
+  {
+    "start": 7145.49,
+    "end": 7152.68,
+    "text": "So it's, uh. Uh, interpolated value or, uh, filled in value."
+  },
+  {
+    "start": 7152.68,
+    "end": 7159.88,
+    "text": "But it so happens that the field in values for our human perception. Not that noticeable."
+  },
+  {
+    "start": 7159.88,
+    "end": 7167.07,
+    "text": "Because color is not as important in your perception."
+  },
+  {
+    "start": 7167.07,
+    "end": 7174.27,
+    "text": "And you can go further. Subsample it further by taking a y, u v for two or or."
+  },
+  {
+    "start": 7174.27,
+    "end": 7181.47,
+    "text": "It's also called for one one. The average bits per pixel is the same, but the difference is in which pixels?"
+  },
+  {
+    "start": 7181.47,
+    "end": 7188.66,
+    "text": "Are you throwing away the user visa? So if you take the same."
+  },
+  {
+    "start": 7188.66,
+    "end": 7195.86,
+    "text": "Locations. This is your image."
+  },
+  {
+    "start": 7195.86,
+    "end": 7203.05,
+    "text": "Slices of wine you envy. So on."
+  },
+  {
+    "start": 7203.05,
+    "end": 7210.25,
+    "text": "So for. 442."
+  },
+  {
+    "start": 7210.25,
+    "end": 7217.45,
+    "text": "Oh. Okay. We're going to keep all for why."
+  },
+  {
+    "start": 7217.45,
+    "end": 7224.64,
+    "text": "What is equal to eight times four which is equal to 32. And you're taking these two guys."
+  },
+  {
+    "start": 7224.64,
+    "end": 7231.84,
+    "text": "Because you're going to take one. One u and one v, which is equal to one times or eight times one."
+  },
+  {
+    "start": 7231.84,
+    "end": 7239.03,
+    "text": "Eight times 1 to 8. And you will take your all your wise."
+  },
+  {
+    "start": 7239.03,
+    "end": 7246.23,
+    "text": "I'm going to take one of you using one of your rules and throw the others away."
+  },
+  {
+    "start": 7246.23,
+    "end": 7253.42,
+    "text": "So out of four pixels you have all the font wise, but you have only one pixel with the U and one pixel with three."
+  },
+  {
+    "start": 7253.42,
+    "end": 7260.62,
+    "text": "The total comes out to be 48. And so the average."
+  },
+  {
+    "start": 7260.62,
+    "end": 7267.82,
+    "text": "That's. For pixel is going to be going to 48 by four, which is equal to 12."
+  },
+  {
+    "start": 7267.82,
+    "end": 7275.01,
+    "text": "So 12 is a 50% savings in your bids."
+  },
+  {
+    "start": 7275.01,
+    "end": 7282.21,
+    "text": "And so when the receiver gets this. The it gets all the for wise but for the missing."
+  },
+  {
+    "start": 7282.21,
+    "end": 7289.4,
+    "text": "Using these it just interpolates them in the neighborhood."
+  },
+  {
+    "start": 7289.4,
+    "end": 7296.6,
+    "text": "I'll make a copy of the same. Depends on what the strategy you use, and then converts what you read to RGB and displays the argument."
+  },
+  {
+    "start": 7296.6,
+    "end": 7303.8,
+    "text": "And that in itself, uh, perceptually is uh, yeah."
+  },
+  {
+    "start": 7303.8,
+    "end": 7310.99,
+    "text": "You do, you do see, uh, the, uh, the loss of vibrance of color."
+  },
+  {
+    "start": 7310.99,
+    "end": 7318.19,
+    "text": "But still, given that it's a 50% lossy saving researcher, it seems to be okay."
+  },
+  {
+    "start": 7318.19,
+    "end": 7325.38,
+    "text": "And that was the reason why you go to a while. You reach out where you're separating the luminance from the criminals and"
+  },
+  {
+    "start": 7325.38,
+    "end": 7332.58,
+    "text": "giving less importance to the criminals based on psychophysical experiments."
+  },
+  {
+    "start": 7332.58,
+    "end": 7339.78,
+    "text": "What they've shown. This is the fourth duel and the fourth one one."
+  },
+  {
+    "start": 7339.78,
+    "end": 7346.97,
+    "text": "You do the same thing, exact thing. But instead of taking four pixels in a corner like this, or in a in a square area,"
+  },
+  {
+    "start": 7346.97,
+    "end": 7354.17,
+    "text": "you take four pixels in a, in a longer in, you know, four pixels in a row,"
+  },
+  {
+    "start": 7354.17,
+    "end": 7361.36,
+    "text": "or you keep all the four wise you can do, um, visit the first two and the remaining three,"
+  },
+  {
+    "start": 7361.36,
+    "end": 7368.56,
+    "text": "you have no you in vs you just copy them all in at the at the receiving end."
+  },
+  {
+    "start": 7368.56,
+    "end": 7375.75,
+    "text": "If you looked at how the 041142422 subsampling goes, because here is your, um, your Y samples, which you're keeping all over the place."
+  },
+  {
+    "start": 7375.75,
+    "end": 7382.95,
+    "text": "You're keeping the U and V are the Cbn.com."
+  },
+  {
+    "start": 7382.95,
+    "end": 7390.15,
+    "text": "That's a similar series in this this location."
+  },
+  {
+    "start": 7390.15,
+    "end": 7397.34,
+    "text": "Right. Um. And if it's in the list scanning, then you can see what happens."
+  },
+  {
+    "start": 7397.34,
+    "end": 7404.54,
+    "text": "But this is what you're what? You're actually transmitting."
+  },
+  {
+    "start": 7404.54,
+    "end": 7411.73,
+    "text": "So you can see as a result of this, you have really gone down to 50%."
+  },
+  {
+    "start": 7411.73,
+    "end": 7418.93,
+    "text": "And the receiver, when your receiving the receiver has ordered twice, uh, the missing places of where it goes using these."
+  },
+  {
+    "start": 7418.93,
+    "end": 7426.13,
+    "text": "It will just leave a copy of locally of of the neighborhoods or interpolate them however you want to, uh, justify filling in the missing values."
+  },
+  {
+    "start": 7426.13,
+    "end": 7433.32,
+    "text": "And then once you have the missing values, you can then convert your wikler y, u,"
+  },
+  {
+    "start": 7433.32,
+    "end": 7440.52,
+    "text": "v into RGB and then give it to your, uh, television to render scan line by scanning the thing that comes."
+  },
+  {
+    "start": 7440.52,
+    "end": 7447.71,
+    "text": "You know, it's a 42 something thing."
+  },
+  {
+    "start": 7447.71,
+    "end": 7454.91,
+    "text": "So for every four pixels, you're keeping all the four Y's in the 4x4 neighborhood and keeping two Jews and two V's."
+  },
+  {
+    "start": 7454.91,
+    "end": 7462.1,
+    "text": "And at the receiving end, and all the missing use using these are."
+  },
+  {
+    "start": 7462.1,
+    "end": 7469.3,
+    "text": "Then there's an interpolated value or a copied over value, which is incoming into RGB and shown for display."
+  },
+  {
+    "start": 7469.3,
+    "end": 7476.5,
+    "text": "Yeah. So this makes it."
+  },
+  {
+    "start": 7476.5,
+    "end": 7483.69,
+    "text": "Well, what have we done so far? Um. What I explained to you and to summarize is, um."
+  },
+  {
+    "start": 7483.69,
+    "end": 7490.89,
+    "text": "When television became a reality, there was black and white television,"
+  },
+  {
+    "start": 7490.89,
+    "end": 7498.08,
+    "text": "which needed to be, which led some really good engineering solutions for synchronization,"
+  },
+  {
+    "start": 7498.08,
+    "end": 7505.28,
+    "text": "which was solved by taking 60Hz signal and 50Hz signal, depending upon the region that you go to."
+  },
+  {
+    "start": 7505.28,
+    "end": 7512.48,
+    "text": "Right. And this has led to the NTSC format and the fourth and the second format, which are very different formats."
+  },
+  {
+    "start": 7512.48,
+    "end": 7519.67,
+    "text": "But now once you go into the digital representation, we still have to represent this somehow because of legacy."
+  },
+  {
+    "start": 7519.67,
+    "end": 7526.87,
+    "text": "The other one was a TV screen phosphor deck."
+  },
+  {
+    "start": 7526.87,
+    "end": 7534.06,
+    "text": "The decay mechanism causes the flickering effect, and to resolve that what was done was, uh, introduction of progressive and,"
+  },
+  {
+    "start": 7534.06,
+    "end": 7541.26,
+    "text": "and, uh, and um, interlaced scanning the into this scanning produce splitting one frame into two fields,"
+  },
+  {
+    "start": 7541.26,
+    "end": 7548.46,
+    "text": "the art field and even then sending the odd field separately from the even field so that the render relative,"
+  },
+  {
+    "start": 7548.46,
+    "end": 7555.65,
+    "text": "the function of the other hand, would then render the two interspersed, thereby minimizing the effect for the outcome of."
+  },
+  {
+    "start": 7555.65,
+    "end": 7562.85,
+    "text": "This is. Now the interlaced format needs a representation in the digital format for formats of the legacy."
+  },
+  {
+    "start": 7562.85,
+    "end": 7570.04,
+    "text": "The third thing is with the introduction of color, which caused an increase in the bandwidth,"
+  },
+  {
+    "start": 7570.04,
+    "end": 7577.24,
+    "text": "like an increase in the bandwidth led to subsampling schemes like the why we for 20111123422."
+  },
+  {
+    "start": 7577.24,
+    "end": 7584.43,
+    "text": "And these subsampling schemes now are signals that are that have been present for a long time."
+  },
+  {
+    "start": 7584.43,
+    "end": 7591.63,
+    "text": "And so when you go to a digital form you also need an equivalent representation in digital form that resources."
+  },
+  {
+    "start": 7591.63,
+    "end": 7598.83,
+    "text": "We learned to calculate the equivalent bits per pixel. So in this example we've taken eight bits per pixel."
+  },
+  {
+    "start": 7598.83,
+    "end": 7606.02,
+    "text": "But they could be cameras that could be, um, captioning at 16 bits per pixel and then doing a full two."
+  },
+  {
+    "start": 7606.02,
+    "end": 7613.22,
+    "text": "Right. So in this case instead of four times eight plus eight plus eight would be four times 1616 per 16."
+  },
+  {
+    "start": 7613.22,
+    "end": 7620.41,
+    "text": "It just depends on what your original bit depth is and what what happens after your subsampling."
+  },
+  {
+    "start": 7620.41,
+    "end": 7627.61,
+    "text": "Moving on. Uh. There's another important thing that happened with radio signals, which is the image aspect ratio."
+  },
+  {
+    "start": 7627.61,
+    "end": 7634.81,
+    "text": "And this is simply the ratio for growth and height."
+  },
+  {
+    "start": 7634.81,
+    "end": 7642.0,
+    "text": "Now, typically, as the video cameras evolved when the original exam and uh tests were done on the examples we created."
+  },
+  {
+    "start": 7642.0,
+    "end": 7649.2,
+    "text": "This used to be a four by three image format, uh, where the length was was well, then to birth ratio was 4 to 3."
+  },
+  {
+    "start": 7649.2,
+    "end": 7656.39,
+    "text": "And this became a standard way because of the, um, the experimentation and little just adoption, I guess, became a standard way of, uh, of,"
+  },
+  {
+    "start": 7656.39,
+    "end": 7663.59,
+    "text": "you know, how give you signals were formed and hence the video signals were formed, uh, with cameras and it stayed that free for a long time."
+  },
+  {
+    "start": 7663.59,
+    "end": 7670.78,
+    "text": "At some point in the. Early 90s, we decided to have a high definition television signal with a 16 by nine video format."
+  },
+  {
+    "start": 7670.78,
+    "end": 7677.98,
+    "text": "And then also introduce all the Cinemascope. Uh, 47 is a 20, um, format."
+  },
+  {
+    "start": 7677.98,
+    "end": 7685.18,
+    "text": "And I've seen I've tried to give you examples below of what those formats and images look like."
+  },
+  {
+    "start": 7685.18,
+    "end": 7692.37,
+    "text": "And the content of each is probably one of the first films that was shot with a camera of that standard."
+  },
+  {
+    "start": 7692.37,
+    "end": 7699.57,
+    "text": "So on the upper left, not here, is gone with the wind."
+  },
+  {
+    "start": 7699.57,
+    "end": 7706.76,
+    "text": "Uh, we just shot with the four by three standard format. Um, if you are a movie buff and you know what movie this is."
+  },
+  {
+    "start": 7706.76,
+    "end": 7713.96,
+    "text": "Um, this is The English Patient, shot with a 16 by nine, uh, video format."
+  },
+  {
+    "start": 7713.96,
+    "end": 7721.16,
+    "text": "This was in the mid-nineties. And, um, in the late 90s."
+  },
+  {
+    "start": 7721.16,
+    "end": 7728.35,
+    "text": "This is a Cinemascope movie. Um. And then a morphic kind of lens."
+  },
+  {
+    "start": 7728.35,
+    "end": 7735.55,
+    "text": "And this was. Um, the, uh."
+  },
+  {
+    "start": 7735.55,
+    "end": 7742.74,
+    "text": "Saving Private Ryan, I think. Mm. And why this format were invented?"
+  },
+  {
+    "start": 7742.74,
+    "end": 7749.94,
+    "text": "I don't know. I think I have a theory about it."
+  },
+  {
+    "start": 7749.94,
+    "end": 7757.13,
+    "text": "And this is because of the, um, evolution of the movie industry vis a vis the home entertainment industry."
+  },
+  {
+    "start": 7757.13,
+    "end": 7764.33,
+    "text": "When the movie industry evolved. It started with the four by three format."
+  },
+  {
+    "start": 7764.33,
+    "end": 7771.53,
+    "text": "It introduced color and people who should go to movie theaters to watch colored movies."
+  },
+  {
+    "start": 7771.53,
+    "end": 7778.72,
+    "text": "Um, there was, uh, stereo sound and so on and so forth."
+  },
+  {
+    "start": 7778.72,
+    "end": 7785.92,
+    "text": "Uh, but pretty soon home televisions also gave the same effect."
+  },
+  {
+    "start": 7785.92,
+    "end": 7793.11,
+    "text": "A four by three. Done. Um formats with with with uh, uh, stereoscopic sound."
+  },
+  {
+    "start": 7793.11,
+    "end": 7800.31,
+    "text": "And so to. Increase the quality of your view of your of your of your cinema experience."
+  },
+  {
+    "start": 7800.31,
+    "end": 7807.51,
+    "text": "The movie industry in 2016 is demanding high resolution formats, so you get a clearer picture and a better experience."
+  },
+  {
+    "start": 7807.51,
+    "end": 7814.7,
+    "text": "Um, well, that started happening also to televisions, right?"
+  },
+  {
+    "start": 7814.7,
+    "end": 7821.9,
+    "text": "Uh, at that point of time, I think the movie industry just introduced, um, surround sound decks."
+  },
+  {
+    "start": 7821.9,
+    "end": 7829.09,
+    "text": "Uh, well, you have surround sound also at home. And then the movie industry introduced."
+  },
+  {
+    "start": 7829.09,
+    "end": 7836.29,
+    "text": "Cinemascope. And then they introduced, uh, stereoscopic watching movies in 3D."
+  },
+  {
+    "start": 7836.29,
+    "end": 7843.49,
+    "text": "So all this time, you know, it's always been a way to provide a better experience to consumers,"
+  },
+  {
+    "start": 7843.49,
+    "end": 7850.68,
+    "text": "going to want a different experience going because he was going to watch television."
+  },
+  {
+    "start": 7850.68,
+    "end": 7857.88,
+    "text": "So you can justify the $2,024 cost of a movie experience."
+  },
+  {
+    "start": 7857.88,
+    "end": 7865.07,
+    "text": "Uh, so yeah, but the outcome of this is that because of."
+  },
+  {
+    "start": 7865.07,
+    "end": 7872.27,
+    "text": "Movies that are now being that have now been made and mastered."
+  },
+  {
+    "start": 7872.27,
+    "end": 7879.46,
+    "text": "And muscle a master copy that is being kept. For storage or for legacy reasons."
+  },
+  {
+    "start": 7879.46,
+    "end": 7886.66,
+    "text": "Have the four by three format. Have the Cinemascope format."
+  },
+  {
+    "start": 7886.66,
+    "end": 7893.86,
+    "text": "Have the 16 by nine high definition HDTV format?"
+  },
+  {
+    "start": 7893.86,
+    "end": 7901.05,
+    "text": "Um, when it comes to, um, repurposing these movies for transmission reasons or consumption reasons,"
+  },
+  {
+    "start": 7901.05,
+    "end": 7908.25,
+    "text": "not all the televisions in the world are still high definition, but there's still televisions, which are maybe four by three."
+  },
+  {
+    "start": 7908.25,
+    "end": 7915.44,
+    "text": "And so content needs to be frequently inter converted between one."
+  },
+  {
+    "start": 7915.44,
+    "end": 7922.64,
+    "text": "Aspect ratio to another. And this conversion leads to all kinds of problems."
+  },
+  {
+    "start": 7922.64,
+    "end": 7929.84,
+    "text": "So for example,"
+  },
+  {
+    "start": 7929.84,
+    "end": 7937.03,
+    "text": "if you had a four by three format and converted that simply by scaling the image of the frame set of frames up to a 63 Cinemascope format."
+  },
+  {
+    "start": 7937.03,
+    "end": 7944.23,
+    "text": "You see how the pixels get stretched? Or similarly, if you had, uh, cinematographic movie, which you wanted to now,"
+  },
+  {
+    "start": 7944.23,
+    "end": 7951.42,
+    "text": "uh, display on a standard definition television with the four by three aspect."
+  },
+  {
+    "start": 7951.42,
+    "end": 7958.62,
+    "text": "You can see how the pixels gets get stretched vertically. And this."
+  },
+  {
+    "start": 7958.62,
+    "end": 7965.81,
+    "text": "Are not desirable. One way to normally solve this is by little proxy."
+  },
+  {
+    "start": 7965.81,
+    "end": 7973.01,
+    "text": "So if you if you get a DVD of of of a high definition, uh, format playing on a standard television,"
+  },
+  {
+    "start": 7973.01,
+    "end": 7980.21,
+    "text": "you will see that, you know, the upper, uh, the upper part of the image and the lower part is all locked up."
+  },
+  {
+    "start": 7980.21,
+    "end": 7987.4,
+    "text": "Uh, right. And the image is only in the middle. That's because they don't want to stress the pixels."
+  },
+  {
+    "start": 7987.4,
+    "end": 7994.6,
+    "text": "Um, but in doing so, yeah, you preserve the aspects, but you end up not making, uh, justifying the optimal use of your realistic screen."
+  },
+  {
+    "start": 7994.6,
+    "end": 8001.79,
+    "text": "And and how do you resolve the problem? And this is not an easy problem to solve because you can have stretching happening."
+  },
+  {
+    "start": 8001.79,
+    "end": 8008.99,
+    "text": "You can have none. You can minimize it by making assumptions like some Sony came up with the with the format would say,"
+  },
+  {
+    "start": 8008.99,
+    "end": 8016.19,
+    "text": "which made the assumption that when you're looking at the screen, you're looking at in the center."
+  },
+  {
+    "start": 8016.19,
+    "end": 8023.38,
+    "text": "So maybe the center is always going to be fed properly. And the non-linearity stretching can be, you know,"
+  },
+  {
+    "start": 8023.38,
+    "end": 8030.58,
+    "text": "put in the in the corners where you're not looking at all the time, but that the results are disturbing."
+  },
+  {
+    "start": 8030.58,
+    "end": 8037.77,
+    "text": "Um, until recently when there was this new research called seed carving, which came about and try to, um, very intelligently, um."
+  },
+  {
+    "start": 8037.77,
+    "end": 8044.97,
+    "text": "Um, resize images depending upon what the content is."
+  },
+  {
+    "start": 8044.97,
+    "end": 8052.17,
+    "text": "Grid. Um, and this is even before the times of Siem carving for content aware image."
+  },
+  {
+    "start": 8052.17,
+    "end": 8059.36,
+    "text": "This is before the times of uh, um. Of neural networks, I think."
+  },
+  {
+    "start": 8059.36,
+    "end": 8066.56,
+    "text": "Um. But it was a nice."
+  },
+  {
+    "start": 8066.56,
+    "end": 8073.75,
+    "text": "To resizing. Digital media today has the ability to know here."
+  },
+  {
+    "start": 8073.75,
+    "end": 8080.95,
+    "text": "Hands up if you can. You. Okay. Dynamic page layouts."
+  },
+  {
+    "start": 8080.95,
+    "end": 8088.14,
+    "text": "By changing the window or display size, we can change the layout of a document."
+  },
+  {
+    "start": 8088.14,
+    "end": 8095.34,
+    "text": "However, images embedded in a document typically remain rigid in size and shape."
+  },
+  {
+    "start": 8095.34,
+    "end": 8102.54,
+    "text": "Resizing is also important to fit images into different displays."
+  },
+  {
+    "start": 8102.54,
+    "end": 8109.73,
+    "text": "Current techniques, including cropping or scaling, are limited in their abilities to capture the image content."
+  },
+  {
+    "start": 8109.73,
+    "end": 8116.93,
+    "text": "We present a method for content aware resizing of images."
+  },
+  {
+    "start": 8116.93,
+    "end": 8124.12,
+    "text": "Our technique enables resizing while adapting the image, content and layout."
+  },
+  {
+    "start": 8124.12,
+    "end": 8131.32,
+    "text": "This is sometimes called retargeting. We also define a flexible multi size representation for images that supports continuous resizing."
+  },
+  {
+    "start": 8131.32,
+    "end": 8138.52,
+    "text": "An image can be shrunk in a non-uniform manner while preserving its features, but it can also be extended beyond its original size."
+  },
+  {
+    "start": 8138.52,
+    "end": 8145.71,
+    "text": "Instead of scrolling through images that do not fit in a given display, we gracefully resize them to fit inside the window."
+  },
+  {
+    "start": 8145.71,
+    "end": 8152.91,
+    "text": "For example, assume that we need to change the width of an image. The simplest way to do this is to remove columns of pixels from the image."
+  },
+  {
+    "start": 8152.91,
+    "end": 8160.1,
+    "text": "The best column to remove would be the least noticeable or least important column."
+  },
+  {
+    "start": 8160.1,
+    "end": 8167.3,
+    "text": "We can search for this column by defining an importance or energy function on the image."
+  },
+  {
+    "start": 8167.3,
+    "end": 8174.49,
+    "text": "In this example, we use the gradient magnitude of the image. Next, we look for the column which contains the least energy and remove it."
+  },
+  {
+    "start": 8174.49,
+    "end": 8181.69,
+    "text": "However, using such an approach quickly leads to serious artifacts."
+  },
+  {
+    "start": 8181.69,
+    "end": 8188.89,
+    "text": "Therefore, instead of using rigid columns,"
+  },
+  {
+    "start": 8188.89,
+    "end": 8196.08,
+    "text": "we search for connected paths of pixels or seams from one side of the image to the other that contain the least energy."
+  },
+  {
+    "start": 8196.08,
+    "end": 8203.28,
+    "text": "This can be done using a simple dynamic programing algorithm, as described in the paper, in both vertical and horizontal directions."
+  },
+  {
+    "start": 8203.28,
+    "end": 8210.47,
+    "text": "Here's another example of an image. Its energy function and the least noticeable horizontal and vertical seams."
+  },
+  {
+    "start": 8210.47,
+    "end": 8217.67,
+    "text": "By successively removing horizontal and vertical seams, the image can be resized in a non-uniform manner."
+  },
+  {
+    "start": 8217.67,
+    "end": 8224.87,
+    "text": "The order of seam removal in an image defines an order on the pixels of the image."
+  },
+  {
+    "start": 8224.87,
+    "end": 8232.06,
+    "text": "By storing the simple indexing information, we create content to where multi size images."
+  },
+  {
+    "start": 8232.06,
+    "end": 8239.26,
+    "text": "In this image, we color all pixels according to the order of their seam removal from blue to red."
+  },
+  {
+    "start": 8239.26,
+    "end": 8246.45,
+    "text": "To enlarge an image we first calculate seems as if we were to shrink the image."
+  },
+  {
+    "start": 8246.45,
+    "end": 8253.65,
+    "text": "Instead of removing these seams, we insert new seams in these locations."
+  },
+  {
+    "start": 8253.65,
+    "end": 8260.85,
+    "text": "The pixels of the new seams are the average of the pixels alongside the new seam positions."
+  },
+  {
+    "start": 8260.85,
+    "end": 8268.04,
+    "text": "This enables a smooth transition between reducing and enlarging the image size and multi size images."
+  },
+  {
+    "start": 8268.04,
+    "end": 8275.24,
+    "text": "We have tested different possible energy functions for retargeting such as entropy,"
+  },
+  {
+    "start": 8275.24,
+    "end": 8282.43,
+    "text": "saliency, histogram of gradient direction, and eye movement measurements."
+  },
+  {
+    "start": 8282.43,
+    "end": 8289.63,
+    "text": "The results depend on the given image, but simple gradient magnitude often gives satisfactory results."
+  },
+  {
+    "start": 8289.63,
+    "end": 8296.82,
+    "text": "For certain content, such as faces. Where the relations between features are important."
+  },
+  {
+    "start": 8296.82,
+    "end": 8304.02,
+    "text": "We define a simple user interface, enabling the designer to protect these image areas."
+  },
+  {
+    "start": 8304.02,
+    "end": 8311.22,
+    "text": "The application is also used as an authoring tool for creating multi sized images."
+  },
+  {
+    "start": 8311.22,
+    "end": 8318.41,
+    "text": "Note that in this specific example, automatic face detection can be used to identify the areas that need protection."
+  },
+  {
+    "start": 8318.41,
+    "end": 8325.61,
+    "text": "To illustrate another application for this tool, we show a simple object removal procedure by adding negative weights to the energy of an image."
+  },
+  {
+    "start": 8325.61,
+    "end": 8332.8,
+    "text": "The user can attract the seems to pass through specific areas first by reducing the size of the image,"
+  },
+  {
+    "start": 8332.8,
+    "end": 8340.0,
+    "text": "these areas are removed first, in effect erasing them to retain its original size."
+  },
+  {
+    "start": 8340.0,
+    "end": 8347.2,
+    "text": "The image is enlarged by using seam insertion. Note that this technique changes the whole image and does not simply erase the objects marked."
+  },
+  {
+    "start": 8347.2,
+    "end": 8354.39,
+    "text": "More examples can be found in the paper and the supplemental materials."
+  },
+  {
+    "start": 8354.39,
+    "end": 8361.59,
+    "text": "Thank you for your attention. All right."
+  },
+  {
+    "start": 8361.59,
+    "end": 8368.78,
+    "text": "So that was seemed far removed to the more intelligent way to resize images."
+  },
+  {
+    "start": 8368.78,
+    "end": 8375.98,
+    "text": "Being aware of the content in the. We also still image formats, which I don't think are very relevant today because we have very high graphics cards."
+  },
+  {
+    "start": 8375.98,
+    "end": 8383.17,
+    "text": "Uh, but the video format that you see out here in the final, you can see that there's."
+  },
+  {
+    "start": 8383.17,
+    "end": 8390.37,
+    "text": "A name hit of this name means something self-consistent corresponds to common interchange format."
+  },
+  {
+    "start": 8390.37,
+    "end": 8397.57,
+    "text": "Usage is quite a common interchange, one of. All of these are have been invented for, or at least established for some application or the other."
+  },
+  {
+    "start": 8397.57,
+    "end": 8404.76,
+    "text": "And for each of them, it gives you what the is all digital format which gives you what the, uh, um."
+  },
+  {
+    "start": 8404.76,
+    "end": 8411.96,
+    "text": "Um, the lines for Fremont and the pixels for line art."
+  },
+  {
+    "start": 8411.96,
+    "end": 8419.15,
+    "text": "Um, so this gives you the width and this gives you. So this gives us the height and this gives you the width."
+  },
+  {
+    "start": 8419.15,
+    "end": 8426.35,
+    "text": "And um. You have frames per second."
+  },
+  {
+    "start": 8426.35,
+    "end": 8433.55,
+    "text": "Uh, whether they're interlaced or not. Uh, subsampling scheme used and the aspect ratio used."
+  },
+  {
+    "start": 8433.55,
+    "end": 8440.74,
+    "text": "And, and depending upon what these numbers are, you can figure out what the bitrate of the signal is going to be."
+  },
+  {
+    "start": 8440.74,
+    "end": 8447.94,
+    "text": "Like for example, the HDTV format, which is uh, the activity, this is progressive or interlaced because um."
+  },
+  {
+    "start": 8447.94,
+    "end": 8455.13,
+    "text": "Positively progressive. So it's 21 1923 949742."
+  },
+  {
+    "start": 8455.13,
+    "end": 8462.33,
+    "text": "All right. So then 1892 9497 um for to work corresponds to 50% savings, which is 24 bits per pixel during the underground Pittsburgh pixel."
+  },
+  {
+    "start": 8462.33,
+    "end": 8469.52,
+    "text": "Uh, and if you compute all that, you get a bit rate of 745 megabits for high definition per second for the high definition stream, which is a lot."
+  },
+  {
+    "start": 8469.52,
+    "end": 8476.72,
+    "text": "Especially if you to have multiple streams."
+  },
+  {
+    "start": 8476.72,
+    "end": 8483.92,
+    "text": "So the next question is how do we take all this information and make sense of it for storage and transmission by compressing it."
+  },
+  {
+    "start": 8483.92,
+    "end": 8491.11,
+    "text": "Um. Yeah."
+  },
+  {
+    "start": 8491.11,
+    "end": 8498.31,
+    "text": "Um, let's talk about graphs for a vector, raster scans or graphics later on."
+  },
+  {
+    "start": 8498.31,
+    "end": 8505.5,
+    "text": "This should bring me to the end of the lecture. Anyone?"
+  },
+  {
+    "start": 8505.5,
+    "end": 8512.7,
+    "text": "Any questions? Um."
+  },
+  {
+    "start": 8512.7,
+    "end": 8519.9,
+    "text": "I don't see any questions on Piazza. Um."
+  },
+  {
+    "start": 8519.9,
+    "end": 8527.09,
+    "text": "No questions in the chat. So are we good?"
+  },
+  {
+    "start": 8527.09,
+    "end": 8534.29,
+    "text": "So the question for us, are we going to get the first one? Yeah. So I'm going to announce it today."
+  },
+  {
+    "start": 8534.29,
+    "end": 8541.48,
+    "text": "I'll show it share it and we'll post it up by tomorrow with uh, with uh, the distributor posting the, um, the starter code also."
+  },
+  {
+    "start": 8541.48,
+    "end": 8548.68,
+    "text": "Um, so let me just summarize what we did so far before we get into the, uh, segment."
+  },
+  {
+    "start": 8548.68,
+    "end": 8555.88,
+    "text": "Um, we started with the digital media pipeline from front to back."
+  },
+  {
+    "start": 8555.88,
+    "end": 8563.07,
+    "text": "I mean, just, I mean. We discussed about the first step in the pipeline, which is trying to, um."
+  },
+  {
+    "start": 8563.07,
+    "end": 8570.27,
+    "text": "Understand the digitization process and this is where we received it."
+  },
+  {
+    "start": 8570.27,
+    "end": 8577.46,
+    "text": "We understood that this process is happening through quantization and sampling."
+  },
+  {
+    "start": 8577.46,
+    "end": 8584.66,
+    "text": "Sampling and quantization. Both are very important points."
+  },
+  {
+    "start": 8584.66,
+    "end": 8591.85,
+    "text": "Um, sampling tries to capture the places at which the signal needs to be sample, while quantization tries to assign a number of bits for each sample."
+  },
+  {
+    "start": 8591.85,
+    "end": 8599.05,
+    "text": "Now, understanding, uh, the requirements of both."
+  },
+  {
+    "start": 8599.05,
+    "end": 8606.25,
+    "text": "It's very important to know what your sampling rate is and what the bits represented from Pittsburgh for sampling are going to be."
+  },
+  {
+    "start": 8606.25,
+    "end": 8613.44,
+    "text": "The sampling rate is decided by understanding that the signal has got a maximum frequency in it."
+  },
+  {
+    "start": 8613.44,
+    "end": 8620.64,
+    "text": "Um, and the big takeaway that I want to that I wanted to give you Digweed is."
+  },
+  {
+    "start": 8620.64,
+    "end": 8627.83,
+    "text": "The world in which we live in is very structured. It's not random signals, and that's what we are going to learn."
+  },
+  {
+    "start": 8627.83,
+    "end": 8635.03,
+    "text": "Uh, given that it's structured, uh, the signals that we want to measure to go around the world and also to create a digital representation,"
+  },
+  {
+    "start": 8635.03,
+    "end": 8642.23,
+    "text": "also, we can have a multimedia pipeline of immersive content and what not all these signals have got."
+  },
+  {
+    "start": 8642.23,
+    "end": 8649.42,
+    "text": "Not all frequencies present, but a few frequencies present."
+  },
+  {
+    "start": 8649.42,
+    "end": 8656.62,
+    "text": "These few frequencies have a maximal frequency that you can find at least in some for you."
+  },
+  {
+    "start": 8656.62,
+    "end": 8663.81,
+    "text": "Uh, this is. Given the maximum frequency we know very well can."
+  },
+  {
+    "start": 8663.81,
+    "end": 8671.01,
+    "text": "Sample at more than twice the sampling rate, and that will ensure that the characteristics of the signal content are preserved."
+  },
+  {
+    "start": 8671.01,
+    "end": 8678.2,
+    "text": "Moreover, for the number of bits, you want to just fix it to that number such that your perception."
+  },
+  {
+    "start": 8678.2,
+    "end": 8685.4,
+    "text": "Is is okay. Adding more bits will not increase your perception."
+  },
+  {
+    "start": 8685.4,
+    "end": 8692.6,
+    "text": "So using these two methods or these two ideas, we can fix the sampling rate and the bitrate and the and the and the number of bits per sample,"
+  },
+  {
+    "start": 8692.6,
+    "end": 8699.79,
+    "text": "giving you just the right amount of information, bits per second that you can start the signals."
+  },
+  {
+    "start": 8699.79,
+    "end": 8706.99,
+    "text": "So you are guaranteed to produce the right signal when you go back to the analog for rendering purposes, for marketing purposes."
+  },
+  {
+    "start": 8706.99,
+    "end": 8714.18,
+    "text": "Okay. Um, and then we talked about, like, what happens in the multimedia pipeline when you have to resample the signal that's already captured,"
+  },
+  {
+    "start": 8714.18,
+    "end": 8721.38,
+    "text": "like an image has to reformatted or recycle."
+  },
+  {
+    "start": 8721.38,
+    "end": 8728.58,
+    "text": "How do you minimize the anything effect using filters and so on."
+  },
+  {
+    "start": 8728.58,
+    "end": 8735.77,
+    "text": "We understood what aliasing is. Examples in 1D in 2D and 3D."
+  },
+  {
+    "start": 8735.77,
+    "end": 8742.97,
+    "text": "And finally we talked about the evolution of the television pipeline, um, with the television signal."
+  },
+  {
+    "start": 8742.97,
+    "end": 8750.16,
+    "text": "Uh, by the introduction of the, um, um, uh, the frame rate or the field rate, uh,"
+  },
+  {
+    "start": 8750.16,
+    "end": 8757.36,
+    "text": "at 60Hz or 50Hz, depending upon the region that supplied, um, the electric signals."
+  },
+  {
+    "start": 8757.36,
+    "end": 8764.56,
+    "text": "This is for synchronization. And then the introduction of the interlaced formats for the phosphor screen, like flickering."
+  },
+  {
+    "start": 8764.56,
+    "end": 8771.75,
+    "text": "And thirdly, with the introduction of color, the value subsampling schemes that have."
+  },
+  {
+    "start": 8771.75,
+    "end": 8778.95,
+    "text": "Yeah. So with that. Let's talk about the assignment."
+  },
+  {
+    "start": 8778.95,
+    "end": 8786.14,
+    "text": "So the assignment that you're getting. You."
+  },
+  {
+    "start": 8786.14,
+    "end": 8793.34,
+    "text": "Um. It's a sign today."
+  },
+  {
+    "start": 8793.34,
+    "end": 8800.53,
+    "text": "Right. Um, and it's due on, uh, after three weeks."
+  },
+  {
+    "start": 8800.53,
+    "end": 8807.73,
+    "text": "So you have ample amount of time to do the assignment by 5 p.m. in the afternoon."
+  },
+  {
+    "start": 8807.73,
+    "end": 8814.93,
+    "text": "This is a Monday. Uh, late policies?"
+  },
+  {
+    "start": 8814.93,
+    "end": 8822.12,
+    "text": "None. Unless you have some medical reasons or emergencies."
+  },
+  {
+    "start": 8822.12,
+    "end": 8829.32,
+    "text": "And, you know, you talk to the doctors before. Um, there is a theory plan which consists of a few questions."
+  },
+  {
+    "start": 8829.32,
+    "end": 8836.51,
+    "text": "And, um, this is for your attempt, uh, here, there for you to attempt it."
+  },
+  {
+    "start": 8836.51,
+    "end": 8843.71,
+    "text": "Um. Uh, please try it. We will not."
+  },
+  {
+    "start": 8843.71,
+    "end": 8850.91,
+    "text": "You're not required to submit the theory part. Um, but we will be posting solutions to this after the submission deadline."
+  },
+  {
+    "start": 8850.91,
+    "end": 8858.1,
+    "text": "Um, so that we can check whether your answers are correct or good to know how to solve the puzzle."
+  },
+  {
+    "start": 8858.1,
+    "end": 8865.3,
+    "text": "These are questions in, uh, subsampling schemes and quantization techniques and temporal reducing."
+  },
+  {
+    "start": 8865.3,
+    "end": 8872.49,
+    "text": "And so. The programing park. Oh, it's got 200 points."
+  },
+  {
+    "start": 8872.49,
+    "end": 8879.69,
+    "text": "And it's going to test your understanding of resampling, quantization and filtering."
+  },
+  {
+    "start": 8879.69,
+    "end": 8886.88,
+    "text": "Uh, it's being motivated by the fact that, uh, in."
+  },
+  {
+    "start": 8886.88,
+    "end": 8894.08,
+    "text": "When you take an image, uh, you normally end up taking a, uh, uh, uh,"
+  },
+  {
+    "start": 8894.08,
+    "end": 8901.28,
+    "text": "image with maybe a consumer camera, which has got different bits for sample bits per pixel."
+  },
+  {
+    "start": 8901.28,
+    "end": 8908.47,
+    "text": "Or it could be a master digital camera with the Galaxy."
+  },
+  {
+    "start": 8908.47,
+    "end": 8915.67,
+    "text": "Uh, Alexi, uh uh uh, are you camera or, uh, or, you know, the red cameras or, you know,"
+  },
+  {
+    "start": 8915.67,
+    "end": 8922.86,
+    "text": "the really nice commercial cameras which which which, uh, which may be a 12 bits per channel, which is total of 36 bits per pixel."
+  },
+  {
+    "start": 8922.86,
+    "end": 8930.06,
+    "text": "Um, but for distribution reasons, you and consumption reasons, they need to be resample, uh, to represent a different budget."
+  },
+  {
+    "start": 8930.06,
+    "end": 8937.26,
+    "text": "And so this is going to teach you about how to get to hands dirty, understanding images, resampling quantization techniques and so on."
+  },
+  {
+    "start": 8937.26,
+    "end": 8944.45,
+    "text": "Okay. The most important thing is for this assignment."
+  },
+  {
+    "start": 8944.45,
+    "end": 8951.65,
+    "text": "We are not allowed to use any libraries or any nodes or any, uh, scripting environments like Python or Matlab."
+  },
+  {
+    "start": 8951.65,
+    "end": 8958.84,
+    "text": "You will expect that you C, C plus, plus or Java and we will give you."
+  },
+  {
+    "start": 8958.84,
+    "end": 8966.04,
+    "text": "Your starter code, which you can start with a project in VS code or Java."
+  },
+  {
+    "start": 8966.04,
+    "end": 8973.23,
+    "text": "Um, there are four parameters. Uh, um, which is given, uh, values."
+  },
+  {
+    "start": 8973.23,
+    "end": 8980.43,
+    "text": "Um, that is the image input. Uh, the image, uh, side the image, uh, uh, file, which is a five 12.2 size."
+  },
+  {
+    "start": 8980.43,
+    "end": 8987.63,
+    "text": "So stick to this format. This the sample code should start which should be able to view the file to the photo file, for example, and display it."
+  },
+  {
+    "start": 8987.63,
+    "end": 8994.82,
+    "text": "So you can assume that, uh, the other parts are there for you to implement and make sense of this assignment."
+  },
+  {
+    "start": 8994.82,
+    "end": 9002.02,
+    "text": "Um, the second parameter is a scale value, which will allow you to take your your 16 by nine format and get it down to four by three."
+  },
+  {
+    "start": 9002.02,
+    "end": 9009.21,
+    "text": "You like, you know, whenever you want to resample, um, this is going to be effectively the same in X and Y."
+  },
+  {
+    "start": 9009.21,
+    "end": 9016.41,
+    "text": "So you can have one scale value if there are different than you can do different."
+  },
+  {
+    "start": 9016.41,
+    "end": 9023.61,
+    "text": "There is a quantization number of bits, which is a number, uh, this number is between 1 and 24."
+  },
+  {
+    "start": 9023.61,
+    "end": 9030.8,
+    "text": "Um, it's going to be mostly, uh, multiples of three because all the three channels have the same number of bits."
+  },
+  {
+    "start": 9030.8,
+    "end": 9038.0,
+    "text": "The fourth parameter is the mode of quantization, which would be uniform quantization or most modern logarithmic quantization,"
+  },
+  {
+    "start": 9038.0,
+    "end": 9045.19,
+    "text": "or even the most smart optimized quantization, which you need to come up with."
+  },
+  {
+    "start": 9045.19,
+    "end": 9052.39,
+    "text": "And there's a fifth parameter, which is optional."
+  },
+  {
+    "start": 9052.39,
+    "end": 9059.59,
+    "text": "Well, just for extra credit, if you've attempted extra credit, we will call it with the last parameter as one."
+  },
+  {
+    "start": 9059.59,
+    "end": 9066.78,
+    "text": "And we expect to see outputs which are better."
+  },
+  {
+    "start": 9066.78,
+    "end": 9073.98,
+    "text": "Um, so how will you be evaluated? Uh, there's going to be a resampling test."
+  },
+  {
+    "start": 9073.98,
+    "end": 9081.17,
+    "text": "There's going to be quantization test. There's going to be analysis questions, and it's going to be extracted if that's attempted."
+  },
+  {
+    "start": 9081.17,
+    "end": 9088.37,
+    "text": "There are so simple ways of invoking invoking your program and what they mean in terms of their outputs."
+  },
+  {
+    "start": 9088.37,
+    "end": 9095.56,
+    "text": "So you can get ideas of what to expect. Um, and the details of the recommendations are shown up here."
+  },
+  {
+    "start": 9095.56,
+    "end": 9102.76,
+    "text": "And how do you go about creating the final image? Uh, by resampling."
+  },
+  {
+    "start": 9102.76,
+    "end": 9109.96,
+    "text": "Uh, if you're using minimum uniform quantization, how would you quantize the inputs?"
+  },
+  {
+    "start": 9109.96,
+    "end": 9117.15,
+    "text": "If you're using logarithmic quantization, how do you decide the logarithmic levels?"
+  },
+  {
+    "start": 9117.15,
+    "end": 9124.35,
+    "text": "Or if you're using an optimal interval quantization. With, with your input to 26."
+  },
+  {
+    "start": 9124.35,
+    "end": 9131.54,
+    "text": "Then how would you decide, uh, to come up with better techniques which are not."
+  },
+  {
+    "start": 9131.54,
+    "end": 9138.74,
+    "text": "Um, from a priority company to the thresholds are not considered a priority depending upon the number of goods."
+  },
+  {
+    "start": 9138.74,
+    "end": 9145.94,
+    "text": "But you could dynamically, depending on the content of the image. Uh, figured out what the other the things are."
+  },
+  {
+    "start": 9145.94,
+    "end": 9153.13,
+    "text": "Um, and then there's an analysis question which tries to make you understand how good is your output."
+  },
+  {
+    "start": 9153.13,
+    "end": 9160.33,
+    "text": "For this, you've been, uh, you know, asked to implement an error metric, which is a mean squared error or a mean absolute error."
+  },
+  {
+    "start": 9160.33,
+    "end": 9167.52,
+    "text": "You can try one, but not necessary for both. Or you can try both if you want."
+  },
+  {
+    "start": 9167.52,
+    "end": 9174.72,
+    "text": "But it's ask you to plot graphs where you see for a given image, uh, over different Q values."
+  },
+  {
+    "start": 9174.72,
+    "end": 9181.91,
+    "text": "Quantization bits. How is your error changing? And if you can see any trend uh, in that and to explain the trend."
+  },
+  {
+    "start": 9181.91,
+    "end": 9189.11,
+    "text": "Uh, and this you want to use for your, uh, logarithmic, your uniform quantization and logarithmic quantization,"
+  },
+  {
+    "start": 9189.11,
+    "end": 9196.31,
+    "text": "as well as your smart your, your optimal, uh, thresholds in quantization."
+  },
+  {
+    "start": 9196.31,
+    "end": 9203.5,
+    "text": "And then for your extra credit, this is something which if you choose to attempt,"
+  },
+  {
+    "start": 9203.5,
+    "end": 9210.7,
+    "text": "we will collect it and you keep your marks separately at the end of the semester after the grades are decided."
+  },
+  {
+    "start": 9210.7,
+    "end": 9217.89,
+    "text": "We look at the expected contribution and if that is enough to push you to the next grade."
+  },
+  {
+    "start": 9217.89,
+    "end": 9225.09,
+    "text": "We would certainly, you know, take that liberty and do that and that that respect."
+  },
+  {
+    "start": 9225.09,
+    "end": 9232.29,
+    "text": "And so in the in the executive portion, you're you'll make the next one condition which really changes the problem."
+  },
+  {
+    "start": 9232.29,
+    "end": 9239.48,
+    "text": "What if the number of bits per channel were not the same."
+  },
+  {
+    "start": 9239.48,
+    "end": 9246.68,
+    "text": "You can adapt them to, uh, how you want to use it for the content."
+  },
+  {
+    "start": 9246.68,
+    "end": 9253.87,
+    "text": "So you can have the original having one bit, the green tail having four bits and the red channel having um, three bits."
+  },
+  {
+    "start": 9253.87,
+    "end": 9261.07,
+    "text": "So if that's the case, how do you then come up with an optimization algorithm that can spread your bets in a smart way between your channels,"
+  },
+  {
+    "start": 9261.07,
+    "end": 9268.27,
+    "text": "on top of what you've done on clear,"
+  },
+  {
+    "start": 9268.27,
+    "end": 9275.46,
+    "text": "which is your smart quantization, and see that you get better results and prove that you can get better results by,"
+  },
+  {
+    "start": 9275.46,
+    "end": 9282.66,
+    "text": "you know, computing your, you know, your metrics properly. Uh, what you do submit, uh, don't submit any binaries or images."
+  },
+  {
+    "start": 9282.66,
+    "end": 9289.85,
+    "text": "Just submit your code and your project plan. We will compile."
+  },
+  {
+    "start": 9289.85,
+    "end": 9297.05,
+    "text": "We'll create our binaries and we will run tests on them for the analysis part as well as the extracted question."
+  },
+  {
+    "start": 9297.05,
+    "end": 9304.24,
+    "text": "If you attempt to do so, please submit a word document and PDF, uh, you know, PDF audio."
+  },
+  {
+    "start": 9304.24,
+    "end": 9311.44,
+    "text": "Um, we should do an analysis. All right."
+  },
+  {
+    "start": 9311.44,
+    "end": 9318.64,
+    "text": "I will post this soon enough. Uh, when?"
+  },
+  {
+    "start": 9318.64,
+    "end": 9325.83,
+    "text": "Tonight or tomorrow. So you can get to take a look at it. Um."
+  },
+  {
+    "start": 9325.83,
+    "end": 9333.03,
+    "text": "But otherwise. Next Monday. Classes as usual. See you in class."
+  },
+  {
+    "start": 9333.03,
+    "end": 9340.22,
+    "text": "All right. Thank you Christopher. Thank you students, and thank you again for cooperating for today."
+  },
+  {
+    "start": 9340.22,
+    "end": 9347.42,
+    "text": "Um. I know it's not the best scenario when it is online."
+  },
+  {
+    "start": 9347.42,
+    "end": 9354.62,
+    "text": "Um, but this was the only way I could make it work today. Hopefully I can make it up to you guys in the coming."
+  },
+  {
+    "start": 9354.62,
+    "end": 9361.81,
+    "text": "Um, coming. This. Good night."
+  }
+]

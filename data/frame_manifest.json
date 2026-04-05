@@ -1,0 +1,1298 @@
+[
+  {
+    "filename": "frame_seg_000_start_7.jpg",
+    "segment_id": "seg_000",
+    "timestamp": 7.2,
+    "label": "start",
+    "description": "",
+    "topic_title": "Welcome and Logistics"
+  },
+  {
+    "filename": "frame_seg_000_mid_75.jpg",
+    "segment_id": "seg_000",
+    "timestamp": 75.55,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Welcome and Logistics"
+  },
+  {
+    "filename": "frame_seg_001_start_143.jpg",
+    "segment_id": "seg_001",
+    "timestamp": 143.9,
+    "label": "start",
+    "description": "This lecture frame shows a professor speaking, with a large, complex hand-drawn diagram on a whiteboard behind him. The diagram appears to be related to a technical pipeline, possibly for 3D animation or computer graphics, with various notes and\u6d41\u7a0b steps involving \"pipeline pub failing,\" \"animated/instanced gpu caches,\" and mentioning \"maya-parallel.\" There's also a small inset window showing what looks like a document or code.",
+    "topic_title": "Course Overview and Lecture Agenda"
+  },
+  {
+    "filename": "frame_seg_001_mid_223.jpg",
+    "segment_id": "seg_001",
+    "timestamp": 223.05,
+    "label": "mid",
+    "description": "This lecture frame shows a professor speaking during what appears to be a virtual meeting or lecture. Behind him is a large whiteboard filled with extensively hand-drawn diagrams, equations, and notes, suggesting a complex technical or scientific topic. In the bottom right corner, a smaller screen displays another, more organized technical diagram.",
+    "topic_title": "Course Overview and Lecture Agenda"
+  },
+  {
+    "filename": "frame_seg_001_cue_151.jpg",
+    "segment_id": "seg_001",
+    "timestamp": 151.1,
+    "label": "cue",
+    "description": "This lecture frame shows a professor speaking in front of what appears to be a large whiteboard covered in hand-drawn diagrams, equations, and notes. The whiteboard content seems to be related to a \"pipeline\" with various technical terms like \"maya-custom env vars,\" \"gpu caches,\" and \"Rman.\"",
+    "topic_title": "Course Overview and Lecture Agenda"
+  },
+  {
+    "filename": "frame_seg_001_cue_158.jpg",
+    "segment_id": "seg_001",
+    "timestamp": 158.3,
+    "label": "cue",
+    "description": "This lecture frame shows a professor speaking, with a large, hand-drawn diagram behind him acting as his \"slide\" or whiteboard. The diagram appears to be a complex network or flowchart, possibly related to a \"pipeline pub failing\" or a \"maya-parallel\" system, with various interconnected nodes, mathematical expressions, and notes like \"animated/instanced gpu caches\" and \"2020 pipeline.\"",
+    "topic_title": "Course Overview and Lecture Agenda"
+  },
+  {
+    "filename": "frame_seg_001_cue_172.jpg",
+    "segment_id": "seg_001",
+    "timestamp": 172.7,
+    "label": "cue",
+    "description": "This lecture frame shows a professor speaking in front of a white board covered with extensive hand-drawn diagrams, equations, and notes related to \"pipeline pub failing\" and 3D animation software (\"maya-parallel\"). In the bottom right corner, a smaller screen shows a title slide for a presentation titled \"DIGITAL DATA ACQUISITION & MEDIA BASICS.\"",
+    "topic_title": "Course Overview and Lecture Agenda"
+  },
+  {
+    "filename": "frame_seg_001_cue_179.jpg",
+    "segment_id": "seg_001",
+    "timestamp": 179.9,
+    "label": "cue",
+    "description": "This lecture frame shows a professor speaking (on video call or recording) in front of a white surface covered with extensive, hand-drawn diagrams and notes in various colors. These notes appear to be related to technical concepts, possibly software development, pipelines, or data acquisition given the text, with equations and flowcharts. In the bottom right corner, a smaller window displays a presentation slide titled \"DIGITAL DATA ACQUISITION & MEDIA BASICS\".",
+    "topic_title": "Course Overview and Lecture Agenda"
+  },
+  {
+    "filename": "frame_seg_002_start_302.jpg",
+    "segment_id": "seg_002",
+    "timestamp": 302.2,
+    "label": "start",
+    "description": "",
+    "topic_title": "Digitization Process and Quality/Quantity Management"
+  },
+  {
+    "filename": "frame_seg_002_mid_359.jpg",
+    "segment_id": "seg_002",
+    "timestamp": 359.79999999999995,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Digitization Process and Quality/Quantity Management"
+  },
+  {
+    "filename": "frame_seg_003_start_417.jpg",
+    "segment_id": "seg_003",
+    "timestamp": 417.4,
+    "label": "start",
+    "description": "",
+    "topic_title": "Lecture Outline and Historical Context"
+  },
+  {
+    "filename": "frame_seg_003_mid_460.jpg",
+    "segment_id": "seg_003",
+    "timestamp": 460.54999999999995,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Lecture Outline and Historical Context"
+  },
+  {
+    "filename": "frame_seg_004_start_503.jpg",
+    "segment_id": "seg_004",
+    "timestamp": 503.7,
+    "label": "start",
+    "description": "This lecture frame shows a white page with the heading \"Digital Data Acquisition\" written at the top. It appears to be a blackboard or whiteboard that the lecturer is using to write notes for the class. The professor is visible in a small window at the bottom right.",
+    "topic_title": "Analog to Digital Conversion Pipeline (Camera Example)"
+  },
+  {
+    "filename": "frame_seg_004_mid_636.jpg",
+    "segment_id": "seg_004",
+    "timestamp": 636.85,
+    "label": "mid",
+    "description": "This lecture frame shows a hand-drawn diagram illustrating \"Digital Data Acquisition.\" It depicts an image plane, a signal function f(t) or f(x,y), an analog-to-digital (A-D) conversion, and a representation of discrete samples. In the bottom right corner, a smaller window shows the professor speaking.",
+    "topic_title": "Analog to Digital Conversion Pipeline (Camera Example)"
+  },
+  {
+    "filename": "frame_seg_004_cue_510.jpg",
+    "segment_id": "seg_004",
+    "timestamp": 510.9,
+    "label": "cue",
+    "description": "This lecture frame shows a handwritten note on a physical sheet of paper, serving as a slide or visual aid. The key content written on the paper is \"Digital Data Acquisition.\" In the bottom right corner, a small video feed shows the professor speaking and gesturing.",
+    "topic_title": "Analog to Digital Conversion Pipeline (Camera Example)"
+  },
+  {
+    "filename": "frame_seg_004_cue_518.jpg",
+    "segment_id": "seg_004",
+    "timestamp": 518.1,
+    "label": "cue",
+    "description": "This lecture frame shows the professor speaking in the bottom right corner, while the main content is a hand-drawn diagram on a whiteboard-like surface.\n\nThe diagram's primary visible text is \"Digital Data Acquisition,\" suggesting that the lecture is focused on this topic. A hand holding a pen is also visible, indicating that the professor is actively writing or drawing on the board during the lecture.",
+    "topic_title": "Analog to Digital Conversion Pipeline (Camera Example)"
+  },
+  {
+    "filename": "frame_seg_004_cue_525.jpg",
+    "segment_id": "seg_004",
+    "timestamp": 525.3,
+    "label": "cue",
+    "description": "This lecture frame shows a split view. \n\nThe main content area features a hand-drawn diagram on a whiteboard, with the title \"Digital Data Acquisition\" prominently written at the top. A hand is seen drawing on the whiteboard with a pen. \n\nAt the bottom right, there's a smaller video inset of the professor speaking.",
+    "topic_title": "Analog to Digital Conversion Pipeline (Camera Example)"
+  },
+  {
+    "filename": "frame_seg_005_start_770.jpg",
+    "segment_id": "seg_005",
+    "timestamp": 770.0,
+    "label": "start",
+    "description": "This lecture frame shows a slide titled \"EXAMPLE SIGNALS.\" \n\nThe slide contains two graphs: one illustrating an \"Analog Signal\" as a continuous waveform, and the other depicting a \"Digital Signal\" as a series of discrete bars. Below the slide, the professor can be seen speaking, with various notes and equations on a whiteboard in the background.",
+    "topic_title": "Benefits of Digital Signals and Core Conversion Steps"
+  },
+  {
+    "filename": "frame_seg_005_mid_823.jpg",
+    "segment_id": "seg_005",
+    "timestamp": 823.95,
+    "label": "mid",
+    "description": "This lecture frame shows a professor actively writing on a whiteboard or a digital equivalent, indicating a live drawing or explanation. The professor is visible in a small window at the bottom right.\n\nThe main content on the board is a hand-drawn diagram explaining the concepts of \"Analog to Digital Sampling\" and \"Quantization.\" The diagram illustrates the conversion of a continuous signal (analog) into discrete values (digital) through sampling and quantization steps.",
+    "topic_title": "Benefits of Digital Signals and Core Conversion Steps"
+  },
+  {
+    "filename": "frame_seg_005_cue_777.jpg",
+    "segment_id": "seg_005",
+    "timestamp": 777.1,
+    "label": "cue",
+    "description": "This lecture frame shows a **hand-drawn diagram** on a whiteboard.\n\nThe diagram illustrates the process of \"Digital Data Acquisition,\" showing how an analog signal (f(t) or f(x,y)) is converted from analog to digital (A->D) through sampling and then back from digital to analog (D->A), likely in the context of image processing given the \"image plane\" label.",
+    "topic_title": "Benefits of Digital Signals and Core Conversion Steps"
+  },
+  {
+    "filename": "frame_seg_006_start_877.jpg",
+    "segment_id": "seg_006",
+    "timestamp": 877.9,
+    "label": "start",
+    "description": "",
+    "topic_title": "Sampling: Period, Frequency, and Data Quality/Quantity"
+  },
+  {
+    "filename": "frame_seg_006_mid_978.jpg",
+    "segment_id": "seg_006",
+    "timestamp": 978.6500000000001,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Sampling: Period, Frequency, and Data Quality/Quantity"
+  },
+  {
+    "filename": "frame_seg_007_start_1079.jpg",
+    "segment_id": "seg_007",
+    "timestamp": 1079.4,
+    "label": "start",
+    "description": "",
+    "topic_title": "Quantization: Assigning Bit Values to Samples"
+  },
+  {
+    "filename": "frame_seg_007_mid_1140.jpg",
+    "segment_id": "seg_007",
+    "timestamp": 1140.5500000000002,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Quantization: Assigning Bit Values to Samples"
+  },
+  {
+    "filename": "frame_seg_008_start_2165.jpg",
+    "segment_id": "seg_008",
+    "timestamp": 2165.9,
+    "label": "start",
+    "description": "This lecture frame displays a **hand-drawn diagram** on a whiteboard, which appears to be part of an online lecture. The diagram illustrates concepts related to **signal processing, including different types of signals and their Fourier Transforms**. The professor can be seen in a small window at the bottom right, with his hand visible on the whiteboard in the main screen.",
+    "topic_title": "Fourier Series Representation"
+  },
+  {
+    "filename": "frame_seg_008_mid_2302.jpg",
+    "segment_id": "seg_008",
+    "timestamp": 2302.65,
+    "label": "mid",
+    "description": "This lecture frame displays a hand-drawn diagram on a whiteboard, likely presented by the professor who is visible in the bottom right corner of the screen. The diagram focuses on Fourier Transforms, showing mathematical equations and graphical representations related to sine and cosine waves, particularly discussing f(t) in terms of Fourier series expansions.",
+    "topic_title": "Fourier Series Representation"
+  },
+  {
+    "filename": "frame_seg_008_cue_2252.jpg",
+    "segment_id": "seg_008",
+    "timestamp": 2252.3,
+    "label": "cue",
+    "description": "This lecture frame shows a hand-drawn diagram and equations on a whiteboard or tablet, likely being presented by the professor. The key content displayed is related to Fourier Transform, including a formula `f(t) = \u03a3 a_i sin(iwt) + \u03a3 b_i cos(iwt)` with `\u03c9 = 2\u03c0/T`, and accompanying graphical representations of waveforms. We also see the professor speaking in a smaller window at the bottom right.",
+    "topic_title": "Fourier Series Representation"
+  },
+  {
+    "filename": "frame_seg_008_cue_2425.jpg",
+    "segment_id": "seg_008",
+    "timestamp": 2425.0,
+    "label": "cue",
+    "description": "This lecture frame shows a hand-drawn diagram illustrating the Fourier Transform. It appears to be explaining how a complex function f(t) can be decomposed into a sum of cosine waves with different frequencies and amplitudes, represented by b0, b1, b2, and so on. The professor is visible in the bottom right corner of the frame.",
+    "topic_title": "Fourier Series Representation"
+  },
+  {
+    "filename": "frame_seg_009_start_2439.jpg",
+    "segment_id": "seg_009",
+    "timestamp": 2439.4,
+    "label": "start",
+    "description": "",
+    "topic_title": "Fourier Coefficients and Energy Contribution"
+  },
+  {
+    "filename": "frame_seg_009_mid_2507.jpg",
+    "segment_id": "seg_009",
+    "timestamp": 2507.75,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Fourier Coefficients and Energy Contribution"
+  },
+  {
+    "filename": "frame_seg_010_start_2576.jpg",
+    "segment_id": "seg_010",
+    "timestamp": 2576.1,
+    "label": "start",
+    "description": "",
+    "topic_title": "Historical Context of Fourier's Work"
+  },
+  {
+    "filename": "frame_seg_010_mid_2720.jpg",
+    "segment_id": "seg_010",
+    "timestamp": 2720.0,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Historical Context of Fourier's Work"
+  },
+  {
+    "filename": "frame_seg_011_start_2863.jpg",
+    "segment_id": "seg_011",
+    "timestamp": 2863.9,
+    "label": "start",
+    "description": "This lecture frame shows a split view. The majority of the screen is an empty, dark gray area, which likely represents a slide that is not yet displayed or is blank. At the bottom right, there is a small video feed of the professor speaking, with a whiteboard full of equations and diagrams behind him.",
+    "topic_title": "Fourier Transform in Practice and Nyquist Theorem"
+  },
+  {
+    "filename": "frame_seg_011_mid_2975.jpg",
+    "segment_id": "seg_011",
+    "timestamp": 2975.45,
+    "label": "mid",
+    "description": "This lecture frame shows a Zoom meeting interface with the following elements:\n\n*   **A blurred-out presentation slide** occupying most of the screen. The content of the slide is not legible, but there's a visible title bar that reads \"new-Lecture02-DigitalDataAcq.doc Compatibility Mode\" and tabs like \"File,\" \"Home,\" \"Insert,\" \"Draw,\" \"Design,\" \"Layout,\" and \"Refer.\" This suggests a document or presentation is being shared.\n*   **The professor speaking** (Parag Havaldar, according to the Zoom meeting title) is visible in a small video window at the bottom right corner. He is wearing a grey shirt and has a whiteboard covered in writing behind him.\n*   **Zoom controls** are visible at the top and bottom of the frame, including options for audio, video, participants, chat, share, and other meeting functions.",
+    "topic_title": "Fourier Transform in Practice and Nyquist Theorem"
+  },
+  {
+    "filename": "frame_seg_011_cue_2921.jpg",
+    "segment_id": "seg_011",
+    "timestamp": 2921.5,
+    "label": "cue",
+    "description": "This lecture frame shows a Zoom meeting interface.\n\nThe main content area appears to be a blank or dark screen, possibly where a slide or shared document should be visible but is currently not displaying content.\n\nAt the bottom right, there's a view of the professor speaking, with a whiteboard or similar surface covered in hand-drawn diagrams and notes behind him.",
+    "topic_title": "Fourier Transform in Practice and Nyquist Theorem"
+  },
+  {
+    "filename": "frame_seg_011_cue_2928.jpg",
+    "segment_id": "seg_011",
+    "timestamp": 2928.7,
+    "label": "cue",
+    "description": "This lecture frame shows a Zoom meeting interface with the main content area displaying a dark, striped pattern, which likely obscures the actual lecture slide or screen share. In the bottom right corner, the professor is visible in a small video feed, wearing glasses and a gray shirt, with what appears to be a whiteboard or complex diagram behind him.",
+    "topic_title": "Fourier Transform in Practice and Nyquist Theorem"
+  },
+  {
+    "filename": "frame_seg_011_cue_2935.jpg",
+    "segment_id": "seg_011",
+    "timestamp": 2935.9,
+    "label": "cue",
+    "description": "This lecture frame shows the professor speaking in the bottom right corner, with a screen share covering most of the display. The screen share appears to be a document or presentation slide, but its content is largely obscured by a dark, diagonal-striped overlay, making it unreadable.",
+    "topic_title": "Fourier Transform in Practice and Nyquist Theorem"
+  },
+  {
+    "filename": "frame_seg_011_cue_2971.jpg",
+    "segment_id": "seg_011",
+    "timestamp": 2971.9,
+    "label": "cue",
+    "description": "This lecture frame shows a Zoom meeting interface.\n\nThe main part of the screen is a dark, striped rectangle, seemingly covering the shared content. Below this, in the bottom right corner, a video feed shows a professor speaking, with a whiteboard covered in writing behind him. The Zoom controls for the meeting are visible at the top and bottom of the frame.",
+    "topic_title": "Fourier Transform in Practice and Nyquist Theorem"
+  },
+  {
+    "filename": "frame_seg_012_start_3087.jpg",
+    "segment_id": "seg_012",
+    "timestamp": 3087.0,
+    "label": "start",
+    "description": "This lecture frame appears to be a **slide** being presented during an online meeting or lecture,\nwith the professor visible in the bottom right corner of the screen.\n\nThe slide displays two pairs of graphs demonstrating the relationship between a **signal in the time domain** and its corresponding **Fourier transform in the frequency domain**. The top pair shows a modulated signal and its distinct frequency peak, while the bottom pair shows a higher frequency signal and its corresponding peak.",
+    "topic_title": "Real-World Signals and Sampling Examples"
+  },
+  {
+    "filename": "frame_seg_012_mid_3270.jpg",
+    "segment_id": "seg_012",
+    "timestamp": 3270.5,
+    "label": "mid",
+    "description": "This lecture frame shows a slide from a presentation, along with the professor speaking in the bottom right corner. The slide discusses Fourier transforms and signal filtering, illustrating a signal and its Fourier transform with two graphs. It also lists properties of Fourier transforms related to filtering.",
+    "topic_title": "Real-World Signals and Sampling Examples"
+  },
+  {
+    "filename": "frame_seg_012_cue_3281.jpg",
+    "segment_id": "seg_012",
+    "timestamp": 3281.3,
+    "label": "cue",
+    "description": "This lecture frame shows a professor presenting a slide about \"BIT RATE\" during an online meeting. The slide explains that as sampling rate increases or as quantization bits used increase, bit rate increases. It also includes a table comparing the sampling rate, quantization, and bit rate for speech and audio CDs.",
+    "topic_title": "Real-World Signals and Sampling Examples"
+  },
+  {
+    "filename": "frame_seg_012_cue_3331.jpg",
+    "segment_id": "seg_012",
+    "timestamp": 3331.7,
+    "label": "cue",
+    "description": "This lecture frame shows a **slide** from a presentation titled \"new-Lecture02-DigitalDataAcq.doc.\" \n\nThe slide displays **two pairs of graphs**: each pair consists of a signal in the time domain (labeled X1(t) and X2(t)) and its corresponding Fourier transform in the frequency domain (labeled X1(f) and X2(f)). Below the slide, the professor is visible in a small window, actively speaking during the lecture.",
+    "topic_title": "Real-World Signals and Sampling Examples"
+  },
+  {
+    "filename": "frame_seg_012_cue_3338.jpg",
+    "segment_id": "seg_012",
+    "timestamp": 3338.9,
+    "label": "cue",
+    "description": "This lecture frame displays a slide showing two different complex signals in the time domain (x1(t) and x2(t)) and their corresponding Fourier transforms in the frequency domain (x1(f) and x2(f)). The professor is visible in a small window at the bottom right, speaking and gesturing.",
+    "topic_title": "Real-World Signals and Sampling Examples"
+  },
+  {
+    "filename": "frame_seg_013_start_3454.jpg",
+    "segment_id": "seg_013",
+    "timestamp": 3454.0,
+    "label": "start",
+    "description": "",
+    "topic_title": "Quantization Bits and Perceptual Thresholds"
+  },
+  {
+    "filename": "frame_seg_013_mid_3497.jpg",
+    "segment_id": "seg_013",
+    "timestamp": 3497.2,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Quantization Bits and Perceptual Thresholds"
+  },
+  {
+    "filename": "frame_seg_014_start_3540.jpg",
+    "segment_id": "seg_014",
+    "timestamp": 3540.4,
+    "label": "start",
+    "description": "",
+    "topic_title": "Linear Time Invariant (LTI) Systems"
+  },
+  {
+    "filename": "frame_seg_014_mid_3727.jpg",
+    "segment_id": "seg_014",
+    "timestamp": 3727.5,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Linear Time Invariant (LTI) Systems"
+  },
+  {
+    "filename": "frame_seg_015_start_3914.jpg",
+    "segment_id": "seg_015",
+    "timestamp": 3914.6,
+    "label": "start",
+    "description": "",
+    "topic_title": "Reiterating Choosing Sampling Rate and Bits"
+  },
+  {
+    "filename": "frame_seg_015_mid_3986.jpg",
+    "segment_id": "seg_015",
+    "timestamp": 3986.55,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Reiterating Choosing Sampling Rate and Bits"
+  },
+  {
+    "filename": "frame_seg_016_start_4058.jpg",
+    "segment_id": "seg_016",
+    "timestamp": 4058.5,
+    "label": "start",
+    "description": "This lecture frame shows a hand-drawn diagram on a whiteboard, likely projected or shared during an online lecture. The diagram illustrates concepts related to \"Linear Time Invariant\" systems, specifically showcasing mathematical equations and transformations like `y = Kx`, `y = x\u00b2`, and `y = x + q`. The professor speaking is visible in the bottom right corner of the screen.",
+    "topic_title": "Aliasing and Visual Demonstration"
+  },
+  {
+    "filename": "frame_seg_016_mid_4206.jpg",
+    "segment_id": "seg_016",
+    "timestamp": 4206.0,
+    "label": "mid",
+    "description": "This lecture frame shows a split view. On the upper left, there's a screen share displaying handwritten notes on what appears to be a digital whiteboard or document. The notes discuss \"Time Invariant\" systems, provide mathematical equations, and list considerations like \"how to choose T\" (referencing the Nyquist theorem and sampling frequency) and \"how to choose b.\"\n\nOn the bottom right, a small video feed shows the professor speaking during the lecture.",
+    "topic_title": "Aliasing and Visual Demonstration"
+  },
+  {
+    "filename": "frame_seg_016_cue_4152.jpg",
+    "segment_id": "seg_016",
+    "timestamp": 4152.0,
+    "label": "cue",
+    "description": "This lecture frame shows a **hand-drawn diagram or notes** on a whiteboard or similar surface, displayed during a Zoom meeting. The key content appears to be related to **\"Time Invariant\" systems and a discussion on \"how to choose T\" (likely sample period) referencing the Nyquist theorem and sampling at 2x max frequency.** There are also mathematical expressions and equations visible. Below the notes, the professor is visible speaking.",
+    "topic_title": "Aliasing and Visual Demonstration"
+  },
+  {
+    "filename": "frame_seg_016_cue_4159.jpg",
+    "segment_id": "seg_016",
+    "timestamp": 4159.2,
+    "label": "cue",
+    "description": "This lecture frame appears to be a screencast, likely from a Zoom meeting, showing a handwritten notes on a whiteboard or similar surface.\n\nThe key content displayed are:\n\n1.  **\"how to choose T \u2713\"**: Followed by \"\u2192 Nyquist theorem\" and \"\u2192 sample at 2x max frequency\", discussing principles for selecting a sampling rate.\n2.  **\"how to choose b\"**: A question regarding the selection of a parameter 'b'.\n3.  **Mathematical notations**: Several lines of equations and variables, possibly related to system analysis or signal processing, including expressions like `y(t) = x(t-\u03c4)`, `f(x) = y`, `k_1 x_1 + k_2 x_2 = k(x_1, x_2)`, and `y = x_1 + a`.\n\nIn the bottom right corner, a small video feed shows the professor speaking to the camera.",
+    "topic_title": "Aliasing and Visual Demonstration"
+  },
+  {
+    "filename": "frame_seg_016_cue_4166.jpg",
+    "segment_id": "seg_016",
+    "timestamp": 4166.4,
+    "label": "cue",
+    "description": "This lecture frame shows a **hand-drawn diagram** on a whiteboard or similar surface, likely captured via a screen share.\n\nThe key content visible includes mathematical equations and notes related to \"Time Invariant\" systems, specifically discussing \"how to choose T\" with a reference to the \"Nyquist theorem\" and \"sample at 2x max frequency.\" There are also equations involving `x`, `y`, and `K`, suggesting topics in signal processing or system analysis. In the bottom right corner, a professor or lecturer is visible, speaking.",
+    "topic_title": "Aliasing and Visual Demonstration"
+  },
+  {
+    "filename": "frame_seg_016_cue_4231.jpg",
+    "segment_id": "seg_016",
+    "timestamp": 4231.2,
+    "label": "cue",
+    "description": "This lecture frame shows a hand-drawn diagram on a whiteboard or similar surface, with text written in black marker. The main content appears to be mathematical equations and notes related to \"time invariant\" systems and \"Nyquist theorem\" for choosing \"T\" (presumably sampling time) and \"b\" (likely related to some parameter in the system). The professor is visible in a small window at the bottom right.",
+    "topic_title": "Aliasing and Visual Demonstration"
+  },
+  {
+    "filename": "frame_seg_016_cue_4267.jpg",
+    "segment_id": "seg_016",
+    "timestamp": 4267.1,
+    "label": "cue",
+    "description": "This lecture frame shows a presentation slide with the title \"ALIASING EXAMPLES.\" \n\nThe slide discusses spatial aliasing in one and two dimensions, and audio aliasing. It includes examples of a sinusoidal function in 1D and a chessboard pattern and a 2D grid illustrating aliasing in two dimensions. The professor is visible in the bottom right corner of the frame, speaking.",
+    "topic_title": "Aliasing and Visual Demonstration"
+  },
+  {
+    "filename": "frame_seg_016_cue_4339.jpg",
+    "segment_id": "seg_016",
+    "timestamp": 4339.1,
+    "label": "cue",
+    "description": "This lecture frame shows a Zoom meeting screen, with the primary content being a shared presentation slide titled \"Nyquist-Shannon Signal Sampling.\" The slide explains the Nyquist-Shannon Theorem with text descriptions and includes a visual representation of signal sampling (SIGNAL - time scale in seconds) and its corresponding frequency spectrum (FREQUENCY SPECTRUM - frequency scale in Hertz). In the bottom right corner, a professor can be seen speaking, framed within the video feed of the Zoom call.",
+    "topic_title": "Aliasing and Visual Demonstration"
+  },
+  {
+    "filename": "frame_seg_017_start_4324.jpg",
+    "segment_id": "seg_017",
+    "timestamp": 4324.7,
+    "label": "start",
+    "description": "This is a lecture frame displaying a digital slide about the Nyquist-Shannon sampling theorem. The slide explains the theory behind signal sampling and illustrates it with a graph showing a signal's time-scale representation and its corresponding frequency spectrum. The professor is visible in the bottom right corner of the frame.",
+    "topic_title": "Introduction to Aliasing in Sampling"
+  },
+  {
+    "filename": "frame_seg_017_mid_4393.jpg",
+    "segment_id": "seg_017",
+    "timestamp": 4393.049999999999,
+    "label": "mid",
+    "description": "This lecture frame displays a slide explaining the **Nyquist-Shannon Signal Sampling Theorem**. The slide provides a theoretical explanation of the theorem and includes diagrams illustrating signal and frequency spectrum over time and Hertz respectively. Below the slide, a professor is visible speaking.",
+    "topic_title": "Introduction to Aliasing in Sampling"
+  },
+  {
+    "filename": "frame_seg_017_cue_4339.jpg",
+    "segment_id": "seg_017",
+    "timestamp": 4339.1,
+    "label": "cue",
+    "description": "This lecture frame shows a Zoom meeting in progress, with \"Parag Havaldar's screen\" being shared.\n\nThe shared screen displays a **slide** titled \"**Signal Sampling: Nyquist - Shannon Theorem**\". The slide contains a section on \"Theory\" explaining continuous-time (analog) signal sampling and the Nyquist-Shannon sampling theorem in text. On the right side of the slide, there's an interactive visualization (**applet**) demonstrating signal sampling, with controls for \"Signal frequ. (Hz)\", \"Sampling frequ. (Hz)\", and an option to \"Show alias signal\", along with graphical representations of the \"SIGNAL (time scale in seconds)\" and \"FREQUENCY SPECTRUM (frequency scale in Hertz)\".\n\nAt the bottom right, the professor is visible in a small video feed.",
+    "topic_title": "Introduction to Aliasing in Sampling"
+  },
+  {
+    "filename": "frame_seg_018_start_4461.jpg",
+    "segment_id": "seg_018",
+    "timestamp": 4461.4,
+    "label": "start",
+    "description": "This lecture frame displays a detailed slide titled \"Nyquist - Shannon Signal Sampling Theorem.\" The slide describes the theory of continuous-time (or analog) signal sampling and features a key graphic illustrating a signal sampled at a certain frequency, along with an associated frequency spectrum. The professor is visible in the bottom right corner of the frame, speaking to the camera.",
+    "topic_title": "Spatial Aliasing in 2D and Image Resolution"
+  },
+  {
+    "filename": "frame_seg_018_mid_4511.jpg",
+    "segment_id": "seg_018",
+    "timestamp": 4511.799999999999,
+    "label": "mid",
+    "description": "This lecture frame shows a split screen. On the left side, there's a file explorer window with a VLC media player interface, displaying a playlist and some media options. It appears that a video or audio file titled \"alastpt.au\" with a duration of 0:08 is selected. Below this, there are also some visual elements that look like checkerboard patterns and a black and orange grid graphic.\n\nOn the right side of the screen, the professor is speaking and is visible in a small window at the bottom right. Behind him is a large hand-drawn diagram or whiteboard filled with equations and notes. The main part of the right screen seems to be a document or presentation, currently showing a blank white page, possibly a slide waiting for content.",
+    "topic_title": "Spatial Aliasing in 2D and Image Resolution"
+  },
+  {
+    "filename": "frame_seg_018_cue_4468.jpg",
+    "segment_id": "seg_018",
+    "timestamp": 4468.6,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen with a presentation slide on the left and a video of the professor speaking on the bottom right.\n\nThe slide explains the **Nyquist-Shannon Signal Sampling Theorem**. It includes text defining the theorem and its implications for digital signal processing, along with two graphs: one showing a sampled signal over time and another displaying its frequency spectrum.",
+    "topic_title": "Spatial Aliasing in 2D and Image Resolution"
+  },
+  {
+    "filename": "frame_seg_018_cue_4475.jpg",
+    "segment_id": "seg_018",
+    "timestamp": 4475.8,
+    "label": "cue",
+    "description": "This lecture frame displays a slide titled \"ALIASING EXAMPLES.\" The slide illustrates spatial aliasing in one and two dimensions, including an example of a sinusoidal function and audio aliasing (without and with aliasing). Below the main text, there are diagrams depicting spatial aliasing in two dimensions, including checkerboard patterns and a black and orange grid. In the bottom right corner of the screen, the professor's face and upper body are visible.",
+    "topic_title": "Spatial Aliasing in 2D and Image Resolution"
+  },
+  {
+    "filename": "frame_seg_018_cue_4504.jpg",
+    "segment_id": "seg_018",
+    "timestamp": 4504.6,
+    "label": "cue",
+    "description": "The lecture frame shows a split screen. On the top, it appears to be a screen share of a media player interface, possibly playing an audio file with a playlist. On the bottom right, the professor is visible, appearing to be speaking, with what looks like a hand-drawn diagram or whiteboard behind him.",
+    "topic_title": "Spatial Aliasing in 2D and Image Resolution"
+  },
+  {
+    "filename": "frame_seg_018_cue_4511.jpg",
+    "segment_id": "seg_018",
+    "timestamp": 4511.8,
+    "label": "cue",
+    "description": "This lecture frame displays a **screenshot of a computer desktop** during a Zoom meeting.\n\nIt shows the professor's screen, which has a VLC media player open with a playlist, along with a document or presentation software. Below the VLC media player, there are visual elements that appear to be patterns or diagrams, possibly related to digital data, image processing, or computer graphics, given the checkerboard patterns and gradients. The professor himself is visible in a smaller window at the bottom right, speaking.",
+    "topic_title": "Spatial Aliasing in 2D and Image Resolution"
+  },
+  {
+    "filename": "frame_seg_018_cue_4526.jpg",
+    "segment_id": "seg_018",
+    "timestamp": 4526.2,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen. On the main part of the screen, there's a computer desktop captured, displaying a file explorer window and the VLC media player playing a video. The video seems to be showing several abstract patterns, including a checkerboard and a grayscale gradient.\n\nIn the bottom right corner of the screen, a small video of the professor speaking is visible.",
+    "topic_title": "Spatial Aliasing in 2D and Image Resolution"
+  },
+  {
+    "filename": "frame_seg_019_start_4562.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4562.2,
+    "label": "start",
+    "description": "This lecture frame shows the professor's computer screen, which is displaying the VLC media player playing a playlist. On the bottom right of the screen, we can see the professor himself speaking.\n\nThe VLC player shows a playlist with three audio files: \"alastpt.au\" (0:08), \"alastpt.au\" (0:08), and \"alastpt2.au\" (0:08). Below the playlist, there are visual representations of what appears to be digital data or patterns, including a large black and white checkerboard pattern and a graph with orange and black sections.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_mid_4673.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4673.7,
+    "label": "mid",
+    "description": "This is a lecture frame showing a screen share during what appears to be an online meeting, given the Zoom interface elements.\n\nThe main content is a slide titled \"Spatial Aliasing in two dimensions.\" It features several checkerboard patterns of varying scales and a diagram illustrating sampling with a grid and an orange-shaded area, likely demonstrating how aliasing occurs when sampling a continuous signal in two dimensions with insufficient resolution. A small picture of the professor or presenter is visible in the bottom right corner of the frame.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4619.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4619.7,
+    "label": "cue",
+    "description": "This lecture frame displays a slide titled \"ALIASING EXAMPLES,\" focusing on spatial aliasing in one and two dimensions. The slide uses a checkerboard pattern and a stepped orange graph to visually illustrate the concept of aliasing. In the bottom right corner, a professor is visible, appearing to be speaking.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4626.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4626.9,
+    "label": "cue",
+    "description": "This lecture frame shows a slide from a presentation titled \"ALIASING EXAMPLES.\" The slide discusses spatial aliasing in one and two dimensions, with examples like a sinusoidal function in 1D and a checkerboard pattern for 2D illustration. The professor speaking can be seen in the bottom right corner of the frame.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4670.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4670.1,
+    "label": "cue",
+    "description": "This is a **lecture frame** showing a **slide** about \"Spatial Aliasing in two dimensions.\"\n\nThe slide displays several checkerboard patterns of varying resolutions and an orange-shaded grid to illustrate how fine details can be lost or misrepresented when sampled at a lower resolution. The title indicates it's from \"Forsyth & Ponce (2nd ed.) Figure 4.7.\" Below the slide, a professor is visible, appearing to be speaking.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4691.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4691.7,
+    "label": "cue",
+    "description": "This lecture frame shows a **slide** titled \"Spatial Aliasing in two dimensions\".\nThe slide displays several checkerboard-like patterns and grids, illustrating different types of aliasing with black and white squares, and an orange and black grid on the right. Below the main content, it credits \"Forsyth & Ponce (2nd ed.) Figure 4.7\", and there's a small video overlay of the professor speaking in the bottom right corner.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4706.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4706.1,
+    "label": "cue",
+    "description": "This lecture frame shows a presentation slide with the title \"Spatial Aliasing in two dimensions\". Below the title, there are several diagrams illustrating checkerboard patterns and other grid-based figures, likely to explain spatial aliasing concepts. The bottom of the slide credits \"Forsyth & Ponce (2nd ed.) Figure 4.7\". A small video feed of the professor speaking is visible in the bottom right corner.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4713.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4713.3,
+    "label": "cue",
+    "description": "This lecture frame shows a **slide** from a presentation on \"Spatial Aliasing in two dimensions,\" which appears to be part of a digital data acquisition course. The slide features several grid-based diagrams illustrating spatial aliasing, reminiscent of a chessboard pattern, along with a reference to \"Forsyth & Ponce (2nd ed.) Figure 4.7.\" In the bottom right corner, a small video feed shows the professor speaking during the lecture.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4720.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4720.5,
+    "label": "cue",
+    "description": "This lecture frame shows a slide titled \"Spatial Aliasing in two dimensions.\" The slide features several grid-based diagrams, primarily a large checkered pattern and smaller versions illustrating how aliasing can occur with different sampling resolutions. Below the diagrams, it states \"Forsyth & Ponce (2nd ed.) Figure 4.7,\" indicating the source of the content. In the bottom right corner, a small inset shows the professor speaking during the online meeting.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4727.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4727.7,
+    "label": "cue",
+    "description": "This is a lecture frame showing a slide titled \"Spatial Aliasing in two dimensions\". The slide contains several checkerboard patterns and a diagram with orange and black squares illustrating aliasing. In the bottom right corner, a professor can be seen speaking, with a map visible behind him.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4749.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4749.3,
+    "label": "cue",
+    "description": "This is a lecture frame showing a slide titled \"Spatial Aliasing in two dimensions.\" The slide contains several black and white checkerboard patterns of different resolutions and sizes. There is also a diagram with an orange shaded area within a grid. Below the main content, it credits \"Forsyth & Ponce (2nd ed.) Figure 4.7.\" In the bottom right corner, a professor wearing headphones is visible, speaking.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4756.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4756.5,
+    "label": "cue",
+    "description": "This is a lecture frame showing a **slide** from a presentation.\n\nThe slide displays \"Forsyth & Ponce (2nd ed.) Figure 4.7\" at the top, along with several checkerboard patterns and a pattern of orange squares with a black curved shape. Towards the bottom, it states \"Parag Havaldar - CS576 Lecture 2\" and \"1/26/2026.\" The professor, Parag Havaldar, is visible in a small window at the bottom right corner of the screen.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4770.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4770.9,
+    "label": "cue",
+    "description": "This lecture frame shows a slide from a presentation. The slide features three images of men's shirts with different patterns, illustrating the concepts of \"Spatial aliasing, moir\u00e9 lines in patterns\" and \"Temporal Aliasing: Wagon Wheel\" in the context of digital data acquisition.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_019_cue_4778.jpg",
+    "segment_id": "seg_019",
+    "timestamp": 4778.1,
+    "label": "cue",
+    "description": "This lecture frame shows a slide being presented on a screen. The slide is titled \"Spatial aliasing, moir\u00e9 lines in patterns\" and features three images of shirts with different patterns, illustrating the concepts discussed. Below this, \"Temporal Aliasing\" and \"Wagon Wheel\" are visible textual elements.",
+    "topic_title": "Real-World Examples of Aliasing: Moir\u00e9 Patterns and Wagon Wheel Effect"
+  },
+  {
+    "filename": "frame_seg_020_start_4785.jpg",
+    "segment_id": "seg_020",
+    "timestamp": 4785.2,
+    "label": "start",
+    "description": "This lecture frame shows a slide from a presentation. The slide discusses \"Spatial aliasing, moir\u00e9 lines in patterns\" and \"Temporal Aliasing: Wagon Wheel,\" and features three images of men's dress shirts, likely to illustrate these concepts. The professor is visible in a small video overlay at the bottom right corner, speaking while wearing headphones.",
+    "topic_title": "Explaining the Wagon Wheel Phenomenon and Propeller Effect"
+  },
+  {
+    "filename": "frame_seg_020_mid_4889.jpg",
+    "segment_id": "seg_020",
+    "timestamp": 4889.549999999999,
+    "label": "mid",
+    "description": "This lecture frame shows a **slide** and the **professor speaking** in a video conference.\n\nThe slide displays an explanation of **Moir\u00e9 patterns**, specifically how they can be created on a computer screen using concentric circles with varying spacing. Three examples of these circle patterns are shown as illustrations.",
+    "topic_title": "Explaining the Wagon Wheel Phenomenon and Propeller Effect"
+  },
+  {
+    "filename": "frame_seg_020_cue_4785.jpg",
+    "segment_id": "seg_020",
+    "timestamp": 4785.2,
+    "label": "cue",
+    "description": "This lecture frame shows a slide being presented on a screen, with the professor also visible in a smaller window at the bottom right. The slide's main content discusses \"Spatial aliasing, moir\u00e9 lines in patterns\" and \"Temporal Aliasing: Wagon Wheel,\" illustrated with three images of men's shirts displaying different patterns, likely demonstrating aliasing effects.",
+    "topic_title": "Explaining the Wagon Wheel Phenomenon and Propeller Effect"
+  },
+  {
+    "filename": "frame_seg_020_cue_4814.jpg",
+    "segment_id": "seg_020",
+    "timestamp": 4814.0,
+    "label": "cue",
+    "description": "This lecture frame shows a professor presenting a topic using a web page from Wolfram MathWorld. \n\nThe web page is displaying information about \"Moir\u00e9 Patterns,\" including a textual explanation and an illustrative diagram of a Moir\u00e9 pattern. The professor's face is visible in a small window at the bottom right corner of the screen.",
+    "topic_title": "Explaining the Wagon Wheel Phenomenon and Propeller Effect"
+  },
+  {
+    "filename": "frame_seg_020_cue_4957.jpg",
+    "segment_id": "seg_020",
+    "timestamp": 4957.9,
+    "label": "cue",
+    "description": "This lecture frame displays a web page titled \"Wagon-wheel effect\" from \"Michael's Visual Phenomena & Optical Illusions.\" \n\nThe page explains this optical illusion, describing how the apparent rotation speed of a wheel can differ significantly from its actual speed, especially when rendered at specific frame rates. The key content highlights an interactive demonstration (a \"wagon wheel\" image with controls like \"Stop,\" \"Reset,\" \"Autorun,\" and speed adjustment sliders) and instructions on how to observe the effect.\n\nIn the bottom right corner, a professor is visible, likely speaking to students during an online lecture. I can also generate a close-up of the wagon wheel diagram:",
+    "topic_title": "Explaining the Wagon Wheel Phenomenon and Propeller Effect"
+  },
+  {
+    "filename": "frame_seg_020_cue_4965.jpg",
+    "segment_id": "seg_020",
+    "timestamp": 4965.1,
+    "label": "cue",
+    "description": "This lecture frame shows a computer screen displaying a webpage titled \"Wagon-wheel effect from Michael's Visual Phenomena & Optical Illusions.\" The webpage features an interactive simulation of a wagon wheel with controls to adjust its rotation speed and observe the visual phenomenon. Below the simulation, there are instructions on how to interact with the demo. In the bottom right corner of the screen, the professor is visible, appearing to be speaking during the lecture.",
+    "topic_title": "Explaining the Wagon Wheel Phenomenon and Propeller Effect"
+  },
+  {
+    "filename": "frame_seg_021_start_4993.jpg",
+    "segment_id": "seg_021",
+    "timestamp": 4993.9,
+    "label": "start",
+    "description": "This lecture frame shows a split screen. On the left, there's a webpage titled \"Wagon-wheel effect\" from Michael's Visual Phenomena & Optical Illusions, which contains text explaining the phenomenon and an interactive animation of a wagon wheel. On the right, at the bottom, there is a small video feed of the professor speaking.",
+    "topic_title": "Aliasing from Resampling and Downsizing"
+  },
+  {
+    "filename": "frame_seg_021_mid_5051.jpg",
+    "segment_id": "seg_021",
+    "timestamp": 5051.5,
+    "label": "mid",
+    "description": "This lecture frame shows a **web page** being displayed on a screen share, with the professor visible in a small window at the bottom right. The web page is titled \"Wagon-wheel effect\" and discusses visual phenomena and optical illusions, specifically how a rotating wheel can appear to slow down or stand still at certain speeds due to the frame rate of rendering.",
+    "topic_title": "Aliasing from Resampling and Downsizing"
+  },
+  {
+    "filename": "frame_seg_021_cue_5073.jpg",
+    "segment_id": "seg_021",
+    "timestamp": 5073.1,
+    "label": "cue",
+    "description": "This lecture frame shows a **web page** titled \"Wagon-wheel effect from Michael's Visual Phenomena & Optical Illusions\" being displayed during a Zoom meeting. The key content on the page describes and illustrates an optical illusion related to the perceived rotation of a wagon wheel, complete with interactive controls and explanations. The professor is visible in a small video feed at the bottom right.",
+    "topic_title": "Aliasing from Resampling and Downsizing"
+  },
+  {
+    "filename": "frame_seg_021_cue_5101.jpg",
+    "segment_id": "seg_021",
+    "timestamp": 5101.9,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen. On the right, a YouTube video is actively playing, featuring a helicopter flying against a cityscape with water and boats; the video title is \"camera shutter speed and frame rate match helicopter's rotor.\" Below the video, the speaker, presumably the professor, is visible in a smaller window, along with a hand-drawn map or diagram. The left side of the screen displays a document titled \"new-Lecture02-DigitalDataAcq.doc,\" with the words \"Spati\" and \"Temp\" partially visible, suggesting it might be a lecture slide or notes related to spatial and temporal concepts.",
+    "topic_title": "Aliasing from Resampling and Downsizing"
+  },
+  {
+    "filename": "frame_seg_021_cue_5101.jpg",
+    "segment_id": "seg_021",
+    "timestamp": 5101.9,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen. On the left, there's a document that appears to be a slide or lecture notes, with the words \"Spati\" and \"Temp\" visible, suggesting content related to spatial and temporal concepts. On the right, a YouTube video is playing, displaying a helicopter flying over a city shoreline. Below the video, the title reads \"camera shutter speed and frame rate match helicopter's rotor,\" and the speaker, who appears to be the professor, is visible in a small window at the bottom right.",
+    "topic_title": "Aliasing from Resampling and Downsizing"
+  },
+  {
+    "filename": "frame_seg_022_start_5109.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5109.1,
+    "label": "start",
+    "description": "This lecture frame shows the professor speaking (bottom right corner) while sharing his screen, which displays a YouTube video. The video is titled \"camera shutter speed and frame rate match helicopter's rotor\" and features a helicopter in mid-air. Partially visible on the left side of the screen is a slide with the words \"Spatial\" and \"Temp.\"",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_mid_5235.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5235.0,
+    "label": "mid",
+    "description": "This lecture frame shows a split screen. The main part of the screen is displaying a document, likely a lecture slide or notes, within what appears to be Microsoft Word. The document shows a black and white image of fruit on a plate labeled \"ORIGINAL IMAGE.\"\n\nIn the bottom right corner, there's a smaller video feed of the professor speaking.",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5109.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5109.1,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen. On the left, there's a slide with the words \"Spatial\" and \"Temp\" visible, suggesting a topic related to spatial and temporal aspects. On the right, a YouTube video is playing, showing a helicopter in the sky. Below the video, the title reads \"camera shutter speed and frame rate match helicopter's rotor.\" The professor is visible in a small window at the bottom right corner of the screen.",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5145.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5145.0,
+    "label": "cue",
+    "description": "This is a lecture frame displaying a slide from a presentation.\n\nThe slide discusses \"Spatial aliasing, moir\u00e9 lines in patterns\" and shows three images of men's dress shirts, likely to illustrate these concepts in fabrics. Below that, it mentions \"Temporal Aliasing\" and \"Wagon Wheel\" as \"A real example.\"",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5152.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5152.2,
+    "label": "cue",
+    "description": "This lecture frame shows a slide being presented during a Zoom meeting. The slide is titled \"Signal\" and \"Fourier transform\" and contains two main graphs side-by-side. The left graph illustrates a combined signal function `x\u2081(t)+x\u2082(t)` in the time domain, while the right graph shows its corresponding Fourier transform `X\u2081(f)+X\u2082(t)`. Below these main graphs are smaller, detailed views demonstrating how a signal can be sampled and reconstructed.",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5159.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5159.4,
+    "label": "cue",
+    "description": "This lecture frame shows a presentation slide with the professor's video feed in the bottom right corner. The slide illustrates a concept related to **signal processing**, specifically demonstrating how a signal composed of two different frequencies can be separated using a **Fourier transform** and **filters** (represented by H(f)).",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5166.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5166.6,
+    "label": "cue",
+    "description": "This lecture frame shows a slide being presented on a screen. \n\nThe slide illustrates the concept of a Fourier transform, comparing a time-domain signal (`x\u2081(t)+x\u2082(t)`) with its frequency-domain representation (`X\u2081(f)+X\u2082(t)`). It also demonstrates how a filter (`H(f)`) can be applied in the frequency domain to isolate or remove specific frequency components from a signal.",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5173.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5173.8,
+    "label": "cue",
+    "description": "This is a lecture slide displayed during a Zoom meeting. The slide presents a diagram illustrating the concept of **Fourier transforms** and **filtering**. It shows how a composite signal (combining two individual signals) is broken down into its frequency components by the Fourier transform, and then how a filter H(f) can be applied in the frequency domain to isolate or remove specific frequency components, reconstructing a modified signal.",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5224.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5224.2,
+    "label": "cue",
+    "description": "This lecture frame shows a **slide** from a presentation titled \"Dr. Parag Havaldar - CS576 Lecture 2,\" dated \"1/26/2026.\" The central content of the slide is a large, black and white image of a still life arrangement featuring several pieces of fruit on a plate and next to it, with some leaves, all resting on a textured fabric.",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5332.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5332.1,
+    "label": "cue",
+    "description": "This lecture frame shows a **slide** from a presentation titled \"new-Lecture02-DigitalDataAcq.doc\". The slide displays two black and white images of fruit on a plate, comparing the results \"Without prefiltering\" on the left and \"With prefiltering\" on the right. In the bottom right corner, a small video feed shows the **professor speaking**.",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_022_cue_5346.jpg",
+    "segment_id": "seg_022",
+    "timestamp": 5346.5,
+    "label": "cue",
+    "description": "This lecture frame shows a slide titled \"SUBSAMPLED BY 2\". The slide displays two black and white images side-by-side, both depicting an arrangement of fruits on a plate. The image on the left is labeled \"Without prefiltering,\" and the one on the right is labeled \"With prefiltering,\" illustrating a comparison of subsampling techniques. Below the slide, a professor is visible in a small window, overlaid on the screen.",
+    "topic_title": "Minimizing Aliasing with Filtering: Averaging Filter"
+  },
+  {
+    "filename": "frame_seg_023_start_5360.jpg",
+    "segment_id": "seg_023",
+    "timestamp": 5360.9,
+    "label": "start",
+    "description": "This lecture frame shows a slide being presented on Zoom. The slide is titled \"SUBSAMPLED BY 2\" and displays two black and white images side-by-side: \"Without prefiltering\" and \"With prefiltering.\" Each image depicts a still life arrangement of fruits. The bottom right corner of the screen also shows the professor speaking, with a hand-drawn diagram behind him.",
+    "topic_title": "Low Pass Filtering and Audio Examples"
+  },
+  {
+    "filename": "frame_seg_023_mid_5418.jpg",
+    "segment_id": "seg_023",
+    "timestamp": 5418.5,
+    "label": "mid",
+    "description": "This lecture frame shows a slide with the title \"SUBSAMPLED BY 2\". There are two black and white images side-by-side, both depicting an arrangement of fruit (pears, plums, and a round fruit that looks like a peach or apricot) on a plate. The image on the left is labeled \"Without prefiltering,\" and the image on the right is labeled \"With prefiltering.\" Below the images, a lecturer is visible in the bottom right corner of the screen.",
+    "topic_title": "Low Pass Filtering and Audio Examples"
+  },
+  {
+    "filename": "frame_seg_023_cue_5389.jpg",
+    "segment_id": "seg_023",
+    "timestamp": 5389.7,
+    "label": "cue",
+    "description": "This lecture frame displays a slide from a presentation.\n\nThe slide is titled \"SUBSAMPLED BY 2\" and shows two grayscale images of fruit on a plate. The image on the left is labeled \"Without prefiltering,\" and the image on the right is labeled \"With prefiltering,\" illustrating the visual difference after subsampling with and without an initial filtering step.",
+    "topic_title": "Low Pass Filtering and Audio Examples"
+  },
+  {
+    "filename": "frame_seg_023_cue_5411.jpg",
+    "segment_id": "seg_023",
+    "timestamp": 5411.3,
+    "label": "cue",
+    "description": "This is a lecture frame showing a slide with the title \"SUBSAMPLED BY 2\". The slide presents two black and white images side-by-side, each depicting a still life of fruits (pears and apricots) on a plate. The image on the left is labeled \"Without prefiltering,\" and the image on the right is labeled \"With prefiltering.\" The professor speaking is visible in the bottom right corner of the frame.",
+    "topic_title": "Low Pass Filtering and Audio Examples"
+  },
+  {
+    "filename": "frame_seg_024_start_5468.jpg",
+    "segment_id": "seg_024",
+    "timestamp": 5468.9,
+    "label": "start",
+    "description": "",
+    "topic_title": "Discussion on Lecture Pace and Advanced Signal Processing"
+  },
+  {
+    "filename": "frame_seg_024_mid_5544.jpg",
+    "segment_id": "seg_024",
+    "timestamp": 5544.45,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Discussion on Lecture Pace and Advanced Signal Processing"
+  },
+  {
+    "filename": "frame_seg_025_start_5620.jpg",
+    "segment_id": "seg_025",
+    "timestamp": 5620.0,
+    "label": "start",
+    "description": "This lecture frame shows a slide titled \"EXAMPLES USING FILTERS IN COMPRESSION,\" with the professor visible in a small window at the bottom right. The slide discusses audio filtering, explaining that the human ear only detects frequencies up to ~20KHz, and how pre-filtering a signal with a low-pass filter at 20KHz and then sampling at 40KHz can significantly reduce data rates (from 3 Mbs to 640 Kb/s).",
+    "topic_title": "Aliasing Minimization in Image Resampling"
+  },
+  {
+    "filename": "frame_seg_025_mid_5673.jpg",
+    "segment_id": "seg_025",
+    "timestamp": 5673.95,
+    "label": "mid",
+    "description": "This lecture frame shows a **slide** from a presentation.\n\nThe slide is titled \"SUBSAMPLED BY 4\" and displays two grayscale images side-by-side, labeled \"Without prefiltering\" and \"With prefiltering,\" illustrating a concept related to signal processing. Below the images, there is a heading that reads \"Recent research in signal processing.\" The professor is visible in a small video feed in the bottom right corner of the screen.",
+    "topic_title": "Aliasing Minimization in Image Resampling"
+  },
+  {
+    "filename": "frame_seg_025_cue_5655.jpg",
+    "segment_id": "seg_025",
+    "timestamp": 5655.9,
+    "label": "cue",
+    "description": "This lecture frame shows a slide from a presentation. The slide is titled \"SUBSAMPLED BY 4\" and displays two grayscale images of fruit in a bowl, side-by-side. The image on the left is labeled \"Without prefiltering\" and appears pixelated, while the image on the right is labeled \"With prefiltering\" and appears smoother. Below the images, there's a heading \"Recent research in signal processing.\" The bottom right corner of the frame shows a smaller inset video of the professor speaking.",
+    "topic_title": "Aliasing Minimization in Image Resampling"
+  },
+  {
+    "filename": "frame_seg_025_cue_5691.jpg",
+    "segment_id": "seg_025",
+    "timestamp": 5691.9,
+    "label": "cue",
+    "description": "This frame shows a lecture slide titled \"SUBSAMPLED BY 4\" from a Zoom meeting, with the professor visible in a smaller window at the bottom right. The slide displays two images side-by-side: one \"Without prefiltering\" and one \"With prefiltering,\" illustrating the effects of prefiltering on a subsampled image.",
+    "topic_title": "Aliasing Minimization in Image Resampling"
+  },
+  {
+    "filename": "frame_seg_025_cue_5706.jpg",
+    "segment_id": "seg_025",
+    "timestamp": 5706.3,
+    "label": "cue",
+    "description": "This lecture frame shows a **slide** from a presentation, with the professor speaking in a small window at the bottom right.\n\nThe slide illustrates the concept of **subsampling by 4**, comparing an image \"without prefiltering\" to one \"with prefiltering\" to show the visual improvement when prefiltering is applied.",
+    "topic_title": "Aliasing Minimization in Image Resampling"
+  },
+  {
+    "filename": "frame_seg_026_start_5727.jpg",
+    "segment_id": "seg_026",
+    "timestamp": 5727.9,
+    "label": "start",
+    "description": "",
+    "topic_title": "Digital Signal Representation (Audio, Image, Video)"
+  },
+  {
+    "filename": "frame_seg_026_mid_5753.jpg",
+    "segment_id": "seg_026",
+    "timestamp": 5753.1,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Digital Signal Representation (Audio, Image, Video)"
+  },
+  {
+    "filename": "frame_seg_027_start_5778.jpg",
+    "segment_id": "seg_027",
+    "timestamp": 5778.3,
+    "label": "start",
+    "description": "",
+    "topic_title": "Analog Video Scanning and 1D Conversion"
+  },
+  {
+    "filename": "frame_seg_027_mid_5835.jpg",
+    "segment_id": "seg_027",
+    "timestamp": 5835.85,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Analog Video Scanning and 1D Conversion"
+  },
+  {
+    "filename": "frame_seg_028_start_5893.jpg",
+    "segment_id": "seg_028",
+    "timestamp": 5893.4,
+    "label": "start",
+    "description": "",
+    "topic_title": "Synchronization Problem in Early Television (Problem 1)"
+  },
+  {
+    "filename": "frame_seg_028_mid_6058.jpg",
+    "segment_id": "seg_028",
+    "timestamp": 6058.9,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Synchronization Problem in Early Television (Problem 1)"
+  },
+  {
+    "filename": "frame_seg_029_start_6224.jpg",
+    "segment_id": "seg_029",
+    "timestamp": 6224.4,
+    "label": "start",
+    "description": "",
+    "topic_title": "Flicker Problem and Interlaced Scanning (Problem 2)"
+  },
+  {
+    "filename": "frame_seg_029_mid_6353.jpg",
+    "segment_id": "seg_029",
+    "timestamp": 6353.95,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Flicker Problem and Interlaced Scanning (Problem 2)"
+  },
+  {
+    "filename": "frame_seg_030_start_6483.jpg",
+    "segment_id": "seg_030",
+    "timestamp": 6483.5,
+    "label": "start",
+    "description": "",
+    "topic_title": "Implications of Analog Standards for Digital Video"
+  },
+  {
+    "filename": "frame_seg_030_mid_6551.jpg",
+    "segment_id": "seg_030",
+    "timestamp": 6551.25,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Implications of Analog Standards for Digital Video"
+  },
+  {
+    "filename": "frame_seg_031_start_6619.jpg",
+    "segment_id": "seg_031",
+    "timestamp": 6619.0,
+    "label": "start",
+    "description": "",
+    "topic_title": "YUV Color Space for Backward Compatibility and Efficiency"
+  },
+  {
+    "filename": "frame_seg_031_mid_6677.jpg",
+    "segment_id": "seg_031",
+    "timestamp": 6677.15,
+    "label": "mid",
+    "description": "",
+    "topic_title": "YUV Color Space for Backward Compatibility and Efficiency"
+  },
+  {
+    "filename": "frame_seg_032_start_6735.jpg",
+    "segment_id": "seg_032",
+    "timestamp": 6735.3,
+    "label": "start",
+    "description": "This lecture frame shows a split view. In the lower right, a professor is visible, appearing to speak while gesturing. The majority of the screen is a hand-drawn diagram on what looks like a whiteboard or digital canvas.\n\nThe diagram illustrates concepts related to video signals and television standards. It depicts the transmission of video signals with horizontal and vertical sync, mentions electrical frequencies (60Hz and 50Hz) leading to NTSC, PAL, and SECAM standards, and explains interlaced scanning where one frame is split into odd and even fields. On the right, three factors are listed: synchronization, TV screen phosphor, and the introduction of color.",
+    "topic_title": "YUV Subsampling Techniques (4:4:4, 4:2:2, 4:2:0/4:1:1)"
+  },
+  {
+    "filename": "frame_seg_032_mid_7051.jpg",
+    "segment_id": "seg_032",
+    "timestamp": 7051.950000000001,
+    "label": "mid",
+    "description": "This lecture frame shows a hand-drawn diagram on a whiteboard, which is likely being presented by the professor during a virtual lecture.\n\nThe diagram illustrates \"YUV sub sampling techniques,\" with \"YUV 4:4:4\" written above a grid of dots that appear to represent pixels, likely demonstrating different sampling patterns for the YUV color space.",
+    "topic_title": "YUV Subsampling Techniques (4:4:4, 4:2:2, 4:2:0/4:1:1)"
+  },
+  {
+    "filename": "frame_seg_032_cue_6879.jpg",
+    "segment_id": "seg_032",
+    "timestamp": 6879.2,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen with a hand-drawn diagram on the left and the professor speaking in the bottom right corner. The main content is a hand-drawn diagram on a whiteboard, illustrating concepts related to video signal processing, including synchronization, TV screen phosphors, introduction of color, and the conversion between RGB and YUV/YIQ color spaces for NTSC and PAL/SECAM systems.",
+    "topic_title": "YUV Subsampling Techniques (4:4:4, 4:2:2, 4:2:0/4:1:1)"
+  },
+  {
+    "filename": "frame_seg_032_cue_7037.jpg",
+    "segment_id": "seg_032",
+    "timestamp": 7037.6,
+    "label": "cue",
+    "description": "This lecture frame primarily shows a hand actively writing on a physical surface, likely a whiteboard or paper, which is being projected or shared. The writing visible on the surface includes \"YUV sub sampling techniques\" and \"YUV 4:4:4\". In the bottom right corner, a small window shows the professor speaking.",
+    "topic_title": "YUV Subsampling Techniques (4:4:4, 4:2:2, 4:2:0/4:1:1)"
+  },
+  {
+    "filename": "frame_seg_032_cue_7188.jpg",
+    "segment_id": "seg_032",
+    "timestamp": 7188.7,
+    "label": "cue",
+    "description": "This lecture frame displays a **hand-drawn diagram/calculations** on a whiteboard or similar surface, being actively written on by someone's hand (likely the professor's). The key content shows calculations related to \"bits\" and \"pixels,\" specifically \"YUV 4:2:2\" and \"avg bit/pixel = 96/4 = 24,\" suggesting a discussion on video compression or digital image representation. Below the writing, a small window shows the professor speaking.",
+    "topic_title": "YUV Subsampling Techniques (4:4:4, 4:2:2, 4:2:0/4:1:1)"
+  },
+  {
+    "filename": "frame_seg_032_cue_7375.jpg",
+    "segment_id": "seg_032",
+    "timestamp": 7375.8,
+    "label": "cue",
+    "description": "This lecture frame shows a split view. \n\nOn the main screen, there's a **hand-drawn diagram/notes** by the professor. It appears to be related to digital data acquisition or signal processing, with calculations and pixel grid representations, specifically mentioning \"YUV 4:2:0\" and \"4:1:1\" which are common color subsampling formats in video.\n\nIn the bottom right corner, a smaller window shows the **professor speaking** to the camera.",
+    "topic_title": "YUV Subsampling Techniques (4:4:4, 4:2:2, 4:2:0/4:1:1)"
+  },
+  {
+    "filename": "frame_seg_033_start_7476.jpg",
+    "segment_id": "seg_033",
+    "timestamp": 7476.5,
+    "label": "start",
+    "description": "",
+    "topic_title": "Summary of Video Signal Challenges and Solutions"
+  },
+  {
+    "filename": "frame_seg_033_mid_7552.jpg",
+    "segment_id": "seg_033",
+    "timestamp": 7552.05,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Summary of Video Signal Challenges and Solutions"
+  },
+  {
+    "filename": "frame_seg_034_start_7620.jpg",
+    "segment_id": "seg_034",
+    "timestamp": 7620.4,
+    "label": "start",
+    "description": "This lecture frame shows a **hand-drawn diagram** on a whiteboard or similar surface, with a professor's hand pointing at it. The diagram appears to be explaining concepts related to **video signals, color spaces (like RGB to YUV), and television standards (NTSC, PAL, SECAM)**, with notes on synchronization and bandwidth. The professor speaking is visible in the bottom right corner of the frame.",
+    "topic_title": "Image Aspect Ratio and Historical Evolution"
+  },
+  {
+    "filename": "frame_seg_034_mid_7688.jpg",
+    "segment_id": "seg_034",
+    "timestamp": 7688.75,
+    "label": "mid",
+    "description": "This lecture frame shows a **hand-drawn diagram** on a whiteboard or similar surface, with a professor speaking in the bottom right corner.\n\nThe diagram appears to illustrate concepts related to **television signal transmission and display**, including topics like synchronization, phosphor decay, and the introduction of color (NTSC, PAL, SECAM standards, and RGB to YUV conversion).",
+    "topic_title": "Image Aspect Ratio and Historical Evolution"
+  },
+  {
+    "filename": "frame_seg_034_cue_7678.jpg",
+    "segment_id": "seg_034",
+    "timestamp": 7678.0,
+    "label": "cue",
+    "description": "This lecture frame shows a **hand-drawn diagram** on a whiteboard.\n\nThe diagram illustrates concepts related to video signal transmission and standards, specifically mentioning NTSC and PAL/SECAM, color conversions (RGB to YUV), and aspects of TV screen technology such as synchronization and phosphor decay.",
+    "topic_title": "Image Aspect Ratio and Historical Evolution"
+  },
+  {
+    "filename": "frame_seg_034_cue_7692.jpg",
+    "segment_id": "seg_034",
+    "timestamp": 7692.4,
+    "label": "cue",
+    "description": "This lecture frame shows a hand-drawn diagram on a whiteboard, likely created by the professor during a live session. The key content of the diagram revolves around concepts related to television technology, including \"synchronization,\" \"TV screen phosphor decay,\" and the \"introduction of color,\" as well as different standards like NTSC, PAL, and SECAM. A hand is visible, pointing to parts of the diagram, suggesting an active explanation.",
+    "topic_title": "Image Aspect Ratio and Historical Evolution"
+  },
+  {
+    "filename": "frame_seg_035_start_7757.jpg",
+    "segment_id": "seg_035",
+    "timestamp": 7757.1,
+    "label": "start",
+    "description": "",
+    "topic_title": "Aspect Ratio Conversion Problems and Solutions"
+  },
+  {
+    "filename": "frame_seg_035_mid_7893.jpg",
+    "segment_id": "seg_035",
+    "timestamp": 7893.85,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Aspect Ratio Conversion Problems and Solutions"
+  },
+  {
+    "filename": "frame_seg_036_start_8030.jpg",
+    "segment_id": "seg_036",
+    "timestamp": 8030.6,
+    "label": "start",
+    "description": "This lecture frame shows a Zoom meeting interface with a professor presenting. The main content is a slide discussing \"Image Aspect Ratio\" with examples like 4:3 for standard TV and 16:9 for HDTV. The slide also includes three images depicting scenes from movies or TV shows, which illustrate different aspect ratios. The professor's video feed is visible in the bottom right corner, and there's a whiteboard covered with handwritten notes behind him.",
+    "topic_title": "Seam Carving: Content-Aware Image Resizing"
+  },
+  {
+    "filename": "frame_seg_036_mid_8196.jpg",
+    "segment_id": "seg_036",
+    "timestamp": 8196.1,
+    "label": "mid",
+    "description": "The lecture frame shows a split screen. On the left, it displays a web browser opened to a Wikipedia page about \"Page layout\", with text and images related to graphic design. On the right, there's a YouTube sidebar with a list of recommended videos and a small window showing the professor speaking in the bottom right corner.",
+    "topic_title": "Seam Carving: Content-Aware Image Resizing"
+  },
+  {
+    "filename": "frame_seg_036_cue_8080.jpg",
+    "segment_id": "seg_036",
+    "timestamp": 8080.9,
+    "label": "cue",
+    "description": "This lecture frame shows a slide being presented, with the professor speaking in a smaller window at the bottom right. The slide discusses \"Pixel Aspect Ratio,\" defining it as the ratio of width to height of a pixel. It provides examples for computer pixels (ratio = 1) and NTSC Wide Screen (ratio = 1.2), and includes an example calculation for pixel aspect ratio with two images below.",
+    "topic_title": "Seam Carving: Content-Aware Image Resizing"
+  },
+  {
+    "filename": "frame_seg_036_cue_8203.jpg",
+    "segment_id": "seg_036",
+    "timestamp": 8203.3,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen. On the left, it displays a web page, likely from Wikipedia, discussing \"Page layout.\" This page includes text definitions, explanations of traditional and electronic page layout, and an image of various magazine covers to illustrate the concept. On the right, a YouTube sidebar shows a list of recommended videos. In the bottom right corner, a small video feed shows the professor speaking.",
+    "topic_title": "Seam Carving: Content-Aware Image Resizing"
+  },
+  {
+    "filename": "frame_seg_036_cue_8239.jpg",
+    "segment_id": "seg_036",
+    "timestamp": 8239.3,
+    "label": "cue",
+    "description": "This lecture frame displays a YouTube video titled \"Content Aware Image Resizing\" from the channel \"BotJunkie.\" The video shows examples of image resizing, specifically demonstrating a \"Retargeted\" image. The professor is visible in a small window at the bottom right corner of the screen.",
+    "topic_title": "Seam Carving: Content-Aware Image Resizing"
+  },
+  {
+    "filename": "frame_seg_036_cue_8311.jpg",
+    "segment_id": "seg_036",
+    "timestamp": 8311.2,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen with a YouTube video playing on the left and the professor speaking in a smaller window in the bottom right corner.\n\nThe YouTube video is titled \"Content Aware Image Resizing\" from the channel Bot Junkie, and it displays a still image of wooden alphabet blocks.",
+    "topic_title": "Seam Carving: Content-Aware Image Resizing"
+  },
+  {
+    "filename": "frame_seg_036_cue_8325.jpg",
+    "segment_id": "seg_036",
+    "timestamp": 8325.6,
+    "label": "cue",
+    "description": "This lecture frame shows a split screen. On the left, a YouTube video is playing, displaying a scenic image of a lake surrounded by trees with autumn foliage, under a clear blue sky. On the right, YouTube's sidebar recommendations are visible, alongside a small video of the professor speaking in the bottom right corner.",
+    "topic_title": "Seam Carving: Content-Aware Image Resizing"
+  },
+  {
+    "filename": "frame_seg_037_start_8361.jpg",
+    "segment_id": "seg_037",
+    "timestamp": 8361.6,
+    "label": "start",
+    "description": "This lecture frame shows a split screen with a YouTube video playing on the left and a speaker on the right. The YouTube video appears to be a tutorial or explanation related to \"Content Aware Image Resizing,\" displaying an image with purple lines suggesting an alteration or transformation. The speaker on the right is a man wearing glasses, seemingly presenting or discussing the content.",
+    "topic_title": "Video Format Specifications and Bitrate Calculation"
+  },
+  {
+    "filename": "frame_seg_037_mid_8419.jpg",
+    "segment_id": "seg_037",
+    "timestamp": 8419.150000000001,
+    "label": "mid",
+    "description": "This lecture frame shows the professor speaking on a Zoom call, with his screen being shared. The shared screen is displaying a YouTube video titled \"Content Aware Image Resizing\" from the \"BotJunkie\" channel. The video shows an example of image resizing with a group of people on a beach.",
+    "topic_title": "Video Format Specifications and Bitrate Calculation"
+  },
+  {
+    "filename": "frame_seg_037_cue_8383.jpg",
+    "segment_id": "seg_037",
+    "timestamp": 8383.2,
+    "label": "cue",
+    "description": "This lecture frame shows a video during a screen-sharing session. The primary content visible is a YouTube video titled \"Content Aware Image Resizing\" from the channel \"BotJunkie.\" The video displays an image of a person playing a guitar on a street, with some superimposed elements that appear to be part of the \"content aware image resizing\" demonstration. The presenter is visible in a small window at the bottom right corner of the screen.",
+    "topic_title": "Video Format Specifications and Bitrate Calculation"
+  },
+  {
+    "filename": "frame_seg_038_start_8541.jpg",
+    "segment_id": "seg_038",
+    "timestamp": 8541.5,
+    "label": "start",
+    "description": "",
+    "topic_title": "Lecture Recap: Digitization and Anti-Aliasing"
+  },
+  {
+    "filename": "frame_seg_038_mid_8656.jpg",
+    "segment_id": "seg_038",
+    "timestamp": 8656.65,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Lecture Recap: Digitization and Anti-Aliasing"
+  },
+  {
+    "filename": "frame_seg_039_start_8771.jpg",
+    "segment_id": "seg_039",
+    "timestamp": 8771.8,
+    "label": "start",
+    "description": "",
+    "topic_title": "Assignment Overview: Image Resampling and Quantization"
+  },
+  {
+    "filename": "frame_seg_039_mid_8854.jpg",
+    "segment_id": "seg_039",
+    "timestamp": 8854.55,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Assignment Overview: Image Resampling and Quantization"
+  },
+  {
+    "filename": "frame_seg_040_start_8937.jpg",
+    "segment_id": "seg_040",
+    "timestamp": 8937.3,
+    "label": "start",
+    "description": "",
+    "topic_title": "Assignment Parameters and Implementation Details"
+  },
+  {
+    "filename": "frame_seg_040_mid_9002.jpg",
+    "segment_id": "seg_040",
+    "timestamp": 9002.05,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Assignment Parameters and Implementation Details"
+  },
+  {
+    "filename": "frame_seg_041_start_9066.jpg",
+    "segment_id": "seg_041",
+    "timestamp": 9066.8,
+    "label": "start",
+    "description": "",
+    "topic_title": "Assignment Evaluation and Analysis"
+  },
+  {
+    "filename": "frame_seg_041_mid_9131.jpg",
+    "segment_id": "seg_041",
+    "timestamp": 9131.55,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Assignment Evaluation and Analysis"
+  },
+  {
+    "filename": "frame_seg_042_start_9196.jpg",
+    "segment_id": "seg_042",
+    "timestamp": 9196.3,
+    "label": "start",
+    "description": "",
+    "topic_title": "Extra Credit: Adaptive Bit Allocation per Channel"
+  },
+  {
+    "filename": "frame_seg_042_mid_9239.jpg",
+    "segment_id": "seg_042",
+    "timestamp": 9239.5,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Extra Credit: Adaptive Bit Allocation per Channel"
+  },
+  {
+    "filename": "frame_seg_043_start_9282.jpg",
+    "segment_id": "seg_043",
+    "timestamp": 9282.7,
+    "label": "start",
+    "description": "",
+    "topic_title": "Submission Guidelines and Closing Remarks"
+  },
+  {
+    "filename": "frame_seg_043_mid_9322.jpg",
+    "segment_id": "seg_043",
+    "timestamp": 9322.25,
+    "label": "mid",
+    "description": "",
+    "topic_title": "Submission Guidelines and Closing Remarks"
+  }
+]
